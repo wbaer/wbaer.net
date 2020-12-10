@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/wbaer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wbaer.net
+  * I am wbaer (https://keybase.io/wbaer) on keybase.
+  * I have a public key ASCiLPmzJX0QgAXOxa-o5I_NP_eNIAIq7Z3B4ERMBJMlNwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ce4fe9f3c3957c4470ba9d67aa8f220aef56cb72ad79c5268e5123f16f25588c0a",
+      "host": "keybase.io",
+      "kid": "0120a22cf9b3257d108005cec5afa8e48fcd3ff78d20022aed9dc1e0444c049325370a",
+      "uid": "01ae66d31e55e8a0e09aa7ad799b3419",
+      "username": "wbaer"
+    },
+    "merkle_root": {
+      "ctime": 1525295455,
+      "hash": "52e742fc71b186d7268a58fbbbf60835eb84dbb7f06bc09956222b35733e7974f11e36aa0bb39369f7f0ab6b42c2b677aa14c42da578a27f60cef2383e254858",
+      "hash_meta": "a7df6f999361fd81acc73ca03d8e8264ae853cad24d5aeaf431f420402abfb10",
+      "seqno": 2472394
+    },
+    "service": {
+      "entropy": "UrjqDYINZ6MZh7QcyG3j8lOw",
+      "hostname": "wbaer.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1525295494,
+  "expire_in": 504576000,
+  "prev": "f8f83d2ed3f5ef915fde30fb5f9cfb630ab9c67113d7529022fe5ebf0c2676cd",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoiz5syV9EIAFzsWvqOSPzT/3jSACKu2dweBETASTJTcKp3BheWxvYWTESpcCJ8Qg+Pg9LtP175Ff3jD7X5z7Ywq5xnET11KQIv5evwwmds3EIMQz+d+6WoXeATH0A+LtVJXsVfCbjGZmCkR54OuawyVZAgHCo3NpZ8RAaD2OcE321f11yCR+pwced3eaTD8LCquooJwUTjZrQ5bokwUK5tyM4blh0jWQBVC6WXhWPmApevR3zJjs2RpdCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDTdcq3FmsnjmhEtajL+BPcYOUOOzyD2DQWRFrnpDGOuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wbaer
+
+==================================================================
