@@ -227,9 +227,7 @@
      color: #f8f8f8;
 }
  .footer{
-     justify-content: space-between;
      text-align: center;
-     align-items: center;
      background: rgba(255, 255, 255, 0.02);
      box-shadow: 0 0 .6em rgba(28, 29, 34, 0.05);
      border-top: 1px solid rgba(142, 142, 145, 0.16);
@@ -241,8 +239,12 @@
      padding-top: 4px;
      word-spacing: 30px;
 }
- .footer-icons:first-child::after {
-     content: "\00a0";
+ .copyright{
+     color: #555;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+     margin:24px 0 0;
+     text-align:center;
+     font-size:1.2rem 
 }
  .post {
      border-bottom: 1px solid #e5e5e5;
@@ -464,13 +466,6 @@
      font-size:1.4rem;
      font-weight:300;
      font-family:'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
-}
- .copyright{
-     color: #555;
-     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
-     margin:24px 0 0;
-     text-align:center;
-     font-size:1.2rem 
 }
  .related-posts{
      margin-bottom:100px 
