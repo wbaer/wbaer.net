@@ -1,68 +1,50 @@
 /* Base */
-
-*{
+ *{
      box-sizing:border-box 
 }
  html{
      scroll-behavior: smooth;
-     font-family: "Quicksand", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-     font-size:62.5%; 
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+     font-size:62.5%;
      -webkit-font-smoothing: antialiased;
-     -webkit-text-size-adjust: 100%
+     -webkit-text-size-adjust: 100% 
 }
-a[href^="http:"]:link {
-	text-decoration: none;
+ a[href^="http:"]:link {
+     text-decoration: none;
 }
-
-a[href^="http:"]:visited {
-	text-decoration: none;
-	text-decoration: none;
+ a[href^="http:"]:visited {
+     text-decoration: none;
+     text-decoration: none;
 }
-
-a[href^="http:"]:hover {
-	text-decoration: none;
+ a[href^="http:"]:hover {
+     text-decoration: none;
 }
-
-a[href^="http:"]:focus {
-	text-decoration: none;
+ a[href^="http:"]:focus {
+     text-decoration: none;
 }
-
-a[href^="https:"]:link {
-	text-decoration: none;
+ a[href^="https:"]:link {
+     text-decoration: none;
 }
-
-a[href^="https:"]:visited {
-	text-decoration: none;
+ a[href^="https:"]:visited {
+     text-decoration: none;
 }
-
-a[href^="https:"]:visited a[href^="http:"]:active {
-	text-decoration: none;
+ a[href^="https:"]:visited a[href^="http:"]:active {
+     text-decoration: none;
 }
-
-a[href^="https:"]:hover {
-	text-decoration: none;
+ a[href^="https:"]:hover {
+     text-decoration: none;
 }
-
-a[href^="https:"]:focus {
-	text-decoration: none;
+ a[href^="https:"]:focus {
+     text-decoration: none;
 }
-
-a[href^="https:"]:active {
-	text-decoration: none;
+ a[href^="https:"]:active {
+     text-decoration: none;
 }
-
-a[href^="https:"]:focus {
-    background: #f8f8f8;
+ a[href^="https:"]:focus {
+     background: #f8f8f8;
 }
-/* body{
-     color:#555;
-     font-size:1rem;
-     font-family:-apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
-     line-height:1.57 
-}*/
  h1,h2,h3,h4,h5,h6{
      font-weight:300;
-/*     font-family:"Quicksand",sans-serif */
 }
  h1{
      font-size:3.2rem 
@@ -150,9 +132,7 @@ a[href^="https:"]:focus {
      max-width:100%;
      height:auto 
 }
-
 /* Layout */
-
  .header{
      display:block;
      padding:0px 0;
@@ -206,7 +186,7 @@ a[href^="https:"]:focus {
      height:16px;
      fill:currentColor 
 }
-.post-main{
+ .post-main{
      width:96%;
      max-width:720px;
      margin:40px auto 0 
@@ -255,11 +235,14 @@ a[href^="https:"]:focus {
      border-top: 1px solid rgba(142, 142, 145, 0.16);
      padding: 18px 0;
 }
- .footer_icons {
+ .footer-icons {
      font-size: 1.4rem;
      margin: 4px;
      padding-top: 4px;
      word-spacing: 30px;
+}
+ .footer-icons:first-child::after {
+     content: "\00a0";
 }
  .post {
      border-bottom: 1px solid #e5e5e5;
@@ -278,7 +261,7 @@ a[href^="https:"]:focus {
  .post-title{
      color: #353535;
      display: inline-block;
-     font-family: 'Quicksand',sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size: 2.4rem;
      font-weight: 700;
      margin: .5rem 0;
@@ -303,13 +286,13 @@ a[href^="https:"]:focus {
 }
  .post-metadata{
      color: #555;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size:1.2rem;
      line-height:1;
      margin-top: 4px;
 }
  .post-date {
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      line-height:1;
 }
  .post-date::before {
@@ -320,7 +303,7 @@ a[href^="https:"]:focus {
      margin-right:2px;
 }
  .post-tags{
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      line-height:1 
 }
  .post-tags::before{
@@ -334,7 +317,7 @@ a[href^="https:"]:focus {
      background:#fafafa 
 }
  .word-count {
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      line-height:1 
 }
  .word-count::before {
@@ -345,7 +328,7 @@ a[href^="https:"]:focus {
      margin-right:2px;
 }
  .post-summary{
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size:1.4rem;
      color:#555;
      text-align: justify;
@@ -361,7 +344,7 @@ a[href^="https:"]:focus {
  .post-body{
      margin:40px 0 30px;
      word-wrap:break-word;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size:1.4rem;
      color:#555;
      text-align: justify;
@@ -384,7 +367,7 @@ a[href^="https:"]:focus {
      cursor:zoom-out 
 }
  .read-more{
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      display:inline-block;
      margin-bottom: 4px;
      padding-bottom:4px;
@@ -480,11 +463,11 @@ a[href^="https:"]:focus {
      color:#555;
      font-size:1.4rem;
      font-weight:300;
-     font-family:"Quicksand",sans-serif 
+     font-family:'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
 }
  .copyright{
      color: #555;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      margin:24px 0 0;
      text-align:center;
      font-size:1.2rem 
@@ -495,21 +478,18 @@ a[href^="https:"]:focus {
  .related-posts h3{
      color: #353535;
      display: inline-block;
-     font-family: 'Quicksand',sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size: 2.4rem;
      font-weight: 700;
      margin: .5rem 0;
      padding-right: .2rem;
 }
  .related-posts li {
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'Quicksand', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
      font-size: 1.4rem;
 }
-
 /* Media Queries (Common Device Breakpoints) */
-
-@media (orientation: landscape) {
+ @media (orientation: landscape) {
 }
-
-@media (orientation: portrait) {
+ @media (orientation: portrait) {
 }
