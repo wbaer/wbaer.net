@@ -1,0 +1,18 @@
+---
+title: 'Renaming a Resource Forest on SharePoint Servers'
+date: Sat, 04 Feb 2006 02:15:00 +0000
+draft: false
+tags: ['Cross-Forest Hosting', 'Uncategorized']
+---
+
+\* I haven't revisted this post in awhile and thought I would include some additional information on the topic; in response to [dkbobe](http://blogs.technet.com/user/Profile.aspx?UserID=1001)'s questions surrounding updating the user information; you can use the SPUserUtility to update the tp\_Login column to reflect the new domain - more information on this tool can be found at Keith Richie's blog @ [http://blogs.msdn.com/krichie](http://blogs.msdn.com/krichie).
+
+I was pleased to see [my mention](http://spaces.msn.com/joeloleson/blog/cns!B05AD15E2DE730DD!307.entry) in [Joel Oleson's SharePoint Blog](http://spaces.msn.com/joeloleson/blog/) on the [Impacts of Renaming a Resource Forest on SharePoint Servers](http://spaces.msn.com/joeloleson/blog/cns!B05AD15E2DE730DD!307.entry); I'm hoping to elaborate more here as there is little documentation on this topic; at least from the perspective of impacts to SharePoint services.  The good news is that SharePoint services can be recovered after renaming the resource forest without a great deal of configuration management and member server preperation.  One item to note, do NOT run rendom /clean on the SharePoint servers; otherwise, as opposed to only having to reboot the members twice to learn the domain name changes you will be required to disjoin the server from its current forest and rejoin the new forest.  Rebooting twice ensures that each member computer learns of the domain name changes (LSA policy changes) and propagates them to all applications and services running on the member computer. Note that each computer must be restarted by logging into the computer and using the Shutdown/Restart administrative option. Computers must not be restarted by turning off the machine power and then turning it back on, as a result of this you may experience the same behavior as have you run the rendom /clean tool.  As far as the recovery aspect is concerned; recover the servers in the order of (assuming a typical topology), active Microsoft SQL Server node, passive SQL Server node, primary SharePoint Portal Server Web/Search server, SharePoint Portal Server Index server, secondary SharePoint Portal Server Web/Search server.  This will ensure the most rapid restoration of services.  As a prerequisite it is recommended that you collect each member servers IP address and local Administrator credentials in the event the machine is renamed or their are issues impacting name resolution that may prevent access by name.  Assuming the machines have successfully learned of the domain name changes; you will need to reestablish the password used for the service, appication pool, and access accounts for the following service, appication pool, and access accounts  in this order:
+
+1.  Active SQL Server Node:  Cluster Service, SQL Server Agent and MSSQLServer
+2.  Passive SQL Server Node:  SQL Server Agent and MSSQLServer
+3.  Primary Front-End Web Server:  MSSharePointPortalAppPool and CentralAdminAppPool (NOTE IISRESET when complete)
+4.  Primary Front-End Web Server:  SharePoint Timer, SharePoint Portal Administration, Microsoft SharePointPS Search, and SharePoint Portal Alert services
+5.  Primary Front-End Web Server:  Configuration Database Administration Account, Default Content Access Account, and SharePoint Central Administration Account (NOTE IISRESET when complete)
+6.  Repeat steps 3-5 on the Index/Job Server
+7.  Repeat steps 3-5 on the Secondary Front-End Web Server

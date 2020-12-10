@@ -1,0 +1,46 @@
+---
+title: 'Site Collection Sizing Considerations'
+date: Mon, 04 Jun 2007 13:09:00 +0000
+draft: false
+tags: ['Capacity Planning', 'Governance', 'Uncategorized']
+---
+
+Site collection sizing is an important consideration in an overall capacity planning and governance solution.  This article details the considerations when planning for capacity and determining how site collections should be sized.
+
+**SharePoint Administration Tool (STSADM)**
+
+The SharePoint administration tool, STSADM is most commonly used by SharePoint Products and Technologies administrators to backup and restore site collections or perform a variety of administrative tasks. Typically as the site collection size grows, the ability to use STSADM to backup and restore the site collection diminishes. Performance issues, including unscheduled recycling of an application pool result in failure of the site collection backup/restore and are often the result of resource contention when a large amount of data is backed up; the specifications as provided with SharePoint Portal Server 2003 were 2GB ([http://support.microsoft.com/kb/889236](http://support.microsoft.com/kb/889236)). Though much improved in Microsoft Office SharePoint Server 2007/Windows SharePoint Services 3.0, the opportunity of resource contention exists nonetheless and as a result STSADM should be considered a supplemental tool to your overall backup and recovery solution.
+
+Site collections should be sized in a manner permitting manipulation of their content and host. A site collection whose size is compatible with the limitations of STSADM allows SharePoint Products and Technologies administrators to manipulate the site collection including its movement across content databases or even database servers/server farms.
+
+**Fewer & Larger Site Collections**
+
+Many businesses may have a need to have fewer site collections to provide a better overall view in respect to their environment where a site collection of 0-15GB may not be suitable to host the amount of necessary content. Large site collections are often selected to take advantage of aggregation and specific workflow capabilities. In these situations to permit simple recovery and management, it is often a best practice to isolate those site collections in their own content database. This allows the SharePoint Products and Technologies administrator(s) to easily recover the site collection and/or content. A consideration before making a decision on fewer larger site collections is the potential performance implications if the site collection will host a large amount of content, either at its root level or within residing webs. Typically performance will become progressively worsened as the number of total objects exceeds 2,000. As a site collection grows to a point to where performance suffers, a SharePoint Products and Technologies administrator can use the STSADM export and import operations to manipulate the fastest growing webs into their own site collection, thereby reducing the overhead associated with maintaining it side-by-side with other webs within a site collection. As with the site collection recommendation, this web should reside in a dedicated content database; however, the move should occur when the web is still within the parameters of the SharePoint administration tool (STSADM).
+
+Another consideration of enabling large site collections is the ability to delete a site collection/web both through the web user interface and the SharePoint administration tool. The SharePoint Products and Technologies delete process is most often an end-user request resulting from submission of the request to the web front-end computer through the user interface. The request arrives at the SQL database server at which point the stored procedure Proc\_DeleteSite is executed. Proc\_DeleteSite execution results in a batch transaction consisting of many nested transactions dependent on the number of items in the ownership chain. The batch transaction is executed against the lowest level of ownership and works upward on row by row basis. The SQL database server will instantiate a 'deleted' table in memory to host the requests, in the event the memory allocation for the operation is exceeded, the SQL database server will use TempDB to commit the transaction. Each nested transaction within the batch transaction is confirmed and then committed against each item in the ownership chain. An item in this case refers to a document, list item, etc. In the event a nested transaction fails; the batch transaction is rolled back to the outermost begin transaction requiring the SQL database server to instantiate an 'insert' table in memory to host the requests; as with the 'deleted' table mentioned above, in the event the memory allocation for the operation is exceeded, the SQL database server will use TempDB to commit the transaction. The results can cause SQL blocking in the event a large number of items must be removed in the ownership chain prior to completing the request and occasionally jobs within the enclosing transaction may not be successfully rolled back. Large site collections hosting a significant number of documents and/or list items are particularly susceptible to this issue as a result of the number of transactions occurring on the SQL database server.
+
+Data change rate can also impact a large site collection in which SQL log growth for the site collection when isolated to an individual content database should be closely monitored and maintained. SQL log growth should also be closely monitored for a content database hosting a large site collection in the event database mirroring and/or log shipping are selected as a disaster recovery option for the server farm; greater churn rates can significantly impact the performance of these technologies.
+
+An additional consideration in maintaining a large site collection is the maintenance of permissions and subsequent inheritance.
+
+In the event a large site collection is selected to host content and serve an aggregation performance, a number of search scopes may need to be defined to support providing relative search results to the site collection consumers. An aggregation portal is the most recommended implementation in this scenario to avoid the requirement to navigate several Windows SharePoint Services site collections to retrieve content based upon search results or alert notifications.
+
+**Smaller Site Collections**
+
+Where the number of site collections is not a concern; site collections are beneficial in that they offer true ownership, storage, and usage analysis reporting which can drive governance and manageability and in addition provide insight into what areas of a business are growing at varying paces. Site collections where growth is limited to a maximum of 15GB provide both ease of management and overall sustainability in terms of resources the ability to manipulate the site collection. Maintaining an environment with many site collections can be achieved through a proper governance plan, leveraging Site Directory taxonomy and the Windows SharePoint Services search service. In the situation where aggregation is desired, Microsoft Office SharePoint Server 2007 can be leveraging establishing an aggregation portal making the results from all site collections hosted on a Web application to be available to the portal through the Office Server search service and properly defined scopes.
+
+**Recommendations**
+
+1.  Establish a single aggregation portal based on the available SharePoint Products and Technologies Enterprise site templates.
+2.  Establish search scopes relative to content sources and business units enabling efficient consumer queries and accurate result sets.
+3.  Establish a maximum site collection quota template supportive of the SharePoint administration tool (STSADM); 15GB is the recommendation based upon performance and scale results.
+4.  Limit site collection creation to a unique security group to provide oversight and management of the environments content. This allows a group of users to offer content approval prior to the introduction of a site collection to the server farm.
+5.  Make site collection templates unavailable through self-service site creation to reduce the number of site collection templates and maintain consistency within the server farm.
+6.  Enable usage and advanced usage analysis to gauge the growth of site collections; fast-growing webs may be candidates to become stand-alone site collections. This is easily accomplished when the web is within the limitation of the SharePoint administration tool (STSADM) through the export and import operations.
+7.  Establish and maintain a Site Directory taxonomy that is relative to regional, organizational, and business unit aspects at a minimum to provide a concise overview of the environment and ease locating content by taxonomy assignment.
+8.  Establish a life cycle management plan using site confirm and usage reporting and/or an out of the box solution. Life cycle management can be tuned according to individual growth, retention, and data management planning.
+9.  Establish site collections as document repositories to host content for associated site collections.
+
+**Resources**
+
+[SharePoint Governance and Manageability](http://www.codeplex.com/governance)

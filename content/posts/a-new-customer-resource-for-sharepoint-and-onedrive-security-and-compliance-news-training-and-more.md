@@ -1,0 +1,8 @@
+---
+title: 'A new customer resource for SharePoint and OneDrive security and compliance news, training, and more'
+date: Sat, 28 Apr 2018 19:46:10 +0000
+draft: false
+tags: ['Migration &amp; Upgrade', 'OneDrive for Business', 'Security and Compliance', 'SharePoint']
+---
+
+Security is at the heart of what we do... Microsoft has been building enterprise software for decades and running some of the largest online services in the world. We draw from this experience to keep making SharePoint and OneDrive more secure for users, implementing and continuously improving security-aware software development, operational management, and threat-mitigation practices that are essential to the strong protection of your services and data. Today we're pleased to announce a new resource center where you can get the latest news on our security and compliance investments for SharePoint and OneDrive in addition to presentations, free training, eBooks and more. ![](https://msdnshared.blob.core.windows.net/media/2018/04/ResourceCenter-1024x683.png) Check out our new resource center at [https://aka.ms/sharepoint-security](https://aka.ms/sharepoint-security) to learn how we provide security you can trust and control you can count on. As always, we want your feedback on what you'd like to see and how we can improve these resources. Let us know what you think at [secfeedback@microsoft.com](mailto:secfeedback@microsoft.com).

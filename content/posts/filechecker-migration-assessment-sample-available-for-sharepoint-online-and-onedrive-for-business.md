@@ -1,0 +1,8 @@
+---
+title: 'FileChecker Migration Assessment Sample Available for SharePoint Online and OneDrive for Business'
+date: Thu, 13 Apr 2017 14:34:58 +0000
+draft: false
+tags: ['Assessment', 'Code Samples', 'Migration &amp; Upgrade', 'OneDrive for Business', 'Samples', 'SharePoint']
+---
+
+Know before you go... If you're considering migrating file shares or other file-centric containers to OneDrive for Business or SharePoint Online it's useful to understand if the source files are supported for storage or synchronization.  This code sample at [https://github.com/wbaer/FileChecker](https://github.com/wbaer/FileChecker) helps to identify illegal characters, length restrictions, and more in one or more file names that can potentially prevent proper synchronization with Microsoft SharePoint and OneDrive for Business or fail to render through the Microsoft SharePoint or OneDrive for Business Web UX. Extend FileChecker.exe at [https://github.com/wbaer/FileChecker](https://github.com/wbaer/FileChecker) or download a working sample and read the documentation at [http://wbaer.io/2oaQ9HP](http://wbaer.io/2oaQ9HP). **UX** [![filechecker_core](https://msdnshared.blob.core.windows.net/media/2017/04/FileChecker_Core-270x300.png)](https://msdnshared.blob.core.windows.net/media/2017/04/FileChecker_Core.png) **Command Line** [![filechecker_cl](https://msdnshared.blob.core.windows.net/media/2017/04/FileChecker_CL-300x221.png)](http://wbaer.files.wordpress.com/2017/04/a111a-filechecker_cl.png) **Output** [![filechecker_results](https://msdnshared.blob.core.windows.net/media/2017/04/FileChecker_Results-300x193.png)](https://msdnshared.blob.core.windows.net/media/2017/04/FileChecker_Results.png)

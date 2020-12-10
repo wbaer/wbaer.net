@@ -1,0 +1,8 @@
+---
+title: 'STSADM -o preparetomove Implications on Search Redundancy'
+date: Tue, 10 Feb 2009 23:52:00 +0000
+draft: false
+tags: ['Replication and Availability', 'Search', 'Uncategorized']
+---
+
+I was just reading [Todd's post on preparemove](http://blogs.msdn.com/toddca/archive/2009/01/30/preparetomove-away-from-running-this-command.aspx), and he does a good job of covering the changes in profile synchronization and related GUID reset/reassignment introduced by the application of the Infrastructure Update. There is one significant problem this change mitigates, specifically for those looking for a level of search redundancy through a dual-crawl architecture. In most scenarios where a dual-crawl architecture is implemented, an Office SharePoint Server Search instance in the primary datacenters crawls its localized content, and a separate, unique Office SharePoint Server Search instance in the secondary datacenter crawls the content in the primary datacenter. Prior to the Infrastructure Update, this architecture offered little benefit in that when transitioning service to the secondary datacenter, the content would have to be re-crawled, which resulted in little value; however, now that the GUID associated with each individual site collection does not get reset/reassigned when the content databases are moved across Web applications, transitioning the content databases to the secondary datacenter does not require a re-crawl. While the solution still does not provide high-availability for Office SharePoint Server Search, it does open the possibility to effective redundancy.

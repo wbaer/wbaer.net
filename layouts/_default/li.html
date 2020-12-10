@@ -1,0 +1,21 @@
+<article class="post post-list">
+  <header>
+    <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="post-separator"><br /></div>
+    <span class="post-metadata">
+        <span class="post-date">{{ partial "timestamp.html" . }}</span> &nbsp; &nbsp; <span class="word-count">{{ .WordCount }} Words </span>
+        <br /><br />
+    </span>
+  </header>
+  <div class="post-summary">
+    {{ .Summary | plainify | safeHTML }}
+  </div>
+  {{ if .Truncated }}
+  <a href="{{ .Permalink }}" class="read-more">continue reading</a>
+  {{ end }}
+    
+    <div class="controls">
+        <i class="control icons chevron up" onclick="scrollUp()" id="scroller"></i>
+    </div>
+    
+</article>

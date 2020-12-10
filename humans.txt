@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* PROJECT */
+
+	Site Name:   Bill Baer
+	Site URL:    https://wbaer.net/
+	Created:     1999/02/23
+	Standards:   HTML5, CSS3
+
+/* AUTHOR */
+
+	Name:        Bill Baer
+	Title:       Founder, Molokai Networks
+	Location:    Seattle, Washington
+	Site:        https://wbaer.net/
+
+/* SOCIAL */
+
+	Twitter:     https://twitter.com/williambaer
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery

@@ -1,0 +1,8 @@
+---
+title: '16 Years Ago Today - SharePoint Portal Server 2001 RTM'
+date: Tue, 28 Mar 2017 17:00:57 +0000
+draft: false
+tags: ['SharePoint', 'SharePoint Portal Server 2001']
+---
+
+16 years ago today we announced Release to Manufacturing of SharePoint Portal Server 2001. [![ccgipz2vaaa0gqu](https://msdnshared.blob.core.windows.net/media/2017/03/CcGiPZ2VAAA0gQU-225x300.jpg)](http://wbaer.files.wordpress.com/2017/03/0fb9d-ccgipz2vaaa0gqu.jpg) SharePoint Portal Server is a flexible solution that can search and index the most important enterprise content sources across an organization and make the information available to anyone in the company via a familiar user interface. The new server combines enterprise-level search functionality developed by Microsoft research, with integrated document management tools and flexible, easily customizable enterprise portal capabilities. Knowledge workers can create their own personal dashboards to view the information they use regularly, such as their Outlook® inbox, calendar and important files made viewable through Web Parts. Read more at [https://news.microsoft.com/2001/03/28/leading-systems-integrators-ready-for-the-availability-of-microsoft-sharepoint-portal-server/#0rVIE1TORmuLBUHC.99 ](https://news.microsoft.com/2001/03/28/leading-systems-integrators-ready-for-the-availability-of-microsoft-sharepoint-portal-server/#0rVIE1TORmuLBUHC.99) To learn more about SharePoint history see also [https://blogs.technet.microsoft.com/wbaer/2015/02/12/the-sharepoint-journey/](https://blogs.technet.microsoft.com/wbaer/2015/02/12/the-sharepoint-journey/).

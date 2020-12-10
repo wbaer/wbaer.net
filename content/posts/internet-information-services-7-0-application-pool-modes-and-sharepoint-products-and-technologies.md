@@ -1,0 +1,16 @@
+---
+title: 'Internet Information Services 7.0, Application Pool Modes and SharePoint Products and Technologies'
+date: Thu, 01 Nov 2007 10:39:01 +0000
+draft: false
+tags: ['Uncategorized', 'Windows Server 2008']
+---
+
+Internet Information Services 7.0 Application Pool Modes introduces changes in how application pools are managed and process requests that involve managed resources. In Internet Information Services 6.0 worker process isolation mode and in Internet Information Services 5.0, isolation modes are set at the server level. The result is that both isolation modes cannot be run simultaneously. In Internet Information Services 7.0 modes are set at the application pool level allowing applications to be run simultaneously on the same server in application pools with differing process modes (Integrated and ISAPI (Classic). Integrated application pool mode leverages the integrated request-processing architecture of Internet Information Services and ASP.NET, by calling native and managed modules to process portions of a given request and subsequently generating the response; however, SharePoint Products and Technologies is limited to the use of the classic or ISAPI application pool mode for its application pools handling requests as in Internet Information Services 6.0 worker process isolation mode; in this scenario the separation of Internet Information Services and ASP.NET in classic application mode or managed pipeline mode results in the duplication of some processing steps to include authentication and authorization. SharePoint Portal Server 2003 and Windows SharePoint Services 2.0 used stsfltr.dll to provide request intercept functionality, in Microsoft Office SharePoint Server 2007 and Windows SharePoint Services 3.0 a .NET 2.0-based HttpModule replaces the ISAPI filter; however, the platform remains metabase bound limiting Windows Server 2008 to using the Classic managed pipeline mode or ISAPI application pool mode, when configuring Internet Information Services 7.0 application pools for use with SharePoint Products and Technologies it is important to understand these limitations.
+
+**Determining Application Pool Mode**
+
+When introducing the Windows Server 2008 server machine where Windows SharePoint Services 3.0/Microsoft Office SharePoint Server 2007 has been installed to an existing server farm, your application pools will be configured to use the Classic managed pipeline mode or otherwise, ISAPI application pool mode (see illustration) and/or when provisioning Web applications on a new or existing server farm.
+
+[![image](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_technet/wbaer/WindowsLiveWriter/321b6ff441ae_80D0/image_thumb.png)](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_technet/wbaer/WindowsLiveWriter/321b6ff441ae_80D0/image.png)
+
+To determine the application pool mode for a Web application in Windows Server 2008, open Internet Information Services 7.0 and navigate to the Application Pools node.  The Application Pools node provides a list of available application pools, state, .NET Framework version, and managed pipeline mode including additional information about the credentials running on the application pool.

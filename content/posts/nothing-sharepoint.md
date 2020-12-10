@@ -1,0 +1,14 @@
+---
+title: 'Nothing SharePoint'
+date: Fri, 06 Jul 2007 01:28:00 +0000
+draft: false
+tags: ['Off Topic', 'Uncategorized']
+---
+
+It's nothing SharePoint related, but a rare treat to catch a glimpse of an unobscured [Mt. Rainier](http://maps.live.com/default.aspx?v=2&cp=46.853378~-121.759187&style=a&lvl=11&tilt=-90&dir=0&alt=-1000&scene=6546598&encType=1) - these were taken over on a semi-clear afternoon around 6:00 P.M. from the [Puyallup-Graham](http://maps.live.com/default.aspx?v=2&cp=47.190492~-122.295726&style=a&lvl=12&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___&encType=1) area about 30 miles south of [Seattle](http://maps.live.com/default.aspx?v=2&cp=47.603859~-122.32974&style=a&lvl=12&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___&encType=1).  You're looking south/southeast in these photographs, in the distance beyond the Evergreens is the Puyallup Valley and the town of [Orting](http://maps.live.com/default.aspx?v=2&cp=47.097691~-122.202166&style=a&lvl=14&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___~Point.rvgngb4tgv3t_Orting%2C%20Pierce%2C%20Washington%2C%20United%20States___&encType=1) along the banks of the Carbon River.  ([more info...](http://blogs.technet.com/controlpanel/blogs/posteditor.aspx?SelectedNavItem=Posts&sectionid=4865&postid=1453056#moreinfo))
+
+![](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_technet/wbaer/WindowsLiveWriter/NOTHINGSHAREPOINT_13450/Mt.%20Rainier%203%5B3%5D.jpg)
+
+<IMG class=sopretty src="https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs\_technet/wbaer/WindowsLiveWriter/NOTHINGSHAREPOINT\_13450/Mt.%20Rainier%204%5B3%5D.jpg" original-url="http://blogs.technet.com/blogfiles/wbaer/WindowsLiveWriter/NOTHINGSHAREPOINT\_13450/Mt.%20Rainier%204%5B3%5D.jpg" P
+
+Mt. Rainier is an active stratovolcano in the Cascade range; at an elevation of 14, 410 feet (4,392 meters) it is also the tallest mountain in the range.  It appears throughout the year as it does in these photographs encased in over 35 square miles (~91 square kilometers) of snow and glacial ice.  It is this runoff that feeds the Carbon, Cowlitz, and Puyallup Rivers.  Mount Rainier's size places it on the list of most volumous stratovolcanoes in the world and its' prominence greater than that of [K2](http://maps.live.com/default.aspx?v=2&ss=yp.K2&cp=35.889462~76.506602&style=a&lvl=8&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___~Point.rvgngb4tgv3t_Orting%2C%20Pierce%2C%20Washington%2C%20United%20States___~Point.rycskr4tp560_Redmond%2C%20Washington%2C%20United%20States___&encType=1).

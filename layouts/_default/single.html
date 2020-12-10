@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+<article>
+  <header>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-metadata">
+      {{ if not .Params.hideDate }}
+        <span class="post-date">
+          {{ partial "timestamp.html" . }}
+        </span>
+      {{ end }}
+      {{ range .Params.tags }}
+        <span class="post-tags">
+      <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>
+            </span>
+      {{ end }}
+    </div>
+  </header>
+  {{ with .Params.thumbnail }}
+    <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
+  {{ end }}
+  <section id="js-article" class="post-body">
+    {{ .Content }}
+  </section>
+  <footer>
+    {{ partial "related.html" . }}
+      
+    {{ partial "comments.html" . }}
+<!--    {{ with ($.Param "disqus") }}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = '{{ . }}';
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {{ end }}-->
+    <nav class="pagination">
+      <div class="pagination-control">
+        <div class="pagination-next">
+          {{ if .NextInSection }}
+          <a href="{{ .NextInSection.Permalink }}">&#8592; {{ .Title }}</a>
+          {{ else }}
+          {{ end }}
+        </div>
+        <div class="pagination-previous">
+          {{ if .PrevInSection }}
+          <a href="{{ .PrevInSection.Permalink }}">{{ .Title }} &#8594;</a>
+          {{ else }}
+          {{ end }}
+        </div>
+      </div>
+    </nav>
+  </footer>
+</article>
+{{ partial "footer.html" . }}

@@ -1,0 +1,38 @@
+---
+title: 'Accessibility in SharePoint Online'
+date: Mon, 09 Oct 2017 17:44:53 +0000
+draft: false
+tags: ['Accessibility', 'SharePoint']
+---
+
+_There are no limits to what people can achieve when technology reflects the diversity of everyone who uses it. We believe in what people make possible - at Microsoft, our mission is to empower every person and every organization on the planet to achieve more._ Across SharePoint and OneDrive our most important work is making our technology accessible to people of all abilities. Over the past several months we’ve been working towards this vision with improvements across how and where people collaborate ensuring our experiences both create and support opportunities for everyone.
+
+Site Improvements
+-----------------
+
+*   Navigate through the major portions of the page using reserved tab stops.
+*   Take advantage of the new accessible SharePoint Online page authoring experience for edit and view your home page.
+*   Proper field types and labels that provide details to screen reader users on what each field is and how to use it.
+
+[![](https://msdnshared.blob.core.windows.net/media/2017/10/PostAcc1-300x200.png)](http://wbaer.files.wordpress.com/2017/10/28d0c-postacc1.png)
+
+List and Library Improvements
+-----------------------------
+
+*   Keyboard shortcuts for all major list functions, including a shortcut (SHIFT+F10) for the details menu. Press the question mark “?” to browse the full list of shortcuts.
+*   Up and Down Arrow keys navigate between list items. Left and Right Arrow keys navigate between columns.
+*   Action confirmations when you updated list item fields.
+*   Focus returns to where you were when you finish working in the list and exit, so you never have to start from the top of the page.
+
+[![](https://msdnshared.blob.core.windows.net/media/2017/10/PostAcc2-300x200.png)](https://msdnshared.blob.core.windows.net/media/2017/10/PostAcc2.png)
+
+Page Authoring Improvements
+---------------------------
+
+*   Landmarks and headings for easy navigation across major areas of the page.
+*   Web part focus zones to make it easy to setup and edit a web part. In edit mode, just press Enter to navigate into the web part, then use the Tab and Arrow keys to navigate within the web part.
+*   Keyboard shortcuts in the rich text editor allow you to jump to the command bar and execute common text commands such as bold, italics, underline, and so on.
+*   Focus automatically goes to the caption field when you add images or video web parts, to encourage you to add alternative text descriptions of the images.
+*   Page authoring automatically confirms actions that you take when you update web part properties, use the rich text editor commands, and so on. You never have to question an action again.
+
+[![](https://msdnshared.blob.core.windows.net/media/2017/10/PostAcc3-300x200.png)](https://msdnshared.blob.core.windows.net/media/2017/10/PostAcc3.png) To learn more about these and more accessibility features in SharePoint Online refer to the links below: [Accessibility features in SharePoint Online](https://support.office.com/en-us/article/Accessibility-features-in-SharePoint-Online-f291404a-dc7e-44de-a31f-d81b3099c2b9?ui=en-US&rs=en-US&ad=US) [ Accessibility support for SharePoint Online](https://support.office.com/en-us/article/Accessibility-support-for-SharePoint-Online-8cabc607-ab9c-4556-a0bf-275ccabeadab) Microsoft has been very public about our product support for accessibility standards for some time. We broadly publish conformance reports for our products for key accessibility standards such as [Section 508](https://enterprise.microsoft.com/en-us/industries/government/section-508-vpats-for-microsoft-products/), [WCAG 2.0](https://enterprise.microsoft.com/en-us/industries/government/wcag-2-0-reports-for-microsoft-products/) and [EN 301 549](https://enterprise.microsoft.com/en-us/industries/government/en-301-549-reports-for-microsoft-products/). In the next few months, we will begin publishing conformance statements with the updated [Section 508 regulations](https://enterprise.microsoft.com/en-us/articles/industries/government/section-508-ict-refresh-chapters/) recently published by the US Access Board. In addition to the resources above, hear and see the most recent developments in accessibility from Microsoft Ignite. [Learn how to make SharePoint accessible and inclusive](https://myignite.microsoft.com/sessions/53838?source=sessions) Did you know that the NEW SharePoint experiences are accessible and inclusive? Come see why you should care about the accessibility best practices we followed while building these experiences on Microsoft SharePoint Online (specific focus on: creating communication sites and modern page authoring) and how your organizations can take advantage of these. Our modern experiences help ensure equal access to information and opportunities for people with disabilities. They address the requirements of Section 508 Standards, WCAG 2.0, Level AA Success ... [ VIEW MORE >](https://myignite.microsoft.com/sessions/53838?source=sessions) [Ensure productivity for your employees and customers with disabilities with Office 365 accessibility](https://myignite.microsoft.com/sessions/53341?source=sessions) Discover how you can empower people with a range of vision, mobility, hearing, and cognitive abilities to communicate, consume and create content in their preferred ways and empower everyone to collaborate inclusively using Office 365. Experiences that are accessible by design can boost productivity for people of all abilities – including people with temporary conditions such as hand or eye strains and people with situational requirements such as working without a mouse or monitor on the go. If you are looking to attract and retain talent in yo... [ VIEW MORE >](https://myignite.microsoft.com/sessions/53341?source=sessions) [Discover easy ways to make your official communications and content more accessible](https://myignite.microsoft.com/sessions/59241?source=sessions) With over 1 billion people with disabilities on the planet, it is important to check that your organization’s official content poses no barriers for those who use assistive technologies. Your organization might be required to do this if laws and standards such as EN 301 549, WCAG 2.0 AA and US Section 508 apply to you. Office 365 offers built-in capabilities such as Accessibility Checkers that make it easy to find accessibility issues, and intelligent controls such as Automatic Alt Text that make it efficient to fix accessibility issues. Get in... [ VIEW MORE >](https://myignite.microsoft.com/sessions/59241?source=sessions) [Learn strategies to make your IT applications more accessible and usable by people of all abilities](https://myignite.microsoft.com/sessions/54667?source=sessions) Do you want to ensure all your IT applications are empowering for people with disabilities and compliant with global accessibility standards? Learn how the Office engineering team approached making all Office 365 applications accessible by design in a scalable and sustainable manner – ensuring all engineers create experiences that go beyond minimal compliance to be truly usable by people of all abilities. Inclusive design training, usability studies, documentation, and support methodologies are shared. Also, an overview is given of how a system... [ VIEW MORE >](https://myignite.microsoft.com/sessions/54667?source=sessions)

@@ -1,0 +1,8 @@
+---
+title: 'A Quick Note on Blog Images...'
+date: Thu, 16 Aug 2007 00:21:00 +0000
+draft: false
+tags: ['Off Topic', 'Uncategorized']
+---
+
+As some of you may have noticed many of the images no longer render within a limited set of posts within my blog; rest assured I am working to resolve the issue as quickly as possible.  Prior to about June 2007 I used an ISA published Windows SharePoint Services 3.0 server farm running in Active Directory account creation mode offering host header-based site collections - by enabling Anonymous Access on a Document Library within my personal site collection I was able to both host and manage images consumed by this blog.  Unfortunately the server farm is scheduled to be decommissioned, at least partially at this point...the initial concept was to promote Windows SharePoint Services technologies, develop hosting knowledge from an administrative perspective, and provide actual user data and experiences for patch and upgrade testing in addition to providing a Windows SharePoint Services baseline for performance measurement and analysis.  There is a remote possibility that may site collection may be retained in which case images and other hosted collateral will once again become available or alternatively I will migrate "legacy" posts content to another host.  During the decommissioning phases of this server farm I will also be taking the opportunity to update the tags I currently am using to simplify navigation and make relevant content easier to locate.  In the interim, if there is a specific image that you would like to have made available, please submit a comment letting me know...

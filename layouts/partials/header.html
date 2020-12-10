@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+    <body>
+        <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
+        {{ partial "svgpack-sprite.html" . }}
+            <header class="header">
+                <div class="container">
+                    <div class="navbar">
+                        {{ partial "links.html" . }}
+                    </div>
+                </div>
+                <br /><br />
+                <div class="main">
+                    {{ if .IsPage }}
+                    <p class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+                        {{ else }}
+                        <p class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+                        {{ end }}
+                    {{ with ($.Param "subtitle") }}
+                    <p class="site-subtitle">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+            </header>
+    <main id="main" class="post-main">

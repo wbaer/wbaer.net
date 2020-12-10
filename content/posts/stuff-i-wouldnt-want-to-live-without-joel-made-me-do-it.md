@@ -1,0 +1,16 @@
+---
+title: 'Stuff I Wouldn''t Want to Live Without - Joel Made me do it...'
+date: Tue, 31 Jul 2007 17:42:00 +0000
+draft: false
+tags: ['Off Topic', 'Uncategorized']
+---
+
+It appears [Joel](http://blogs.msdn.com/joelo/archive/2007/07/29/stuff-i-wouldn-t-want-to-live-without.aspx) invited me to participate in a chain-letter of sorts with the context being stuff I wouldn't want to live without.  After thinking about the question for a moment, I found it much easier to compile a list of things I **could** live without, but to keep with the intent of the invitation - I've derived the following list:
+
+1.  My wife and son; without their support I likely would not be where I am in life today.
+2.  SharePoint - when I looked around me I found that nowhere do I have a machine that has no less than Windows SharePoint Services 3.0 (WSS) installed and where I do not or can't install WSS or Microsoft Office SharePoint Server 2007 (MOSS) - I have access to a number of public facing WSS/MOSS resources available or alternatively use [Mobile Views](http://blogs.technet.com/wbaer/archive/2007/06/04/productivity-on-the-go.aspx) when without a PC.  It's obvious I am a dedicated supporter of the platform having come from a Web development/CMS background and completed my Six Sigma project using SharePoint Products an Technologies as means to increase productivity and remove collaborative barriers resulting in noticeable gains in ROI and efficiency...at the time STS was the platform that served as the basis of this project.
+3.  Technology - I have always been drawn to emerging technologies, having worked for Apple Computer Corporation, First Data Corporation, Digital Equipment Corporation, Compaq Computer Corporation, and Hewlett-Packard ([see profile](http://blogs.technet.com/wbaer/about.aspx)), _the latter three through acquisitions_; I have had the opportunity to experience a broad range of technological advancements and innovations come to realization from concept.
+4.  History - I am fascinated with history - having been raised in Europe I had the opportunity to experience history first hand, medieval discussions were not only relegated to text books, but were also envisioned in their true form.  This approach inspired thought and interest - it is always easier to touch and feel something firsthand and draw your own conclusions based on what you have seen and experienced.
+5.  Geography - Geography has always been an interest and compliments my passion for history.  I've always been curious to understand why people settled in a particular area, what resources drew them there, what resources did they previously lack prompting the move to this location and what was the state of the land when they arrived - I guess that would be both a combination of history and anthropology, but nonetheless something that keeps me interested. 
+6.  Travel - I enjoy traveling, pleasure more than business, but traveling nonetheless - I've visited just about every country in Europe west of the Czech Republic and the contiguous 48 U.S. States and Canada.  Time and resources permitting I would enjoy the opportunity to explore Africa and the Middle East.
+7.  The ability to read - comes in useful at times ;-)
