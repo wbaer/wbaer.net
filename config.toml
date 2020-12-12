@@ -3,6 +3,10 @@ languageCode = "en-us"
 Title = "Bill Bär ('bɛər)"
 copyright = "&copy; 2020 Bill Bär"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 # Parameters
 
 [params]
@@ -17,9 +21,6 @@ copyright = "&copy; 2020 Bill Bär"
   author = "Bill Bär"
   authorwebsite = "wbaer.net"
   subtitle = "Bill Bär is a Senior Product Manager for Microsoft Search, Assistant, and Intelligence at Microsoft in Redmond, Washington"
-  # Logo image. This is displayed ogp image.
-  # logo = "/path/to/logo"
-  # favicon = "/path/to/favicon"
 
 [[menu.main]]
     name = "Blog"

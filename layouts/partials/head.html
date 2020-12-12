@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Bill Baer" />
     <meta name="twitter:description" content="Bill Baer is a Senior Technical Product Manager and Microsoft Certified Master for SharePoint in the SharePoint & OneDrive product group in Redmond, Washington; having previously worked at Hewlett-Packard Bill Baer has a proven background in infrastructure engineering and enterprise deployments of SharePoint Products and Technologies."
     />
-    <meta name="twitter:image" content="./images/card.png" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/card.png" />
 
     <meta property="og:url" content="https://wbaer.net" />
     <meta property="og:title" content="Bill Baer" />
@@ -39,15 +39,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
     
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css" />
-    <!--     Custom css files as define in config.toml 
-    {{ range ($.Param "custom_css") -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-    {{- end }}
-    {{- with ($.Param "favicon") }}
-    <link rel='icon' type='image/x-icon' href="{{ . | absURL }}" />
-    {{- end -}}-->
+    
     {{ if eq .RelPermalink "/" }}
     {{ with .OutputFormats.Get "RSS" -}}
     <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
@@ -55,7 +52,6 @@
     {{ end }}
     {{ if .Params.mathjax }}{{ partial "mathjax_support.html" . }}{{ end }}
       
-
     <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/images/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/images/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/images/favicon-16x16.png" />
@@ -72,7 +68,6 @@
 
     <script type="text/javascript" src="{{ .Site.BaseURL }}/scripts/jquery.core.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}/js/bundle.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/scroll.js"></script>
 
     <!--[if lt IE 9]>
 				<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -87,5 +82,4 @@
         				ga('create', 'UA-77763554-1', 'auto');
         				ga('send', 'pageview');
     </script>
-    {{ partial "head_custom.html" . }}
 </head>

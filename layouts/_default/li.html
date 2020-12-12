@@ -3,8 +3,9 @@
     <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <div class="post-separator"><br /></div>
     <span class="post-metadata">
-        <span class="post-date">{{ partial "timestamp.html" . }}</span> &nbsp; &nbsp; <span class="word-count">{{ .WordCount }} Words </span>
+        <span class="post-date">{{ partial "timestamp.html" . }}</span>
         <br /><br />
+        <!-- <span class="word-count">{{ .WordCount }} words </span> -->
     </span>
   </header>
   <div class="post-summary">
@@ -13,9 +14,4 @@
   {{ if .Truncated }}
   <a href="{{ .Permalink }}" class="read-more">continue reading</a>
   {{ end }}
-    
-    <div class="controls">
-        <i class="control icons chevron up" onclick="scrollUp()" id="scroller"></i>
-    </div>
-    
 </article>
