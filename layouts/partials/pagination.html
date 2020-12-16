@@ -1,15 +1,15 @@
-        <nav class="pagination">
-            <div class="pagination-control">
-                <div class="pagination-next left arrow">
-                    {{if .HasPrev}}
-                    <a href="{{ .Prev.URL }}">&#8592;</a>
-                    {{end}}
+            <div class="mdl-grid">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    {{ if not .HasPrev }}{{ end }}
+                    {{ if .HasPrev }}
+                    <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Prev.URL }}" tabindex="-1">Previous</a></button>
+                    {{ end }}
+
+                    {{ if not .HasNext }}{{ end }}
+                    {{ if .HasNext }}
+                    <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Next.URL }}" tabindex="-1">Next</a></button>
+                    {{ end }}
                 </div>
-                <div class="pagination-count ">{{ .PageNumber }}</div>
-                <div class="pagination-previous right arrow">
-                    {{if .HasNext}}
-                    <a href="{{ .Next.URL }}">&#8594;</a>
-                    {{end}}
-                </div>
+                <div class="mdl-layout-spacer"></div>
             </div>
-        </nav>

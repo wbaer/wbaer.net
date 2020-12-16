@@ -3,15 +3,11 @@ languageCode = "en-us"
 Title = "Bill Bär ('bɛər)"
 copyright = "&copy; 2020 Bill Bär"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
 # Parameters
 
 [params]
   description = "Bill Baer is a Senior Technical Product Manager and Microsoft Certified Master for SharePoint in the SharePoint & OneDrive product group in Redmond, Washington; having previously worked at Hewlett-Packard Bill Baer has a proven background in infrastructure engineering and enterprise deployments of SharePoint Products and Technologies."
-  paginate = 2
+  paginate = 3
 
   twitter = "@williambaer"
   github = "wbaer"
@@ -21,6 +17,10 @@ copyright = "&copy; 2020 Bill Bär"
   author = "Bill Bär"
   authorwebsite = "wbaer.net"
   subtitle = "Bill Bär is a Senior Product Manager for Microsoft Search, Assistant, and Intelligence at Microsoft in Redmond, Washington"
+  
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [[menu.main]]
     name = "Blog"
@@ -28,36 +28,19 @@ copyright = "&copy; 2020 Bill Bär"
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
-
-[[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 3
-
+    weight = 2
+    
 [related]
-  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-  threshold = 80
-
-  # To get stable "See also" sections we, by default, exclude newer related pages.
   includeNewer = false
-
-  # Will lower case keywords in both queries and in the indexes.
+  threshold = 80
   toLower = false
 
   [[related.indices]]
-  name = "keywords"
-  weight = 150
+    name = "tags"
+    weight = 100
+
   [[related.indices]]
-  name  = "author"
-  toLower = true
-  weight = 30
-  [[related.indices]]
-  name  = "tags"
-  weight = 100
-  [[related.indices]]
-  name  = "date"
-  weight = 10
-  pattern = "2017"
+    name = "date"
+    weight = 10

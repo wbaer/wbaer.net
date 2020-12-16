@@ -1,28 +1,61 @@
-    </main>
-        <footer class="footer">
-            <div class="footer-icons">
-                <a href="{{ .Site.BaseURL }}/about/"><i class="fa fa-user-circle"></i></a> <a href="mailto:wbaer@wbaer.net"><i class="fa fa-envelope"></i></a> <a href="{{ .Site.BaseURL }}/posts/"><i class="fas fa-blog"></i></a> <a href="{{ .Site.BaseURL }}/tags/"><i class="fa fa-tag" aria-hidden="true"></i></a> <a href="{{ .Site.BaseURL }}/index.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                </section>
+
+                <section class="section--footer mdl-color--white mdl-grid"></section>
+
             </div>
-            <div class="footer-information">
-            <div class="copyright">
-                {{ with .Site.Copyright | safeHTML }}
-                {{ . }}
-                    {{ else }}
-                    {{ if ($.Param "author") }}
-                        {{ if ($.Param "authorwebsite") }}
-                        <a href="{{ $.Param "authorwebsite" }}">{{ $.Param "author" }}</a>
-                        {{ else }}
-                        {{ $.Param "author" }}
+
+            <footer class = "mdl-mini-footer">
+                <div class = "mdl-mini-footer__left-section">
+                    <div class = "mdl-logo">
+                        ( w | b ) &copy; 2001-2021 Bill Baer | made with <a href="https://material.io" target="_blank">MDL</a> and Hu<a href="hugo.io" target="_blank">go</a>
+                    </div>
+                    <ul class = "mdl-mini-footer__link-list">
+                        <li><a href = "/about">About</a></li>
+                        <li><a href = "/contact">Contact</a></li>
+                        <li><a href = "https://feeds.feedburner.com/wbaer">Subscribe</a></li>
+                    </ul>
+                </div>
+
+                <div class = "mdl-mini-footer__right-section">
+                    {{ if or ( $.Param "twitter" ) ( $.Param "github" ) ( $.Param "linkedin" ) }}
+
+                    {{ with ($.Param "twitter") }}
+                    <button class = "mdl-mini-footer__social-btn"><a href="https://twitter.com/{{ . }}" target="_blank">
+                        <svg viewBox="0 0 64 64" class="social-icons__icon">
+                            <title>twitter</title>
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </button>
                     {{ end }}
-                {{ end }}
-                {{ .Site.LastChange.Format "2006" }}
-                    {{ if .Site.Title }}
-                    <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+
+                    {{ with ($.Param "github") }}
+
+                    <button class = "mdl-mini-footer__social-btn"><a href="https://github.com/{{ . }}" target="_blank">
+                        <svg viewBox="0 0 64 64" class="social-icons__icon">
+                            <title>github</title>
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                        </a>
+                    </button>
                     {{ end }}
-                {{ end }}
-                | made with <a href="https://gohugo.io/">Hugo</a>.
-            </div>
-            </div>
-        </footer>
-    </body>
+
+                    {{ with ($.Param "linkedin") }}
+                    <button class = "mdl-mini-footer__social-btn"><a href="https://linkedin.com/in/{{ . }}" target="_blank">
+                        <svg viewBox="0 0 64 64" class="social-icons__icon">
+                            <title>linkedin</title>
+                            <use xlink:href="#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </button>
+                    {{ end }}
+
+                    {{ end }}
+
+                </div>
+
+            </footer>
+
+            <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        </body>
 </html>

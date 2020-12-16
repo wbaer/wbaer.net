@@ -1,17 +1,12 @@
-<article class="post post-list">
-  <header>
-    <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="post-separator"><br /></div>
-    <span class="post-metadata">
-        <span class="post-date">{{ partial "timestamp.html" . }}</span>
-        <br /><br />
-        <!-- <span class="word-count">{{ .WordCount }} words </span> -->
-    </span>
-  </header>
-  <div class="post-summary">
-    {{ .Summary | plainify | safeHTML }}
-  </div>
-  {{ if .Truncated }}
-  <a href="{{ .Permalink }}" class="read-more">continue reading</a>
-  {{ end }}
-</article>
+            <div class="mdl-cell mdl-cell--12-col">
+                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+
+                <p>{{ partial "timestamp.html" . }}</p>
+
+                <p>{{ .Summary | plainify | safeHTML }}</p>
+
+                {{ if .Truncated }}
+                <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></button>
+                {{ end }}
+                <hr>
+            </div>
