@@ -1,15 +1,13 @@
-            <div class="mdl-grid">
-                <div class="mdl-layout-spacer"></div>
-                <div class="mdl-cell mdl-cell--4-col">
-                    {{ if not .HasPrev }}{{ end }}
-                    {{ if .HasPrev }}
-                    <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Prev.URL }}" tabindex="-1">Previous</a></button>
-                    {{ end }}
+        <div class="mdl-grid">
+            <div class="mdl-layout-spacer"></div>
+                {{ if not .HasPrev }}{{ end }}
+                {{ if .HasPrev }}
+                <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Prev.URL }}" tabindex="-1">Previous</a></span>
+                {{ end }}
 
-                    {{ if not .HasNext }}{{ end }}
-                    {{ if .HasNext }}
-                    <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Next.URL }}" tabindex="-1">Next</a></button>
-                    {{ end }}
-                </div>
-                <div class="mdl-layout-spacer"></div>
-            </div>
+                {{ if not .HasNext }}{{ end }}
+                {{ if .HasNext }}
+                <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Next.URL }}" tabindex="-1">Next</a></span>
+                {{ end }}
+            <div class="mdl-layout-spacer"></div>
+        </div>

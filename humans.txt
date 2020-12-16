@@ -11,7 +11,7 @@
 /* AUTHOR */
 
 	Name:        Bill Baer
-	Title:       Founder, Molokai Networks
+	Title:       Author
 	Location:    Seattle, Washington
 	Site:        https://wbaer.net/
 

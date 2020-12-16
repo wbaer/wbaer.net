@@ -1,39 +1,39 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
-            <div class="mdl-cell mdl-cell--12-col">
-                <h4>{{.Title }}</h4>
+        <div class="mdl-cell mdl-cell--12-col">
+            <h4>{{.Title }}</h4>
 
-                {{ if not .Params.hideDate }}
-                <p class="post-metadata">{{ partial "timestamp.html" . }}</p>
-                {{ end }}
-                {{ range .Params.tags }}
-                <span class="post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
-                {{ end }}
+            {{ if not .Params.hideDate }}
+            <p class="post-metadata">{{ partial "timestamp.html" . }}</p>
+            {{ end }}
+            {{ range .Params.tags }}
+            <span class="post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
+            {{ end }}
 
-                {{ with .Params.thumbnail }}
-                <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
-                {{ end }}                
+            {{ with .Params.thumbnail }}
+            <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
+            {{ end }}                
 
-                <p>{{ .Content }}</p>
+            <p>{{ .Content }}</p>
 
-                <div class="mdl-grid">
-                    <div class="mdl-layout-spacer"></div>
-                    <div class="mdl-cell mdl-cell--4-col">
+            <div class="mdl-grid">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--4-col">
 
-                        {{ if .PrevInSection }}
-                        <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></button>
-                        {{ else }}
-                        {{ end }}
+                    {{ if .PrevInSection }}
+                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
+                    {{ else }}
+                    {{ end }}
 
-                        {{ if .NextInSection }}
-                        <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></button>
-                        {{ else }}
-                        {{ end }}
+                    {{ if .NextInSection }}
+                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
+                    {{ else }}
+                    {{ end }}
 
-                    </div>
-                    <div class="mdl-layout-spacer"></div>
                 </div>
+                <div class="mdl-layout-spacer"></div>
+            </div>
 
 {{ partial "related.html" }}
 

@@ -1,18 +1,18 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
-            <div class="mdl-cell mdl-cell--12-col">
-                <h4>{{ .Title }}</h4>
+        <div class="mdl-cell mdl-cell--12-col">
+            <h4>{{ .Title }}</h4>
 
-                {{ $data := .Data }}
-                {{ range $key, $value := .Data.Terms }}
-                <span class="mdl-chip mdl-chip--contact">
-                    <span class="mdl-chip__contact mdl-color--indigo mdl-color-text--white">{{ len $value }}</span>
-                    <span class="mdl-chip__text"><a href="{{ $baseurl }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a></span>
-                </span>
-                <br />
-                {{ end }}
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms }}
+            <span class="mdl-chip mdl-chip--contact">
+                <span class="mdl-chip__contact mdl-color--indigo mdl-color-text--white">{{ len $value }}</span>
+                <span class="mdl-chip__text"><a href="{{ $baseurl }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a></span>
+            </span>
+            <br />
+            {{ end }}
 
-            </div>
+        </div>
 
 {{ partial "footer.html" . }}

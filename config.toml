@@ -6,17 +6,11 @@ copyright = "&copy; 2020 Bill Bär"
 # Parameters
 
 [params]
-  description = "Bill Baer is a Senior Technical Product Manager and Microsoft Certified Master for SharePoint in the SharePoint & OneDrive product group in Redmond, Washington; having previously worked at Hewlett-Packard Bill Baer has a proven background in infrastructure engineering and enterprise deployments of SharePoint Products and Technologies."
-  paginate = 3
+  paginate = 5
 
   twitter = "@williambaer"
   github = "wbaer"
-  #gitlab = "Your GitLab username"
   linkedin = "billbaer"
-  
-  author = "Bill Bär"
-  authorwebsite = "wbaer.net"
-  subtitle = "Bill Bär is a Senior Product Manager for Microsoft Search, Assistant, and Intelligence at Microsoft in Redmond, Washington"
   
 [taxonomies]
   category = "categories"

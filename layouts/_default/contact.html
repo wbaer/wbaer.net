@@ -1,31 +1,31 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
-            <div class="mdl-cell mdl-cell--12-col">
-                <h4>{{.Title }}</h4>
+        <div class="mdl-cell mdl-cell--12-col">
+            <h4>{{.Title }}</h4>
 
-                <form name="contact" method="POST" data-netlify="true">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" name="name" id="name" />  
-                        <label class = "mdl-textfield__label" for="name">Name</label>
-                    </div>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" name="name" id="name" />  
+                    <label class = "mdl-textfield__label" for="name">Name</label>
+                </div>
 
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="email" name="email" id="email"/>
-                        <label class = "mdl-textfield__label" for="email">eMail</label>
-                    </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="email" name="email" id="email"/>
+                    <label class = "mdl-textfield__label" for="email">eMail</label>
+                </div>
 
-                    <div class = "mdl-textfield mdl-js-textfield">
-                        <textarea class="mdl-textfield__input" name="message"></textarea>
-                        <label class="mdl-textfield__label">Message:</label>
-                    </div>
+                <div class = "mdl-textfield mdl-js-textfield">
+                    <textarea class="mdl-textfield__input" name="message"></textarea>
+                    <label class="mdl-textfield__label">Message:</label>
+                </div>
 
-                    <div>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Send</button>
-                    </div>
+                <div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Send</button>
+                </div>
 
-                </form>
+            </form>
 
-            </div>
+        </div>
 
 {{ partial "footer.html" }}

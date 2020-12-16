@@ -1,12 +1,12 @@
-            <div class="mdl-cell mdl-cell--12-col">
-                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <div class="mdl-cell mdl-cell--12-col">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 
-                <p>{{ partial "timestamp.html" . }}</p>
+            <p>{{ partial "timestamp.html" . }}</p>
 
-                <p>{{ .Summary | plainify | safeHTML }}</p>
+            <p>{{ .Summary | plainify | safeHTML }}</p>
 
-                {{ if .Truncated }}
-                <button class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></button>
-                {{ end }}
-                <hr>
-            </div>
+            {{ if .Truncated }}
+            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></span>
+            {{ end }}
+            <hr>
+        </div>
