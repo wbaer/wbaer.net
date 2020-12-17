@@ -3,6 +3,11 @@ languageCode = "en-us"
 Title = "Bill Bär ('bɛər)"
 copyright = "&copy; 2020 Bill Bär"
 
+# Outputs
+
+[outputs]
+  section = ["JSON", "HTML"]
+
 # Parameters
 
 [params]
