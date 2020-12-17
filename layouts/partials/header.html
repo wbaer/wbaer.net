@@ -10,9 +10,38 @@
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
                         <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
                             <i class="material-icons">search</i>
+                            <!-- BEGIN GOOGLE SITE SEARCH -->
+                            <!-- <script async src="https://cse.google.com/cse.js?cx=55288326eb7112bd1"></script>
+                            <div class="gcse-search"></div> -->
+                            <!-- END GOOGLE SITE SEARCH -->
                         </label>
                         <div class="mdl-textfield__expandable-holder">
-                            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+                            <!-- <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp"> -->
+                            <!-- BEGIN ALGOLIA SEARCH -->
+                            <!-- INPUT -->
+                            <input class="mdl-textfield__input" type="search" id="waterfall-exp" placeholder="search..." autocomplete="off">
+                            <!-- ALGOLIA SCRIPTS -->
+                            <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+                            <!-- Initialise search -->
+                            <script>
+                              var client = algoliasearch("RTXEJJH0DN","50196e0b1ee6a3f136aa2e74769147bc");
+                              var index = client.initIndex("wbaer.net");
+                              autocomplete('#search-input', { hint: false }, [
+                                {
+                                  source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                                    displayKey: 'title',
+                                    templates: {
+                                        suggestion: function(suggestion) {
+                                          return suggestion._highlightResult.title.value;
+                                        }
+                                      }
+                                  }
+                                ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+                                  console.log(event, suggestion, dataset, context);
+                                });
+                            </script>
+                            <!-- END ALGOLIA SEARCH -->
                         </div>
                     </div>
                 </div>
