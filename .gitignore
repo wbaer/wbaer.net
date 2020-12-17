@@ -1,9 +1,5 @@
 
 .DS_Store
-assets/.DS_Store
-content/.DS_Store
-content/posts/.DS_Store
-content/resources/.DS_Store
-content/resources/_gen/.DS_Store
-layouts/.DS_Store
-static/.DS_Store
+node_modules
+.env
+_archive

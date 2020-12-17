@@ -21,36 +21,36 @@
                 {{ if or ( $.Param "twitter" ) ( $.Param "github" ) ( $.Param "linkedin" ) }}
 
                 {{ with ($.Param "twitter") }}
+                <span class="social-icons__container">
                 <a href="https://twitter.com/{{ . }}" target="_blank">
-                    <button class="mdl-mini-footer__social-btn">
                     <svg viewBox="0 0 64 64" class="social-icons__icon">
                         <title>twitter</title>
                         <use xlink:href="#icon-twitter"></use>
                     </svg>
-                    </button>
                 </a>
+                </span>
                 {{ end }}
 
                 {{ with ($.Param "github") }}
+                <span class="social-icons__container">
                 <a href="https://github.com/{{ . }}" target="_blank">
-                    <button class="mdl-mini-footer__social-btn">
                     <svg viewBox="0 0 64 64" class="social-icons__icon">
                         <title>github</title>
                         <use xlink:href="#icon-github"></use>
                     </svg>
-                    </button>
-                </a>
+                    </a>
+                </span>
                 {{ end }}
 
                 {{ with ($.Param "linkedin") }}
+                <span class="social-icons__container">
                 <a href="https://linkedin.com/in/{{ . }}" target="_blank">
-                    <button class="mdl-mini-footer__social-btn">
                     <svg viewBox="0 0 64 64" class="social-icons__icon">
                         <title>linkedin</title>
                         <use xlink:href="#icon-linkedin"></use>
                     </svg>
-                    </button>
-                </a>
+                    </a>
+                </span>
                 {{ end }}
 
                 {{ end }}
