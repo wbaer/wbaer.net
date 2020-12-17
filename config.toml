@@ -3,6 +3,9 @@ languageCode = "en-us"
 Title = "Bill Bär ('bɛər)"
 copyright = "&copy; 2020 Bill Bär"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # Outputs
 
 [outputs]

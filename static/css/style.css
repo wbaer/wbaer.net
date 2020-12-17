@@ -242,3 +242,9 @@ html, body {
     height: 1rem;
     fill: white;
 }
+.social-icons__span {
+    background-color: transparent;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.2rem;
+}
