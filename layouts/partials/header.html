@@ -25,20 +25,22 @@
                             <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
                             <!-- Initialise search -->
                             <script>
-                              var client = algoliasearch("RTXEJJH0DN","50196e0b1ee6a3f136aa2e74769147bc");
+                            var client = algoliasearch("RTXEJJH0DN","50196e0b1ee6a3f136aa2e74769147bc");
                               var index = client.initIndex("wbaer.net");
-                              autocomplete('#search-input', { hint: false }, [
+                              autocomplete('#waterfall-exp', { hint: false }, [
                                 {
                                   source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
                                     displayKey: 'title',
                                     templates: {
                                         suggestion: function(suggestion) {
                                           return suggestion._highlightResult.title.value;
+                                            
                                         }
                                       }
                                   }
                                 ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
                                   console.log(event, suggestion, dataset, context);
+                                  window.location.assign(suggestion.url);
                                 });
                             </script>
                             <!-- END ALGOLIA SEARCH -->
