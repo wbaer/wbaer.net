@@ -1,5 +1,5 @@
 ---
 title: "Contact"
-description: "Send me a message!"
+description: "Drop me a line."
 draft: false
 ---
