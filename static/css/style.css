@@ -284,7 +284,6 @@ html, body {
      padding-left: 29px;
      box-sizing: border-box;
 }
-
-#mdl-wb__search-results {
-    background-color: inherit;
+  #mdl-wb__search-results {
+     background-color: inherit;
 }
