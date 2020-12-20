@@ -9,8 +9,18 @@
                         Bill Bär (ˈbɛər)
                     </div>
                     <div class="mdl-layout-spacer"></div>
-                    <!-- SEARCH BOX LOCATION -->
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">( w | b )</div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+                            <i class="material-icons">&#xe8b6;</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <form id="search" role="search" class="search">
+                                <input class="mdl-textfield__input" type="search" id="waterfall-exp" placeholder="search..." autocomplete="off">
+                            </form>
+                            <script src="https://unpkg.com/lunr/lunr.js"></script>
+                            <script src="{{ .Site.BaseURL }}/js/search.js"></script>
+                        </div>
+                    </div> 
                 </div>
                 <div class="mdl-layout__header-row">
                     <div class="mdl-layout-spacer"></div>
@@ -22,50 +32,34 @@
                     </nav>
                 </div>
             </header>
-
+            <!-- 
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Projects</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">AppleScript</a>
+                    <a class="mdl-navigation__link" href="">C#</a>
+                    <a class="mdl-navigation__link" href="">SPFx</a>
+                    <a class="mdl-navigation__link" href="">jQuery</a>
+                </nav>
+            </div>
+            -->
             <main class="mdl-layout__content">
-                
-                <!-- BEGIN CENTERED SEARCH BOX -->
-                <div class="mdl-grid">
-                    <div class="mdl-layout-spacer"></div>
-                    <div class="mdl-layout-spacer">
-                        <i class="material-icons search-icon">search</i>
-                        <input class="mdl-textfield__input mdl-wb search-box" type="search" id="center-search" autocomplete="off">
-                        <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
-                        <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-                        <script>
-                          var client = algoliasearch("RTXEJJH0DN","50196e0b1ee6a3f136aa2e74769147bc");
-                          var index = client.initIndex("wbaer.net");
-                          autocomplete('#center-search', { hint: false }, [
-                            {
-                              source: autocomplete.sources.hits(index, { hitsPerPage: 10 }),
-                                displayKey: 'title',
-                                 templates: {
-                                    suggestion: function(suggestion) {
-                                      return suggestion._highlightResult.title.value;
-                                    },
-                                                                empty: function(suggestion) {
-                                      return 'No result';
-                                    }
-                                  }
-                              }
-                            ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
-                              console.log(event, suggestion, dataset, context);
-                              window.location.assign(suggestion.url);
-                            });
-                        </script>
-                    </div>
-                    <div class="mdl-layout-spacer"></div>
-                </div>
-                <!-- END CENTERED SEARCH BOX -->
-                
                 <div class="mdl-layout__tab-panel is-active" id="overview">
                     
-                    <!--
-                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
-                        <i class="material-icons" role="presentation">bookmark_border</i>
-                        <span class="visuallyhidden">bookmark_border</span>
-                    </button>
-                    -->
-                    
                     <section class="section--center mdl-grid mdl-grid--no-spacing">
+                        
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <div class="mdl-wb search--result__container"></div>
+                        </div>
+                        
+                        <template id="mdl-wb__search-result" hidden>
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <article class="content post">
+                                    <h4 class="post-title"><a class="search-result__link"></a></h4>
+                                    <p class="search-result__summary"></p>
+                                    <div>
+                                        <span class="mdl-button mdl-js-button mdl-button--accent"><a class="search-result__button">Go</a></span>
+                                    </div>
+                                </article>
+                            </div>
+                        </template>

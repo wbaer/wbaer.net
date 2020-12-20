@@ -9,15 +9,15 @@ unsafe= true
 # Outputs
 
 [outputs]
-home = ["HTML","RSS","Algolia"]
+home = ["HTML","RSS","Lunr"]
   
-[outputFormats.Algolia]
-baseName = "algolia"
+[outputFormats.Lunr]
+baseName = "lunr"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
 
-[params.algolia]
+[params.lunr]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 params = ["categories", "tags"]
 
@@ -53,11 +53,21 @@ params = ["categories", "tags"]
   includeNewer = false
   threshold = 80
   toLower = false
-
+    
   [[related.indices]]
-    name = "tags"
+    name = "keywords"
+    weight = 150
+    
+  [[related.indices]]
+    name  = "author"
+    toLower = true
+    weight = 30
+    
+  [[related.indices]]
+    name  = "tags"
     weight = 100
-
+    
   [[related.indices]]
-    name = "date"
+    name  = "date"
     weight = 10
+    pattern = "2017"

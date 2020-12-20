@@ -1,4 +1,3 @@
-{{/* Generates a valid Algolia search index */}}
 {{- $.Scratch.Add "index" slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
 {{- range .Site.AllPages -}}

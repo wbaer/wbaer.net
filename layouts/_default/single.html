@@ -16,26 +16,38 @@
             {{ end }}                
 
             <p>{{ .Content }}</p>
-
+            
+            
             <div class="mdl-grid">
                 <div class="mdl-layout-spacer"></div>
-                <div class="mdl-cell mdl-cell--4-col">
 
                     {{ if .PrevInSection }}
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
                     {{ else }}
                     {{ end }}
 
+
                     {{ if .NextInSection }}
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
                     {{ else }}
                     {{ end }}
 
-                </div>
                 <div class="mdl-layout-spacer"></div>
             </div>
-
-{{ partial "related.html" }}
+            
+            <h4>More like this...</h4>
+            <ul>
+            {{ $.Scratch.Set "limit" 0 }}
+            {{ $currentPagePermalink := .Permalink }}
+            {{ $tags := .Params.tags }}
+            {{ range .Site.Pages }}
+              {{ $isMatchTags := intersect $tags .Params.tags | len | lt 0 }}
+              {{ if and $isMatchTags (ne .Permalink $currentPagePermalink) (lt ($.Scratch.Get "limit") 5) }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ $.Scratch.Add "limit" 1 }}
+              {{ end }}
+            {{ end }}
+            </ul>
 
 {{ partial "comments.html" }}
 
