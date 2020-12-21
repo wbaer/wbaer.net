@@ -287,3 +287,8 @@ html, body {
   #mdl-wb__search-results {
      background-color: inherit;
 }
+
+.mdl-wb .social-share_icon {
+    text-decoration: none;
+    word-spacing: 14px;
+}
