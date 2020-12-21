@@ -292,9 +292,3 @@ html, body {
     text-decoration: none;
     word-spacing: 14px;
 }
-.mdl-layout-title {
-    left: 30px;
-}
-.mdl-layout__drawer-button {
-    content: "\f0c9";
-}
