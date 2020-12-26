@@ -263,6 +263,7 @@ html, body {
      cursor: default;
      box-sizing: border-box;
      display: inline-block;
+     vertical-align: middle;
 }
  .mdl-wb .social-icons__icon {
      width: 1rem;
