@@ -1,5 +1,5 @@
 ---
-title: 'New support for # and % in SharePoint Online and OneDrive for Business'
+title: 'New support for special characters in SharePoint Online and OneDrive for Business'
 date: Thu, 06 Apr 2017 16:06:00 +0000
 draft: false
 tags: ['Characters', 'OneDrive for Business', 'SharePoint']
