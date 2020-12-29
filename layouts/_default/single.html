@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partialCached "header/header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
         <div class="mdl-cell mdl-cell--12-col">
@@ -21,8 +21,9 @@
             </p>
 
             {{ if not .Params.hideDate }}
-            <p class="post-metadata">{{ partial "timestamp.html" . }}</p>
+            <p class="post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
             {{ end }}
+            
             {{ range .Params.tags }}
             <span class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
             {{ end }}
@@ -65,8 +66,8 @@
             {{ end }}
             </ul>
 
-{{ partial "comments.html" . }}
+{{ partial "helpers/comments.html" . }}
 
             </div>
 
-{{partial "footer.html" . }}
+{{ partialCached "footer/footer.html" . }}

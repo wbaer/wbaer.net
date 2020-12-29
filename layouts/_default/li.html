@@ -1,7 +1,7 @@
         <div class="mdl-cell mdl-cell--12-col">
             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 
-            <p>{{ partial "timestamp.html" . }}</p>
+            <p>{{ partial "helpers/timestamp.html" . }}</p>
 
             <p>{{ .Summary | plainify | safeHTML }}</p>
 

@@ -6,6 +6,11 @@ copyright = "&copy; 2020 Bill Bär"
 [markup.goldmark.renderer]
 unsafe= true
 
+[permalinks]
+posts = "/:year/:month/:slug/"
+archm = "/:year/:month/"
+archy = "/:year/"
+
 # Outputs
 
 [outputs]
@@ -35,24 +40,14 @@ params = ["categories", "tags"]
   tag = "tags"
   
 [[menu.main]]
-    name = "Home"
+    name = "HOME"
     url = "/"
     weight = 1
-    
+
 [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "SUBSCRIBE"
+    url = "https://feeds.feedburner.com/wbaer"
     weight = 2
-
-[[menu.main]]
-    name = "Blog"
-    url = "/posts"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
     
 [related]
   includeNewer = false

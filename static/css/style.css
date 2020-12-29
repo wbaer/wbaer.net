@@ -21,6 +21,10 @@ html, body {
         left: 0;
     }
 }
+
+.mdl-layout-title {
+  left: 20px;
+}
  .material-icons {
      text-rendering: optimizeLegibility;
 }
@@ -247,8 +251,9 @@ html, body {
  .mdl-wb .post-tags {
      display: inline-block;
 }
- .mdl-wb .post-tags::before {
-     content: "#";
+.mdl-wb .post-tags::before {
+   font-family: FontAwesome;
+   content: "\f02b  ";
 }
  .mdl-wb .social-icons__container {
      width: 36px;

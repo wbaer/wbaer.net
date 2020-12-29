@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partialCached "header/header.html" . }}
     
 {{ if .IsHome }}
 {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
@@ -21,6 +21,6 @@
 {{ end }}
 {{ end }}
 
-{{ partial "pagination.html" .Paginator }}
+{{ partial "helpers/pagination.html" .Paginator }}
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer/footer.html" . }}

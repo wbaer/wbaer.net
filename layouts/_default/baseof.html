@@ -1,5 +1,5 @@
-{{ partial "head.html" . }} 
-{{ partial "header.html" . }} 
+{{ partialCached "head/head.html" . }} 
+{{ partialCached "header/header.html" . }} 
 {{ block "main" . }}
 {{ end }} 
-{{ partial "footer.html" . }} 
+{{ partialCached "footer/footer.html" . }} 

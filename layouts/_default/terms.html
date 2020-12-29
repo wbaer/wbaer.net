@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partialCached "header/header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
         <div class="mdl-cell mdl-cell--12-col">
@@ -15,4 +15,4 @@
 
         </div>
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer/footer.html" . }}
