@@ -1,5 +1,5 @@
 ---
-title: 'The database  on serverMicrosoft##SSEE is not accessible to missing Windows Internal Database signatures.'
+title: 'The database  on serverMicrosoftSSEE is not accessible to missing Windows Internal Database signatures.'
 date: Tue, 23 Oct 2007 17:40:00 +0000
 draft: false
 tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
