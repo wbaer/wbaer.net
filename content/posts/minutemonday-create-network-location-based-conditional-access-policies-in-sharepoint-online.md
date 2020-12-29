@@ -1,5 +1,5 @@
 ---
-title: '#MinuteMonday - Create Network Location-Based Conditional Access Policies in SharePoint Online'
+title: 'MinuteMonday - Create Network Location-Based Conditional Access Policies in SharePoint Online'
 date: Mon, 17 Apr 2017 16:43:04 +0000
 draft: false
 tags: ['Conditional Access', 'Security and Compliance']
