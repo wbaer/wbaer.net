@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partialCached "header/header.html" . }}
 
 {{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Type" "posts") ".Params.hidden" "!=" "true" )).Pages }}
     {{if ne $index 0 }}
@@ -6,5 +6,5 @@
     {{ .Render "posts" }}
 {{ end }}
 
-{{ partial "pagination.html" .Paginator }}
-{{ partial "footer.html" . }}
+{{ partial "helpers/pagination.html" .Paginator }}
+{{ partialCached "footer/footer.html" . }}
