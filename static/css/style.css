@@ -283,7 +283,7 @@ html, body {
 }
  .mdl-wb .search-icon {
      position: absolute;
-     padding-top: 3px;
+     padding-top: 6px;
      box-sizing: border-box;
 }
  .mdl-wb .search-box {
@@ -297,4 +297,22 @@ html, body {
 .mdl-wb .social-share_icon {
     text-decoration: none;
     word-spacing: 14px;
+}
+.mdl-wb .post-metadata::before {
+  font-family: FontAwesome;
+  content: "\f073";
+}
+
+.mdl-layout__drawer-button i {
+  display: none;
+}
+
+.mdl-layout__drawer-button::after {
+  display: inline;
+  position: relative;
+  top: -5px;
+  font-family: FontAwesome;
+  font-size: 1.2rem;
+  line-height: 1;
+  content: "\f0c9";
 }

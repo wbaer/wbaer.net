@@ -1,9 +1,9 @@
         <div class="mdl-cell mdl-cell--12-col">
             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 
-            <p>{{ partial "helpers/timestamp.html" . }}</p>
+            <p class="mdl-wb post-metadata"> {{ partial "helpers/timestamp.html" . }}</p>
 
-            <p>{{ .Summary | plainify | safeHTML }}</p>
+            <p>{{ .Summary | markdownify | safeHTML }}</p>
 
             {{ if .Truncated }}
             <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></span>

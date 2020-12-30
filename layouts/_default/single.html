@@ -21,11 +21,11 @@
             </p>
 
             {{ if not .Params.hideDate }}
-            <p class="post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
+            <p class="mdl-wb post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
             {{ end }}
             
             {{ range .Params.tags }}
-            <span class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
+            <p class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></p>
             {{ end }}
 
             {{ with .Params.thumbnail }}
