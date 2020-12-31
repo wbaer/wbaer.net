@@ -1,5 +1,50 @@
 {{ partialCached "head/head.html" . }}
     <body class="mdl-wb mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+        
+        
+        
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+            {{ end }}
+          </nav>
+          
+          <!-- start search form -->
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+                <form id="search" role="search" class="search">
+                    <input class="mdl-textfield__input" type="text" id="search-expandable" />
+                    <label class="mdl-textfield__label" for="search-expandable">Search text</label>
+                </form>
+            </div>
+          </div>
+          <!-- end search form -->
+          
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
+        <nav class="mdl-navigation">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+            {{ end }}
+        </nav>
+      </div>
+        
+        
+        
+        
+        <!--
         <div class="mdl-layout__header--waterfall mdl-layout mdl-js-layout mdl-layout--fixed-header">
             <header class="mdl-layout__header mdl-layout__header--waterfall">
                 <div class="mdl-layout__header-row">
@@ -28,33 +73,8 @@
                     {{ end }}
                     </nav>
                 </div>
-                
-                <!--
-                <div class="mdl-layout__header-row">
-                    <div class="mdl-layout-spacer"></div>
-                    <nav class="mdl-navigation">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                        <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-                        {{ end }}
-                    </nav>
-                </div>
-                -->
             </header>
-            
-            <!--
-            <div class="mdl-layout__drawer">
-                <span class="mdl-layout-title"></span>
-                <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="/">HOME</a>
-                    <a class="mdl-navigation__link" href="/about">ABOUT</a>
-                    <a class="mdl-navigation__link" href="/posts">POSTS</a>
-                    <a class="mdl-navigation__link" href="/archive">ARCHIVES</a>
-                    <a class="mdl-navigation__link" href="/tags">TAGS</a>
-                    <a class="mdl-navigation__link" href="/contact">CONTACT</a>
-                </nav>
-            </div>
-            -->
+        -->
             
             <main class="mdl-layout__content">
                 

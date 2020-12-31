@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function(event)
   var queuedTerm = null;
 
   var form = document.getElementById("search");
-  var input = document.getElementById("waterfall-exp");
+  var input = document.getElementById("search-expandable");
 
   form.addEventListener("submit", function(event)
   {
