@@ -54,16 +54,6 @@ params = ["categories", "tags"]
     url = "/archive"
     weight = 3
     
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
-
-[[menu.main]]
-    name = "Subscribe"
-    url = "https://feeds.feedburner.com/wbaer"
-    weight = 5
-    
 [related]
   includeNewer = false
   threshold = 80
