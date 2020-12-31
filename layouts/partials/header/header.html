@@ -1,93 +1,49 @@
 {{ partialCached "head/head.html" . }}
     <body class="mdl-wb mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-        
-        
-        
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
-          <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-            {{ end }}
-          </nav>
           
-          <!-- start search form -->
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-                <form id="search" role="search" class="search">
-                    <input class="mdl-textfield__input" type="text" id="search-expandable" />
-                    <label class="mdl-textfield__label" for="search-expandable">Search text</label>
-                </form>
-            </div>
-          </div>
-          <!-- end search form -->
-          
-        </div>
-      </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
-        <nav class="mdl-navigation">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-            {{ end }}
-        </nav>
-      </div>
-        
-        
-        
-        
-        <!--
-        <div class="mdl-layout__header--waterfall mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <header class="mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
                 <div class="mdl-layout__header-row">
-                    <div class="mdl-layout-title">
-                        Bill Bär (ˈbɛər)
-                    </div>
+                    <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
                     <div class="mdl-layout-spacer"></div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
-                        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
-                            <i class="fas fa-search fa-xs"></i>
+                    <nav class="mdl-navigation">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                        {{ end }}
+                    </nav>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
+                            <!-- <i class="material-icons">search</i> -->
+                            <i class="material-icons notranslate spyglass" aria-label="Search Material Design">search</i>
                         </label>
                         <div class="mdl-textfield__expandable-holder">
                             <form id="search" role="search" class="search">
-                                <input class="mdl-textfield__input" type="search" id="waterfall-exp" placeholder="search..." autocomplete="off">
+                                <input class="mdl-textfield__input" type="text" id="search-expandable" />
+                                <label class="mdl-textfield__label" for="search-expandable">Search text</label>
                             </form>
                         </div>
-                    </div> 
-                </div>
-                
-                <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                    <div class="mdl-layout-spacer"></div>
-                    <nav class="mdl-navigation">
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
-                    <a class="mdl-layout__tab" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-                    {{ end }}
-                    </nav>
+                    </div>
                 </div>
             </header>
-        -->
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
+                <nav class="mdl-navigation">
+                    <!-- <i _ngcontent-ufd-c1 class="material-icons notranslate" title="Toggle Navigation">menu</i> -->
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                    {{ end }}
+                </nav>
+            </div>
             
-            <main class="mdl-layout__content">
-                
+            <main class="mdl-layout__content mdl-color--white">
                 <div class="mdl-layout__tab-panel is-active" id="overview">
-                    
                     <section class="section--center mdl-grid mdl-grid--no-spacing">
-                        
                         <div class="mdl-cell mdl-cell--12-col">
                             <div class="mdl-wb search-result__container"></div>
                         </div>
-                        
                         <template id="mdl-wb__search-result" hidden>
-                            <!-- <div class="mdl-cell mdl-cell--12-col"> -->
                                 <article class="content post">
                                     <h4 class="post-title"><a class="search-result__link"></a></h4>
                                     <p class="search-result__summary"></p>
@@ -95,5 +51,4 @@
                                         <span class="mdl-button mdl-js-button mdl-button--accent"><a class="search-result__button">Expand Result</a></span>
                                     </div>
                                 </article>
-                            <!-- </div> -->
                         </template>

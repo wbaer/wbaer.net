@@ -4,31 +4,6 @@ html, body {
      padding: 0;
      scroll-behavior: smooth;
 }
-/*
- .mdl-layout__header-row .mdl-navigation__link:last-of-type {
-     padding-right: 0;
-}
- .mdl-textfield__input {
-     font-family: 'Roboto', 'Helvetica', sans-serif;
-     font-size: 14px;
-}
-/* @media screen and (max-width: 1024px) {
-    .mdl-layout__header-row {
-        height: 56px;
-        padding: 0 16px 0 16px;
-    }
-    .mdl-layout-title {
-        top: 0;
-        left: 0;
-    }
-}
-
- .material-icons {
-     text-rendering: optimizeLegibility;
-}
-*/
-
-
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -41,25 +16,11 @@ html, body {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
-  /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
   font-feature-settings: 'liga';
 }
-
-
-/*
- .mdl-wb .mdl-layout__header-row {
-     padding-left: 40px;
-}
-*/
  .mdl-wb .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
      font-size: inherit;
 }
@@ -322,7 +283,6 @@ html, body {
   #mdl-wb__search-results {
      background-color: inherit;
 }
-
 .mdl-wb .social-share_icon {
     text-decoration: none;
     word-spacing: 14px;
@@ -331,18 +291,3 @@ html, body {
   font-family: FontAwesome;
   content: "\f073";
 }
-/*
-.mdl-layout__drawer-button i {
-  display: none;
-}
-
-.mdl-layout__drawer-button::after {
-  display: inline;
-  position: relative;
-  top: -5px;
-  font-family: FontAwesome;
-  font-size: 1.2rem;
-  line-height: 1;
-  content: "\f0c9";
-}
-*/

@@ -3,71 +3,53 @@
 
         <div class="mdl-cell mdl-cell--12-col">
             <h4>{{.Title }}</h4>
-            
-            <p>
-            
-            <a class="mdl-wb social-share_icon" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
-                <i class="fa fa-facebook-f"></i>
-            </a>
-            
-            <a class="mdl-wb social-share_icon" href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-  
-            <a class="mdl-wb social-share_icon" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            
-            </p>
+            <p><a class="mdl-wb social-share_icon" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
+                <i class="fa fa-facebook-f"></i></a> <a class="mdl-wb social-share_icon" href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
+                <i class="fa fa-twitter"></i></a> <a class="mdl-wb social-share_icon" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></p>
 
             {{ if not .Params.hideDate }}
-            <p class="mdl-wb post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
+                    <p class="mdl-wb post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
             {{ end }}
             
             {{ range .Params.tags }}
-            <p class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></p>
+                    <p class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></p>
             {{ end }}
 
             {{ with .Params.thumbnail }}
-            <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
+                    <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
             {{ end }}                
 
             <p>{{ .Content }}</p>
             
-            
             <div class="mdl-grid">
                 <div class="mdl-layout-spacer"></div>
-
                     {{ if .PrevInSection }}
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
                     {{ else }}
                     {{ end }}
-
-
                     {{ if .NextInSection }}
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
                     {{ else }}
                     {{ end }}
-
                 <div class="mdl-layout-spacer"></div>
             </div>
             
             <h4>More like this...</h4>
             <ul>
-            {{ $.Scratch.Set "limit" 0 }}
-            {{ $currentPagePermalink := .Permalink }}
-            {{ $tags := .Params.tags }}
-            {{ range .Site.Pages }}
-              {{ $isMatchTags := intersect $tags .Params.tags | len | lt 0 }}
-              {{ if and $isMatchTags (ne .Permalink $currentPagePermalink) (lt ($.Scratch.Get "limit") 5) }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ $.Scratch.Add "limit" 1 }}
-              {{ end }}
-            {{ end }}
+                {{ $.Scratch.Set "limit" 0 }}
+                {{ $currentPagePermalink := .Permalink }}
+                {{ $tags := .Params.tags }}
+                {{ range .Site.Pages }}
+                {{ $isMatchTags := intersect $tags .Params.tags | len | lt 0 }}
+                {{ if and $isMatchTags (ne .Permalink $currentPagePermalink) (lt ($.Scratch.Get "limit") 5) }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ $.Scratch.Add "limit" 1 }}
+                        {{ end }}
+                {{ end }}
             </ul>
 
 {{ partial "helpers/comments.html" . }}
 
-            </div>
+        </div>
 
 {{ partialCached "footer/footer.html" . }}

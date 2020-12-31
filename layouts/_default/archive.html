@@ -1,35 +1,33 @@
 {{ define "main" }}
-
 		<div class="mdl-cell mdl-cell--12-col">
-			  {{ $type := .Type }}
-			  {{ $.Scratch.Set "count" 1 }}
+			{{ $type := .Type }}
+			{{ $.Scratch.Set "count" 1 }}
 		
-				{{ range (.Site.RegularPages.GroupByDate "2006") }}
-				  {{ if (gt .Key 2000) }}
+			{{ range (.Site.RegularPages.GroupByDate "2006") }}
+			{{ if (gt .Key 2000) }}
 		
-					{{ range (where .Pages "Type" $type) }}
-					  {{ if (eq ($.Scratch.Get "count") 1) }}
-						{{ $.Scratch.Set "count" 0 }}
-						<h4>{{ .Date.Format "2006" }}</h4>
-					  {{ end }}
+				{{ range (where .Pages "Type" $type) }}
+				{{ if (eq ($.Scratch.Get "count") 1) }}
+					{{ $.Scratch.Set "count" 0 }}
+					<h4>{{ .Date.Format "2006" }}</h4>
 					{{ end }}
+				{{ end }}
 		
-					{{ $.Scratch.Set "count" 1 }}
+				{{ $.Scratch.Set "count" 1 }}
 		
-					  <ul class="mdl-list">
-					  {{ range (where .Pages "Type" $type) }}
+					<ul class="mdl-list">
+						{{ range (where .Pages "Type" $type) }}
 						{{ if (ne .Params.hidden true) }}
-						  <li class="mdl-list__item">
+						<li class="mdl-list__item">
 							<a href="{{ .RelPermalink }}">
-							  <span>{{ .Date.Format "January 02" }}</span> — {{ .Title }}
+								<span>{{ .Date.Format "January 02" }}</span> — {{ .Title }}
 							</a>
-						  </li>
+						</li>
 						{{ end }}
-					  {{ end }}
-					  </ul>
+					{{ end }}
+					</ul>
 					<br />
 				{{ end }}
 			  {{ end }}
 		</div>
-		
 {{ end }}
