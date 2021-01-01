@@ -4,14 +4,16 @@
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
             <header class="mdl-layout__header">
                 <div class="mdl-layout__header-row">
-                    <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
+                    <span class="mdl-layout-title"><a href="/">Bill Bär (ˈbɛər)</a></span>
                     <div class="mdl-layout-spacer"></div>
+                    <!--
                     <nav class="mdl-navigation">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
                         <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
+                    -->
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                         <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
                             <i class="material-icons notranslate spyglass">search</i>
@@ -22,7 +24,7 @@
                                 <label class="mdl-textfield__label" for="search-expandable">Search text</label>
                             </form>
                             <script src="https://unpkg.com/lunr/lunr.js"></script>
-                            <script src="{{ .Site.BaseURL }}/js/search.min.js"></script>
+                            <script src="{{ .Site.BaseURL }}/js/search.min.js" defer></script>
                         </div>
                     </div>
                 </div>

@@ -4,22 +4,33 @@ html, body {
    padding: 0;
    scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MaterialIcons-Regular.eot");
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url("../fonts/MaterialIcons-Regular.woff") format('woff'),
+  url("../fonts/MaterialIcons-Regular.woff2") format('woff2'),
+  url("../fonts/MaterialIcons-Regular.ttf") format('truetype');
+}
 .material-icons {
-font-family: 'Material Icons';
-font-weight: normal;
-font-style: normal;
-font-size: 24px;  /* Preferred icon size */
-display: inline-block;
-line-height: 1;
-text-transform: none;
-letter-spacing: normal;
-word-wrap: normal;
-white-space: nowrap;
-direction: ltr;
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
--moz-osx-font-smoothing: grayscale;
-font-feature-settings: 'liga';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
 }
 .mdl-wb .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
    font-size: inherit;
@@ -54,6 +65,11 @@ font-feature-settings: 'liga';
 .mdl-wb main > .mdl-layout__tab-panel {
    padding: 8px;
    padding-top: 48px;
+}
+.mdl-layout-title a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-weight: normal;
 }
 .mdl-wb .mdl-card {
    height: auto;
