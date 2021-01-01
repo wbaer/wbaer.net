@@ -14,8 +14,7 @@
                     </nav>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                         <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
-                            <!-- <i class="material-icons">search</i> -->
-                            <i class="material-icons notranslate spyglass" aria-label="Search Material Design">search</i>
+                            <i class="material-icons notranslate spyglass">search</i>
                         </label>
                         <div class="mdl-textfield__expandable-holder">
                             <form id="search" role="search" class="search">
@@ -29,7 +28,6 @@
             <div class="mdl-layout__drawer">
                 <span class="mdl-layout-title">Bill Bär (ˈbɛər)</span>
                 <nav class="mdl-navigation">
-                    <!-- <i _ngcontent-ufd-c1 class="material-icons notranslate" title="Toggle Navigation">menu</i> -->
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
                         <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>

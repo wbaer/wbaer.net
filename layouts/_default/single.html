@@ -3,16 +3,16 @@
 
         <div class="mdl-cell mdl-cell--12-col">
             <h4>{{.Title }}</h4>
-            <p><a class="mdl-wb social-share_icon" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
+            <p class="mdl-wb social-share_icon"><a class="mdl-wb social-share_icon" href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
                 <i class="fa fa-facebook-f"></i></a> <a class="mdl-wb social-share_icon" href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
                 <i class="fa fa-twitter"></i></a> <a class="mdl-wb social-share_icon" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></p>
 
             {{ if not .Params.hideDate }}
-                    <p class="mdl-wb post-metadata">{{ partial "helpers/timestamp.html" . }}</p>
+                    <span class="mdl-wb post-metadata">{{ partial "helpers/timestamp.html" . }}</span> |
             {{ end }}
             
             {{ range .Params.tags }}
-                    <p class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></p>
+                    <span class="mdl-wb post-tags"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
             {{ end }}
 
             {{ with .Params.thumbnail }}
