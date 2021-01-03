@@ -19,12 +19,12 @@
                             <i class="material-icons notranslate spyglass">search</i>
                         </label>
                         <div class="mdl-textfield__expandable-holder">
-                            <form id="search" role="search" class="search" action="{{ .Site.BaseURL }}/search/" method="get">
-                                <input class="mdl-textfield__input" type="text" id="search-expandable" name="q" />
+                            <form id="search" role="search" class="search">
+                                <input class="mdl-textfield__input" type="text" id="search-expandable" />
                                 <label class="mdl-textfield__label" for="search-expandable">Search text</label>
                             </form>
-                            <!-- <script src="https://unpkg.com/lunr/lunr.js"></script> -->
-                            <!-- <script src="{{ .Site.BaseURL }}/js/search.min.js" defer></script> -->
+                            <script src="https://unpkg.com/lunr/lunr.js"></script>
+                            <script src="{{ .Site.BaseURL }}/js/search.min.js" defer></script>
                         </div>
                     </div>
                 </div>
