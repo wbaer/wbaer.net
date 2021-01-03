@@ -54,6 +54,11 @@ params = ["categories", "tags"]
     url = "/archive"
     weight = 3
     
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
+    
 [related]
   includeNewer = false
   threshold = 80
