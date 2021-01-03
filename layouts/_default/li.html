@@ -1,9 +1,4 @@
         <div class="mdl-cell mdl-cell--12-col">
-                <strong>Bill Baer is a Senior Product Manager and Microsoft Certified Master for Microsoft Search, Assistant, and Intelligence at Microsoft in Redmond, Washington.</strong>
-        </div>
-        <div class="mdl-layout-spacer"></div>
-        
-        <div class="mdl-cell mdl-cell--12-col">
             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
             <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
             <p>{{ .Summary | markdownify | safeHTML }}</p>
