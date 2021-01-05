@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+<div>
+	<form action="#">
+		<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" stye="width: 100%;">
+			<input class="mdl-textfield__input" type="text" id="search">
+			<label class="mdl-textfield__label" for="search">Search</label>
+		 </div>
+	</form>
+	
+	<ul id="results"></ul>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/lunr/lunr.js"></script>
+	<script>
+	  var lunrIndex,
+		  $results,
+		  documents;
+	
+	  function initLunr() {
+		// retrieve the index file
+		$.getJSON("https://wbaer.net/lunr.json")
+		  .done(function(index) {
+			  documents = index;
+	
+			  lunrIndex = lunr(function(){
+				this.ref('href')
+				this.field('content')
+	
+				this.field("title", {
+					boost: 10
+				});
+	
+				this.field("tags", {
+					boost: 5
+				});
+	
+				documents.forEach(function(doc) {
+				  try {
+					// console.log(doc.href)
+					this.add(doc)
+				  } catch (e) {}
+				}, this)
+			  })
+		  })
+		  .fail(function(jqxhr, textStatus, error) {
+			  var err = textStatus + ", " + error;
+			  console.error("Error getting Lunr index file:", err);
+		  });
+	  }
+	
+	  function search(query) {
+		return lunrIndex.search(query).map(function(result) {
+		  return documents.filter(function(page) {
+			try {
+			  // console.log(page)
+			  return page.href === result.ref;
+			} catch (e) {
+			  console.log('whoops')
+			}
+		  })[0];
+		});
+	  }
+	
+	  function renderResults(results) {
+		if (!results.length) {
+		  return;
+		}
+	
+		results.slice(0, 30).forEach(function(result) {
+		  var $result = $("<li>");
+	
+		  $result.append($("<a>", {
+			href: result.href,
+			text: result.title
+		  }));
+	
+		  $result.append(" <small><time>" + result.date + "</time></small>");
+	
+		  $results.append($result);
+		});
+	  }
+	
+	  function initUI() {
+		$results = $("#results");
+	
+		$("#search").keyup(function(){
+		  // empty previous results
+		  $results.empty();
+	
+		  // trigger search when at least two chars provided.
+		  var query = $(this).val();
+		  if (query.length < 2) {
+			return;
+		  }
+	
+		  var results = search(query);
+	
+		  renderResults(results);
+		});
+	  }
+	
+	  initLunr();
+	
+	  $(document).ready(function(){
+		initUI();
+	  });
+	</script>
+	</div>
+
+{{ end }}
