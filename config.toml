@@ -45,29 +45,39 @@ params = ["categories", "tags"]
     weight = 1
     
 [[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 2
+    
+[[menu.main]]
     name = "Archives"
     url = "/archive"
-    weight = 2
+    weight = 3
     
 [[menu.main]]
   name = "Tags"
   url = "/tags"
-  weight = 3
-  
+  weight = 4
+
+[[menu.horizontal]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
 [[menu.horizontal]]
   name = "About"
   url = "/about"
-  weight = 1
+  weight = 2
   
 [[menu.horizontal]]
-  name = "Contact"
-  url = "/contact"
-  weight = 2
+  name = "Archives"
+  url = "/archives"
+  weight = 3
 
 [[menu.horizontal]]
-  name = "Subscribe"
-  url = "/about"
-  weight = 3
+  name = "Tags"
+  url = "/tags"
+  weight = 4
     
 [related]
   includeNewer = false
