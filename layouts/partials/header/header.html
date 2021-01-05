@@ -7,7 +7,7 @@
                     <div class="mdl-layout-spacer"></div>
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
                         {{ $currentPage := . }}
-                        {{ range .Site.Menus.horizontal }}
+                        {{ range .Site.Menus.main }}
                         <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
