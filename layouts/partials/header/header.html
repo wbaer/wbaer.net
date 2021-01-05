@@ -7,7 +7,7 @@
                     <div class="mdl-layout-spacer"></div>
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
                         {{ $currentPage := . }}
-                        {{ range .Site.Menus.vertical }}
+                        {{ range .Site.Menus.horizontal }}
                         <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </header>
-            <div class="mdl-layout__drawer">
+            <div class="mdl-layout__drawer mdl-layout--large-screen-only">
                 <span class="mdl-layout-title">Bill Baer (ˈbɛər)</span>
                 <nav class="mdl-navigation">
                     {{ $currentPage := . }}

@@ -54,17 +54,17 @@ params = ["categories", "tags"]
   url = "/tags"
   weight = 3
   
-[[menu.vertical]]
+[[menu.horizontal]]
   name = "About"
   url = "/about"
   weight = 1
   
-[[menu.vertical]]
+[[menu.horizontal]]
   name = "Contact"
   url = "/contact"
   weight = 2
 
-[[menu.vertical]]
+[[menu.horizontal]]
   name = "Subscribe"
   url = "/about"
   weight = 3
