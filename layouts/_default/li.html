@@ -1,9 +1,9 @@
-        <div class="mdl-cell mdl-cell--12-col">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
-            <p>{{ .Summary | markdownify | safeHTML }}</p>
-            {{ if .Truncated }}
-            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></span>
-            {{ end }}
-            <hr />
-        </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
+                    <p>{{ .Summary | markdownify | safeHTML }}</p>
+                    {{ if .Truncated }}
+                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more">More</a></span>
+                    {{ end }}
+                    <hr />
+                </div>
