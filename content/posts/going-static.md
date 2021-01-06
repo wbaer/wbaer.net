@@ -1,10 +1,9 @@
-+++ 
-title = "Going Static" 
-date = 2020-12-09T13:10:22-08:00 
-images = [] 
-tags = ['Open Source', 'Static', 'Hugo', 'Go', 'lunr', 'GitHub', 'Utterances'] 
-draft = false
-+++
+---
+title: 'Going Static'
+date: 2020-12-09T13:10:22-08:00 
+draft: false
+tags: ['Open Source', 'Static', 'Hugo', 'Go', 'lunr', 'GitHub', 'Utterances'] 
+---
 
 You’ve probably noticed some changes around here over the last couple of days.  After 15 years of maintaining my blog and 20 of maintaining this domain I’ve decided to consolidate the two - my “splash” page at wbaer.net and blog at blog.wbaer.net.
 \
