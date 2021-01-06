@@ -2,7 +2,7 @@
 title: 'I''m pleased to announce the availability of Microsoft IT Team Site Life Cycle Management Beta 1.0 for SharePoint Products and Technologies.'
 date: Fri, 01 Jun 2007 19:38:00 +0000
 draft: false
-tags: ['Code Samples', 'Governance', 'Uncategorized']
+tags: ['Code Samples', 'Governance']
 ---
 
 I'm pleased to announce the availability of Microsoft IT Team Site Life Cycle Management (MSIT TSLCM) Beta 1.0 for SharePoint Products and Technologies.

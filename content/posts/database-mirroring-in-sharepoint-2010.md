@@ -2,7 +2,7 @@
 title: 'Database Mirroring in SharePoint 2010'
 date: Mon, 03 May 2010 12:01:40 +0000
 draft: false
-tags: ['SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Server 2010']
 ---
 
 Database mirroring provides an additional layer of resiliency, specifically, in highly available architectures, by providing a level of granularity not available to failover clustering.  For additional information on database mirroring see also [http://technet.microsoft.com/en-us/library/ms189852.aspx](http://technet.microsoft.com/en-us/library/ms189852.aspx "http://technet.microsoft.com/en-us/library/ms189852.aspx") (SQL Server 2008) or [http://technet.microsoft.com/en-us/library/ms189852(SQL.90).aspx](http://technet.microsoft.com/en-us/library/ms189852(SQL.90).aspx "http://technet.microsoft.com/en-us/library/ms189852(SQL.90).aspx") (SQL Server 2005).

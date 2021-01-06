@@ -2,7 +2,7 @@
 title: 'SharePoint 2010:  Bits from the Edge Virtual Conference'
 date: Mon, 15 Feb 2010 08:59:31 +0000
 draft: false
-tags: ['Conferences and Events', 'Uncategorized']
+tags: ['Conferences and Events']
 ---
 
 [Register](https://www.vconferenceonline.com/shows/spring10/sharepoint/register/vcreg.asp) to attend the [SharePoint 2010:  Bits from the Edge Virtual Conference](http://www.vconferenceonline.com/shows/spring10/sharepoint/) brought to you by [SharePoint Connections](http://www.sharepointproconnections.com/). 

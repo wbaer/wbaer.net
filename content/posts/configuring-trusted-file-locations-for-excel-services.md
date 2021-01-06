@@ -2,7 +2,7 @@
 title: 'Configuring Trusted File Locations for Excel Services'
 date: Wed, 14 Feb 2007 17:16:00 +0000
 draft: false
-tags: ['Excel Calculation Services', 'Uncategorized']
+tags: ['Excel Calculation Services']
 ---
 
 The following information is a reference guide to configuring Trusted File Locations for Excel Calculation Services in **Microsoft Office SharePoint Server 2007**.  Your configuration may vary due to performance and hardware considerations; you should test configuration parameters for performance and scale before application to a production environment.

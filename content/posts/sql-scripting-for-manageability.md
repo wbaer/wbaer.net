@@ -2,7 +2,7 @@
 title: 'SQL Scripting for Manageability'
 date: Tue, 31 Oct 2006 13:44:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 The attached SQL scripts are intended as sample scripts and may require some modification to suit your individual environments; however, serve as a foundation and guidance in SQL scripting under **Windows SharePoint Services 3.0**.

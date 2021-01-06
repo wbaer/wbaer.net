@@ -2,7 +2,7 @@
 title: 'Microsoft SharePoint Administration Toolkit'
 date: Sat, 29 Aug 2009 12:20:00 +0000
 draft: false
-tags: ['Add-ons and Utilities', 'IT Pro Resources', 'Uncategorized']
+tags: ['Add-ons and Utilities', 'IT Pro Resources']
 ---
 
 The 4th release of the Microsoft SharePoint Administration Toolkit is now available for download and includes improvements in the SharePoint Diagnostics Tool (SPDiag), a new Permissions Reporting Tool, a new bulk Quota processing tool, in addition to the Security Configuration Wizard Manifests.  The Microsoft SharePoint Administration Toolkit is an excellent suite of utilites aimed at the system administrator to assist in both isolating issues, understanding the overall environment they support, and making common administrative tasks more efficient and reliable.

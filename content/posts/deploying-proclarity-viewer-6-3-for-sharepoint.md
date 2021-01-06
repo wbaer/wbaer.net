@@ -2,7 +2,7 @@
 title: 'Deploying ProClarity Viewer 6.3 for SharePoint'
 date: Fri, 21 Sep 2007 16:13:00 +0000
 draft: false
-tags: ['Add-ons and Utilities', 'Code Samples', 'Uncategorized']
+tags: ['Add-ons and Utilities', 'Code Samples']
 ---
 
 I was recently asked to deploy the ProClarity Viewer 6.3 for SharePoint Web Part - after downloading the package I realized that it was not offered in a deployable package, but rather a compressed archive of the .dwp, assembly, and resource files.  The challenge became offering a user experience similar to the previous ProClarity Viewer version so I decided to package the Web Part into a reusable solution.  For those interested or looking to create a deployable Web Part package I've documented the steps below:

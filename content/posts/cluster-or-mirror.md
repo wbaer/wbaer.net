@@ -2,7 +2,7 @@
 title: 'Cluster or mirror?'
 date: Wed, 15 Aug 2007 23:33:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 Should I cluster or mirror?  A few short months ago, the answer to that question would have been easy, now with the increasing popularity of database mirroring to achieve redundancy and geographic replication the answer is split...while each solution provides its own unique benefits, those benefits can be distributed across the answer to what are trying to achieve?

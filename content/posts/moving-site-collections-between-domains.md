@@ -2,7 +2,7 @@
 title: 'Moving site collections between domains...'
 date: Tue, 06 Nov 2007 10:49:00 +0000
 draft: false
-tags: ['Cross-Forest Hosting', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Cross-Forest Hosting', 'Windows SharePoint Services 3.0']
 ---
 
 Moving site collections between domains is not a common operation, but occurs frequently enough to provide some prescriptive guidance. 

@@ -2,7 +2,7 @@
 title: 'PowerShell and SharePoint Automation Examples Part 3'
 date: Thu, 17 Sep 2009 11:28:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized', 'Windows Powershell']
+tags: ['Code Samples', 'Windows Powershell']
 ---
 
 Automating your Microsoft SharePoint Products and Technologies installations can provide both consistency and efficiency while reducing the potential for human error.  This is the third post on the subject of leveraging PowerShell to provide configuration logic for your environment(s).  In this example we cover the configuration of Diagnostic Logging through PowerShell and a source Xml manifest.  For previous examples see [http://blogs.technet.com/wbaer/archive/tags/Powershell/default.aspx](http://blogs.technet.com/wbaer/archive/tags/Powershell/default.aspx).

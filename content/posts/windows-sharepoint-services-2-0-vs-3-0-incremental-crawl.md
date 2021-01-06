@@ -2,7 +2,7 @@
 title: 'Windows SharePoint Services 2.0 vs. 3.0 Incremental Crawl'
 date: Sat, 02 Dec 2006 23:54:00 +0000
 draft: false
-tags: ['Search', 'Uncategorized']
+tags: ['Search']
 ---
 
 In a recent conversation with a colleague I was asked the differences between **Windows SharePoint Services 2.0** and 3.0 incremental crawls and the availability of results and thought I would share and explain briefly the differences here:

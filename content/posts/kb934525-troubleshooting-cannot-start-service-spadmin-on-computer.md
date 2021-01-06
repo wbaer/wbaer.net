@@ -2,7 +2,7 @@
 title: 'KB934525 Troubleshooting "Cannot start service SPAdmin on computer ''.''."'
 date: Mon, 15 Oct 2007 15:12:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 I've come across a handful of posts regarding KB934525 for Windows SharePoint Services and failure to start the Windows SharePoint Services Administration service.  I've attached some basic troubleshooting steps that may provide resolution to issues where psconfig fails with **Cannot start service SPAdmin on computer '.'.**  For those who have installed the KB and have experienced issues where the service has failed to start, Option 4 is the recommended solution. 

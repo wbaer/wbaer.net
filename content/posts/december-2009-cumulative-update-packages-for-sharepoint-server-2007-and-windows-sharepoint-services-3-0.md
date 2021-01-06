@@ -2,7 +2,7 @@
 title: 'December 2009 Cumulative Update Packages for SharePoint Server 2007 and Windows SharePoint Services 3.0'
 date: Mon, 04 Jan 2010 15:27:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['IT Pro Resources', 'Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 December 2009 Cumulative Updates are available for download for Microsoft Office SharePoint Server 2007 and Windows SharePoint Services 3.0.

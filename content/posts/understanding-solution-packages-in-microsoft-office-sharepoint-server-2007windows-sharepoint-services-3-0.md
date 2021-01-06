@@ -2,7 +2,7 @@
 title: 'Understanding Solution Packages in Microsoft Office SharePoint Server 2007/Windows SharePoint Services 3.0'
 date: Thu, 29 Mar 2007 19:48:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 **Understanding Solution Packages**

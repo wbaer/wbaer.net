@@ -2,7 +2,7 @@
 title: 'Microsoft Windows Server 2008 as a Host Operating System for Microsoft Virtual Server 2005'
 date: Wed, 02 Jul 2008 14:48:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows Server 2008']
+tags: ['Windows Server 2008']
 ---
 
 Suppose you would like to use Windows Server 2008 as your host operating system, but the system does not provide support for Hyper-V.  The good news is that Microsoft Virtual Server 2005 will install and run under Windows Server 2008 providing the following conditions are met (**including the Virtual Server Administration Web site**):  see notes [http://support.microsoft.com/kb/948515](http://support.microsoft.com/kb/948515 "http://support.microsoft.com/kb/948515").

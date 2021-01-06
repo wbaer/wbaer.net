@@ -2,7 +2,7 @@
 title: 'Announcing the Beta Release of the SharePoint Capacity Planning Tool'
 date: Thu, 06 Dec 2007 21:47:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 After several months of work and very little sleep in between we are pleased to announce general availability of the SharePoint Capacity Planning Tool (Beta).

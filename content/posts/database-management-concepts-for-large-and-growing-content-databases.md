@@ -2,7 +2,7 @@
 title: 'Database Management Concepts for Large and Growing Content Databases'
 date: Tue, 08 May 2007 08:39:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 With the introduction of **Windows SharePoint Services 3.0** and **Microsoft Office SharePoint Server 2007** the desire to reduce the number of content databases supporting a Web application has become a growing requirement to leverage both technologies such as SQL Server 2005 Database Mirroring, log shipping, and reduce the operational requirements to manage a high-volume of content databases.

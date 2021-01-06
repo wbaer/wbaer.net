@@ -2,7 +2,7 @@
 title: 'Microsoft Certified Master for SharePoint 2007'
 date: Fri, 06 Feb 2009 23:57:41 +0000
 draft: false
-tags: ['Microsoft Certified Master', 'Uncategorized']
+tags: ['Microsoft Certified Master']
 ---
 
 In early November, Microsoft announced the Microsoft Certified Master for Office SharePoint Server 2007 and the Microsoft Certified Architect for Office SharePoint Server 2007.  \[See [http://blogs.msdn.com/sharepoint/archive/2008/11/10/introducing-the-microsoft-certified-master-and-certified-architect-for-sharepoint.aspx](http://blogs.msdn.com/sharepoint/archive/2008/11/10/introducing-the-microsoft-certified-master-and-certified-architect-for-sharepoint.aspx)\] 

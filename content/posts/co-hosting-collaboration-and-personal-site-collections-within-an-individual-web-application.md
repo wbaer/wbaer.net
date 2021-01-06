@@ -2,7 +2,7 @@
 title: 'Co-hosting Collaboration and Personal Site Collections within an Individual Web Application'
 date: Mon, 19 Feb 2007 12:03:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Upgrade &amp; Migration', 'Windows SharePoint Services 2.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Upgrade &amp; Migration', 'Windows SharePoint Services 2.0']
 ---
 
 One of the most common questions I receive is how to co-host traditional "team" and personal Site Collections (My Sites) within an individual Web Application in **Microsoft Office SharePoint Server 2007**. While possible, there are several important steps that you should be aware of.

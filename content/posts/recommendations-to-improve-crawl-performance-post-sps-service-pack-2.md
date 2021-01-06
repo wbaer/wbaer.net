@@ -2,7 +2,7 @@
 title: 'Recommendations to Improve Crawl Performance Post SPS Service Pack 2'
 date: Tue, 07 Feb 2006 23:08:00 +0000
 draft: false
-tags: ['Performance', 'Search', 'Uncategorized']
+tags: ['Performance', 'Search']
 ---
 
 **SharePoint Portal Server 2003** Service Pack 2, by default, will disable some features previously distributed in service pack 1; this article will key in on feaures specific to search and indexing recommendations to improve crawl performance post-service pack 2 and correct features disabled in service pack 2.

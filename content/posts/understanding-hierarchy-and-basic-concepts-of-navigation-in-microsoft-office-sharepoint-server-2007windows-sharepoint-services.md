@@ -2,7 +2,7 @@
 title: 'Understanding Hierarchy and Basic Concepts of Navigation in Microsoft Office SharePoint Server 2007/Windows SharePoint Services'
 date: Tue, 10 Jul 2007 15:01:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 _Web applications_ are the foundation of a SharePoint Products and Technologies server farm and host the root site collection, root and subordinate webs.  SharePoint Portal Server 2003 and Windows SharePoint Services 2.0 used the term Virtual Server to designate a Web application also known as a Web site in Internet Information Services.

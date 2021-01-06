@@ -2,7 +2,7 @@
 title: 'Microsoft Best Practices Analyzer for Windows SharePoint Services 3.0 and the 2007 Microsoft Office System Available!'
 date: Fri, 16 Feb 2007 11:12:00 +0000
 draft: false
-tags: ['Best Practices Analyzer', 'Uncategorized']
+tags: ['Best Practices Analyzer']
 ---
 
 The Microsoft Best Practices Analyzer for **Windows SharePoint Services 3.0** and the **2007** **Microsoft Office System** is now available from the Microsoft Download Center!

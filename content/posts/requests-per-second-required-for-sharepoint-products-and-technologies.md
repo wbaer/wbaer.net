@@ -2,7 +2,7 @@
 title: 'Requests Per Second Required for SharePoint Products and Technologies'
 date: Fri, 06 Jul 2007 13:10:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Performance', 'Uncategorized']
+tags: ['Capacity Planning', 'Performance']
 ---
 
 One of the most common questions making its way to my Inbox as of recently is how to determine the required requests per second (RPS) to support a SharePoint Products and Technologies deployment.  While many IT Pros opt to use the recommend values associated with RPS and Internet Information Services (IIS) the transactions are considerably different between a light-weight .NET application or common IIS Web site.  To establish a general requirement for requests per second for a SharePoint Products and Technologies deployment you will need answers to the following questions:

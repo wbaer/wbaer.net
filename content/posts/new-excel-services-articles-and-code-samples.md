@@ -2,7 +2,7 @@
 title: 'New Excel Services Articles and Code Samples'
 date: Wed, 14 Feb 2007 09:24:00 +0000
 draft: false
-tags: ['Code Samples', 'Excel Calculation Services', 'Uncategorized']
+tags: ['Code Samples', 'Excel Calculation Services']
 ---
 
 Two (2) new articles have been published centered on Excel Services programmability with accompanying sample solutions available in the Microsoft Download Center.  The first article demonstrates how to extend List and query tables on Excel Services and includes content detailing external workbook references, SQL write-back and user-defined functions.  The second article provides a more in-depth approach to developing UDF's for Excel Services.

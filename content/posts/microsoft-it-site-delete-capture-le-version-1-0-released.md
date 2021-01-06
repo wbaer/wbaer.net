@@ -2,7 +2,7 @@
 title: 'Microsoft IT Site Delete Capture LE Version 1.0 Released'
 date: Thu, 12 Jun 2008 15:23:00 +0000
 draft: false
-tags: ['Code Samples', 'Governance', 'Uncategorized']
+tags: ['Code Samples', 'Governance']
 ---
 
 Microsoft IT Site Delete Capture LE version 1.0 has been released.

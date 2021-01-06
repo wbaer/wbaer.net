@@ -2,7 +2,7 @@
 title: 'Managing Master Merge in Microsoft Office SharePoint Server 2007'
 date: Mon, 03 Dec 2007 09:34:00 +0000
 draft: false
-tags: ['Performance', 'Uncategorized']
+tags: ['Performance']
 ---
 
 Master merge compiles all index data comprised of both in-memory and disk-based structures into one disk-based structure to prevent the degradation of the search service. SPS 2001 allowed administrators to manipulate the master merge schedule through HKEY\_LOCAL\_MACHINESoftwareMicrosoftSearch1.0CatalogNamesSharePointPortalServerworkspace\_nameIndexer:ci:MidNightMasterMergeTimeDelta, but only to a limited degree of the specification of minutes past 12:00 A.M. that master merge should occur. Microsoft Office SharePoint Server 2007 does not provide an out of the box mechanism for manipulating the scheduling of the master merge process; however, options are available to script a scheduled master merge operation.

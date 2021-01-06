@@ -2,7 +2,7 @@
 title: 'Scripting SharePoint with Powershell'
 date: Fri, 17 Aug 2007 11:37:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows Powershell']
+tags: ['Windows Powershell']
 ---
 
 C# has long been the developers preference when working with Microsoft SharePoint Products and Technologies; however, since the release of Microsoft Office SharePoint Server 2007/Windows SharePoint Server 3.0 Powershell has become more widely used to support the automation of common administrative tasks - though C# is and will long be integral in application development, Powershell provides both simplicity and flexibility for the automation of routine tasks.  For example, let's assume an administrator would like to programmatically provision a Web application outside of the SharePoint administration tool and/or the SharePoint 3.0 Central Administration user interface.

@@ -2,7 +2,7 @@
 title: 'The database  on serverMicrosoftSSEE is not accessible to missing Windows Internal Database signatures.'
 date: Tue, 23 Oct 2007 17:40:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 A solution is available to administrators of SharePoint Products and Technologies deployments experiencing the following application event after introducing WSS October public update KB934525.

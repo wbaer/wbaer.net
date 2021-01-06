@@ -2,7 +2,7 @@
 title: 'Claims-Based Identity in SharePoint 2010 [Updated]'
 date: Wed, 14 Apr 2010 08:43:16 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Claims', 'Identity']
 ---
 
 Claims-based identity or Claims Mode Authentication in Microsoft SharePoint Server 2010 has been all the buzz.  Developers are looking to do more with augmentation of claims and IT Professionals are looking at new opportunities to delegate identities - whether across machine  or trust boundaries, or to provide seamless and secure solutions enabling robust interoperability scenarios with external systems.  Understanding claims-based identity is the first step in realizing its potential and to understand it, we need to understand the basic concepts and nomenclature.

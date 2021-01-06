@@ -2,7 +2,7 @@
 title: 'Configuring SharePoint Products and Technologies for Cross-Forest Deployments'
 date: Wed, 21 Feb 2007 17:22:00 +0000
 draft: false
-tags: ['Cross-Forest Hosting', 'Uncategorized']
+tags: ['Cross-Forest Hosting']
 ---
 
 ![](https://wbaer.officeisp.net/TechNet/pPicker.png)

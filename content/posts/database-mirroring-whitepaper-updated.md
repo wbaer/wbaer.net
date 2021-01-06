@@ -2,7 +2,7 @@
 title: 'Database Mirroring Whitepaper Updated'
 date: Mon, 03 Mar 2008 12:59:00 +0000
 draft: false
-tags: ['Uncategorized', 'Webcasts and Whitepapers']
+tags: ['Webcasts and Whitepapers']
 ---
 
 The SQL Server 2005 Database Mirroring with SharePoint Products and Technologies whitepaper has been updated and available for download at [http://go.microsoft.com/fwlink/?LinkId=83725&clcid=0x409](http://go.microsoft.com/fwlink/?LinkId=83725&clcid=0x409).  Revisions include information on configuring failover with SharePoint Products and Technologies using SQL Aliasing, content database limitations and more.

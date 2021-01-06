@@ -2,7 +2,7 @@
 title: 'Productivity on the go...'
 date: Mon, 04 Jun 2007 16:26:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'SharePoint Tips', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'SharePoint Tips', 'Windows SharePoint Services 3.0']
 ---
 
 Of the many benefits of Windows SharePoint Services 3.0/Microsoft Office SharePoint Server 2007, often overlooked is the native support of mobile devices through embedded mobile site URLs and mobile views.

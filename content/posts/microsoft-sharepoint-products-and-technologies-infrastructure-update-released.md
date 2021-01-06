@@ -2,7 +2,7 @@
 title: 'Microsoft SharePoint Products and Technologies Infrastructure Update Released!'
 date: Tue, 15 Jul 2008 16:55:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 The Microsoft SharePoint Products and Technologies Infrastructure Update has been officially released. The update includes both improvements in core functional scenarios such as Office SharePoint Server Search with the introduction of S2 in addition to management enhancements resolving core customer issues such as scalability and performance improvements to support search incremental crawl (WSS), patch and upgrade of WSS server farms where a large number of host header-based site collections are implemented, support for Kerberos authentication to access SSP Web services, and more...

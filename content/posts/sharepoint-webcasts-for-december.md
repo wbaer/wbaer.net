@@ -2,7 +2,7 @@
 title: 'SharePoint WebCasts for December'
 date: Tue, 21 Nov 2006 19:29:00 +0000
 draft: false
-tags: ['Uncategorized', 'Webcasts and Whitepapers']
+tags: ['Webcasts and Whitepapers']
 ---
 
 **SharePoint** WebCasts for December

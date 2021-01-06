@@ -2,7 +2,7 @@
 title: 'Stuff I Wouldn''t Want to Live Without - Joel Made me do it...'
 date: Tue, 31 Jul 2007 17:42:00 +0000
 draft: false
-tags: ['Off Topic', 'Uncategorized']
+tags: ['Off Topic']
 ---
 
 It appears [Joel](http://blogs.msdn.com/joelo/archive/2007/07/29/stuff-i-wouldn-t-want-to-live-without.aspx) invited me to participate in a chain-letter of sorts with the context being stuff I wouldn't want to live without.  After thinking about the question for a moment, I found it much easier to compile a list of things I **could** live without, but to keep with the intent of the invitation - I've derived the following list:

@@ -2,7 +2,7 @@
 title: 'Watch SharePoint Grow!'
 date: Tue, 10 Jun 2008 21:47:00 +0000
 draft: false
-tags: ['Internet Explorer', 'Off Topic', 'Uncategorized']
+tags: ['Internet Explorer', 'Off Topic']
 ---
 
 I visited [http://www.carbongrove.com](http://www.carbongrove.com/) on the commute home this evening and planted SharePoint.  Watch SharePoint grow at [http://www.carbongrove.com/Trees/243029#g=0](http://www.carbongrove.com/Trees/243029#g=0 "http://www.carbongrove.com/Trees/243029#g=0") or plant your own!

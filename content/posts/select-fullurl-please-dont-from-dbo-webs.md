@@ -2,7 +2,7 @@
 title: 'SELECT FullUrl [Please Don''t] from dbo.Webs'
 date: Tue, 01 Jul 2008 09:42:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 I was just browsing [Mike Fitzmaurice's blog](http://mikefitzmaurice.wordpress.com/) and I'm glad to see he continues to [dissuade direct database access](http://blogs.msdn.com/mikefitz/archive/2005/04/01/404802.aspx) with Microsoft SharePoint Products and Technologies.  All too often I've seen what was conceptually a good idea, result in performance, scalability, and manageability problems long term.  While initially an otherwise simple SELECT statement, yes, even read, may be perceived as non-intrusive, problems later down the road may be compounded by what was offered as a "simple means" to getting a particular task accomplished.

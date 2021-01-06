@@ -2,7 +2,7 @@
 title: 'Announcing the Beta Release of the SharePoint Asset Inventory Tool'
 date: Thu, 21 Feb 2008 16:54:00 +0000
 draft: false
-tags: ['Governance', 'Uncategorized']
+tags: ['Governance']
 ---
 
 In the past several weeks, I've traveled along the west coast and overseas discussing governance as it applies to SharePoint Products and Technologies and am delighted to announce the availability of the beta of the SharePoint Asset Inventory Tool.

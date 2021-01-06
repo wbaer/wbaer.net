@@ -2,7 +2,7 @@
 title: 'Availability of the Microsoft IT Site Delete Capture 1.0 Feature for SharePoint Products and Technologies'
 date: Mon, 30 Apr 2007 18:14:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 I'm pleased to announce the availability of the Microsoft IT Site Delete Capture 1.0 feature for **SharePoint Products and Technologies**.

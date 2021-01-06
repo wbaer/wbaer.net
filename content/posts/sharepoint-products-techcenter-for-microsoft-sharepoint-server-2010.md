@@ -2,7 +2,7 @@
 title: 'SharePoint Products TechCenter for Microsoft SharePoint Server 2010'
 date: Fri, 30 Oct 2009 08:05:23 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 The [SharePoint Products TechCenter](http://technet.microsoft.com/en-us/sharepoint/ee263917.aspx) on TechNet has been updated to include documentation and resources specific to Microsoft SharePoint Server 2010.

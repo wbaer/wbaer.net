@@ -2,7 +2,7 @@
 title: 'Windows Rights Management Services, Microsoft SharePoint Products and Technologies, and Forest Boundaries'
 date: Wed, 10 Jun 2009 13:40:24 +0000
 draft: false
-tags: ['Cross-Forest Hosting', 'Microsoft Office SharePoint Server 2007', 'Uncategorized']
+tags: ['Cross-Forest Hosting', 'Microsoft Office SharePoint Server 2007']
 ---
 
 I recently was asked about the possibility of implementing Windows Rights Management Services with Microsoft Office SharePoint Server 2007 in a resource forest, or otherwise, the Microsoft Office SharePoint Server 2007 deployment was in a forest other than that where the users reside (login forest).  In this particular scenario, a one-way non-transitive trust was implemented, which provided an isolation boundary between the resource and login forest.

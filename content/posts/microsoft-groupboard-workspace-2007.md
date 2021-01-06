@@ -2,7 +2,7 @@
 title: 'Microsoft GroupBoard Workspace 2007!'
 date: Thu, 21 Dec 2006 21:06:00 +0000
 draft: false
-tags: ['Application Templates', 'Uncategorized']
+tags: ['Application Templates']
 ---
 
 The first available **Windows SharePoint Services 3.0** application templates has been released. the **Microsoft GroupBoard Workspace 2007**.  This is the **Windows SharePoint Services 3.0** implementation of the most widely used **Windows SharePoint Services 2.0** template in the Asia Pacific region with a host of improvements supporting the technologies and features available in **Windows SharePoint Services 3.0**.

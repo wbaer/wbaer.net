@@ -2,7 +2,7 @@
 title: 'Gradual Site Delete in SharePoint 2010'
 date: Mon, 02 Aug 2010 08:25:13 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 Overlooked often in SharePoint 2010 is the new Gradual Site Delete capability which was designed to mitigate unplanned site collection outages that occurred as the result of lock escalation in Windows SharePoint Server 3.0 and Office SharePoint Server 2007 when a large site collection was requested for deletion.  Before we describe Gradual Site Delete, we should understand the problem space from previous versions of the product.

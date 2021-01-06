@@ -2,7 +2,7 @@
 title: 'SharePoint 2010 Virtualization Notes'
 date: Thu, 24 Jun 2010 13:02:00 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized', 'Virtualization']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Virtualization']
 ---
 
 I just wrapped up a great webcast this morning with Avanade and NetApp discussing the virtualization of SharePoint and was excited to see the audience today is largely planning a virtualization layer for SharePoint 2010, many to support server consolidation in legacy datacenters with limited resources understanding that SharePoint's adoption and improvements in vertical and horizontal scale will result in larger more scenario concentrated deployments, others looking to reduce OpEx and CapEx, and still others looking at virtualization to afford the ability to support resource throttling - providing resources in times of high demand and scaling resources back in times of low demand making the most efficient use of their hosts.

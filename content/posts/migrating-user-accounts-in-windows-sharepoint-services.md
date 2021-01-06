@@ -2,7 +2,7 @@
 title: 'Migrating User Accounts in Windows SharePoint Services'
 date: Sun, 09 Mar 2008 01:33:00 +0000
 draft: false
-tags: ['Code Samples', 'People and Profiles', 'Uncategorized', 'Upgrade &amp; Migration']
+tags: ['Code Samples', 'People and Profiles', 'Upgrade &amp; Migration']
 ---
 
 While attending Ask the Experts at the Microsoft Office SharePoint Server Conference 2008, I was asked about migrating user accounts in Windows SharePoint Services 3.0 to a new login name programmatically, fortunately Windows SharePoint Services addressed user account migrations with the Windows SharePoint Services 2.0 post SP1 hotfix package 896593 which was followed by a number of applications including SPUserUtil _Keith Richie corrected me today - SPUserUtil preceeded the MigrateUser API - Thanks Keith!_.  The good news is that with the exception of minor OM changes, the base functionality is retained in WSS 3.0.

@@ -2,7 +2,7 @@
 title: 'The Office Web Applications Cache'
 date: Wed, 01 Sep 2010 09:06:30 +0000
 draft: false
-tags: ['Office Web Applications', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['Office Web Applications', 'SharePoint Server 2010']
 ---
 
 The Office Web Applications cache is used by Word and PowerPoint Web Applications to create a version of a document requested for viewing through the browser improving performance and reducing resource consumption on server machines by making cached versions of a document or presentation available in cases where there are multiple requests for the same document.  An important step in information architecture planning should include aligning the appropriate resources for the Office Web Applications cache through understand the frequency of browser requests and dynamics of the data requested.

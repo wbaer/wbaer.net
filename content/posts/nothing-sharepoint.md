@@ -2,7 +2,7 @@
 title: 'Nothing SharePoint'
 date: Fri, 06 Jul 2007 01:28:00 +0000
 draft: false
-tags: ['Off Topic', 'Uncategorized']
+tags: ['Off Topic']
 ---
 
 It's nothing SharePoint related, but a rare treat to catch a glimpse of an unobscured [Mt. Rainier](http://maps.live.com/default.aspx?v=2&cp=46.853378~-121.759187&style=a&lvl=11&tilt=-90&dir=0&alt=-1000&scene=6546598&encType=1) - these were taken over on a semi-clear afternoon around 6:00 P.M. from the [Puyallup-Graham](http://maps.live.com/default.aspx?v=2&cp=47.190492~-122.295726&style=a&lvl=12&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___&encType=1) area about 30 miles south of [Seattle](http://maps.live.com/default.aspx?v=2&cp=47.603859~-122.32974&style=a&lvl=12&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___&encType=1).  You're looking south/southeast in these photographs, in the distance beyond the Evergreens is the Puyallup Valley and the town of [Orting](http://maps.live.com/default.aspx?v=2&cp=47.097691~-122.202166&style=a&lvl=14&tilt=-90&dir=0&alt=-1000&scene=6546598&sp=Point.rvyk224t7tmh_Puyallup%2C%20Washington%2C%20United%20States___~Point.rvgngb4tgv3t_Orting%2C%20Pierce%2C%20Washington%2C%20United%20States___&encType=1) along the banks of the Carbon River.  ([more info...](http://blogs.technet.com/controlpanel/blogs/posteditor.aspx?SelectedNavItem=Posts&sectionid=4865&postid=1453056#moreinfo))

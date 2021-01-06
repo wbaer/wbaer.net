@@ -2,7 +2,7 @@
 title: 'Developing SharePoint Applications'
 date: Fri, 04 Sep 2009 14:28:00 +0000
 draft: false
-tags: ['Code Samples', 'SDK', 'Uncategorized']
+tags: ['Code Samples', 'SDK']
 ---
 
 Do you have questions or are you looking for best practices on integrating line of business applications with Microsoft SharePoint Products and Technologies, taking advantage of publishing and content oriented capabilities, or creating collaborative interactions around business processes?  If you answered yes to any of these questions, I'd recommend reading the just published content, [Developing SharePoint Applications](http://msdn.microsoft.com/en-us/library/dd203468.aspx), in the [Patterns and Practices Developer Center](http://msdn.microsoft.com/en-us/library/ms998572.aspx). 

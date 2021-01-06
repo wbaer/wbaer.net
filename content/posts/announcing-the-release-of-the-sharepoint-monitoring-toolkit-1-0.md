@@ -2,7 +2,7 @@
 title: 'Announcing the Release of the SharePoint Monitoring Toolkit 1.0'
 date: Sat, 08 Dec 2007 15:01:00 +0000
 draft: false
-tags: ['Performance', 'Uncategorized']
+tags: ['Performance']
 ---
 
 The SharePoint Monitoring Toolkit enables administrators and IT Pros to manage SharePoint Products and Technologies deployments, both large and small, by introducing two (2) new management packs for System Center Operations Manager 2007.

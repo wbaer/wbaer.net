@@ -2,7 +2,7 @@
 title: 'We''re Hiring!'
 date: Tue, 10 Jun 2008 17:04:00 +0000
 draft: false
-tags: ['Jobs', 'Uncategorized']
+tags: ['Jobs']
 ---
 
 Do you want to help shape Microsoft’s Software + Services offerings?  If so, here’s your opportunity to jump into the fast growing area of Enterprise Information Worker solutions working on SharePoint Online. 

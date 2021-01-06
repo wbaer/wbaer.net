@@ -2,7 +2,7 @@
 title: 'Database Mirroring, Notes and Considerations'
 date: Fri, 01 Aug 2008 16:36:50 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 The question of Microsoft SQL Server 2005 Database Mirroring (DBM) continues to be a topic of discussion in implementation with Microsoft SharePoint Products and Technologies, attached is a set of key notes and considerations to take into account when implementing DBM.

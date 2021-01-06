@@ -2,7 +2,7 @@
 title: 'Site Directory in SharePoint Server 2010 [Updated 5/12/2010]'
 date: Thu, 29 Apr 2010 10:35:00 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Site Directory', 'SharePoint']
 ---
 
 SharePoint Portal Server 2003 and Office SharePoint Server 2007 provided a Site Directory that was commonly used to “catalog” the collection of sites within a server farm environment, most commonly, organizations used categories to isolate like or related site collections and the built-in provisioning callback to ensure site collections were listed in the Site Directory on creation.

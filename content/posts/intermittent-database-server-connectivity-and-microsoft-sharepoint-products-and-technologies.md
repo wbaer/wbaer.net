@@ -2,7 +2,7 @@
 title: 'Intermittent Database Server Connectivity and Microsoft SharePoint Products and Technologies'
 date: Tue, 06 Oct 2009 12:07:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Tips', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Tips']
 ---
 
 Intermittent connectivity to a database server hosting Microsoft SharePoint Products and Technologies databases can occur for a number of reasons.  In some cases it may be related to a simple database connection timeout configuration setting in Windows SharePoint Services or in other cases it may be one or more operating system and/or hardware configurations.  In this post we’ll examine several options and configuration settings that can be adjusted to help isolate or mitigate such occurrences.

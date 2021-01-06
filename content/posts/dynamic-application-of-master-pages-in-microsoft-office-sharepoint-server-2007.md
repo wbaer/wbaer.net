@@ -2,7 +2,7 @@
 title: 'Dynamic Application of Master Pages in Microsoft Office SharePoint Server 2007'
 date: Fri, 11 Jan 2008 12:36:00 +0000
 draft: false
-tags: ['Governance', 'SDK', 'Uncategorized']
+tags: ['Governance', 'SDK']
 ---
 
 I've spent the past two months in various locations across the West coast speaking on governance in SharePoint Products and Technologies and one of the most common points of discussion is enabling a consistent look and feel across sites and Webs.  While most commonly this is achieved through employing a master page, many organizations either limit the distribution of Microsoft Office SharePoint Designer 2007 or do not use Microsoft Office SharePoint Designer 2007 in their organizations, while there are many articles across numerous blogs providing prescriptive guidance on master page development, Feature stapling, and other variations to support the implementation of master pages, I've yet to find a complete tutorial on implementing master pages using a combination of Feature stapling and a Feature Receiver.

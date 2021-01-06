@@ -2,7 +2,7 @@
 title: 'More KB934525 Troubleshooting...'
 date: Thu, 25 Oct 2007 18:33:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 **Problem:**  web.config is Read-only

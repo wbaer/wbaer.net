@@ -2,7 +2,7 @@
 title: 'Understanding webtemp*.xml'
 date: Sun, 25 Mar 2007 11:34:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 In **Microsoft Office SharePoint Server 2007**/**Windows SharePoint Services 3.0** webtemp\*.xml contains a set of <Template> elements within a <Template> element that contain a set of site definitions available in the Template Selection user interface and define how to instantiate a Web site.  <Template> elements where the <Configuration> element does not contain a <ProvisionAssembly> (Example 3) attribute indicate the <Template> element applies to a single site definition and not a portal site definition.  The <ProvisionAssembly> attribute is equal to the Microsoft.SharePoint.Publishing namespace which provides the fundamental publishing infrastructure in **Microsoft Office SharePoint Server 2007**.  webtemp\*.xml is provisioned on each web front-end computer and installed to each locale available in the server farm configuration and available in six (6) unique instances:

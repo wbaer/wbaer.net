@@ -2,7 +2,7 @@
 title: 'Please don''t put that in my GAC...'
 date: Fri, 05 Oct 2007 11:12:00 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['GAC']
 ---
 
 I have had the opportunity over the past two weeks to speak with several customers in regards to SharePoint Products and Technologies as a platform, geographically disperse architectural considerations, but one question stood out that was shared by each of these customers - "How do you \[Microsoft\] manage customizations in your SharePoint deployments?".  Before beginning to answer the question, I immediately realized how both widespread and common customization on this iteration of SharePoint is when compared to its predecessors.  In the past commentary was directed at whether or not to consider customization as opposed to having the anticipation of future customizations on the platform - so I was pleased to see that customers are recognizing the platforms' extensibility and ability to go beyond the _out of the box experience_. 

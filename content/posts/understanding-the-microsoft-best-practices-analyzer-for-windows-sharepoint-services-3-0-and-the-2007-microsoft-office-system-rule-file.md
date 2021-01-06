@@ -2,7 +2,7 @@
 title: 'Understanding the Microsoft Best Practices Analyzer for Windows SharePoint Services 3.0 and the 2007 Microsoft Office System Rule File'
 date: Tue, 17 Apr 2007 13:20:00 +0000
 draft: false
-tags: ['Best Practices Analyzer', 'Uncategorized']
+tags: ['Best Practices Analyzer']
 ---
 
 Since my original post [Microsoft Best Practices Analyzer for Windows SharePoint Services 3.0 and the 2007 Microsoft Office System Available!](http://blogs.technet.com/wbaer/archive/2007/02/16/microsoft-best-practices-analyzer-for-windows-sharepoint-services-3-0-and-microsoft-office-sharepoint-server-2007-available.aspx) , I've received several comments and requests for information on how to create custom rule definitions that can be used with the Microsoft Best Practices Analyzer for **Windows SharePoint Services 3.0** and the 2007 Microsoft Office System. The article below references the basic steps required to create and use custom rule definitions.

@@ -2,7 +2,7 @@
 title: 'Windows SharePoint Services 3.0 Available for Download!'
 date: Thu, 16 Nov 2006 17:40:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 ![](http://technet2.microsoft.com/library/gallery/templates/MNP2.Common/images/important.gif) A short, but exciting post - **Windows SharePoint Services 3.0** is now available to users of **Windows Server 2003**!

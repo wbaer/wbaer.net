@@ -2,7 +2,7 @@
 title: 'People Picker Port/Protocol Requirements'
 date: Wed, 21 Jan 2009 16:37:53 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['People Picker', 'Ports &amp; Protocols']
 ---
 
 While working on a deployment this week, the OOB _People Picker_ caught my attention and I realized there was not a great deal of documentation available on its requirements and troubleshooting.  Driving this thinking was the nature of the deployment on which it was to be configured - a cross forest, secured deployment with Web front-end servers in a firewalled perimeter network.

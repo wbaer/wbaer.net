@@ -2,7 +2,7 @@
 title: 'Excel Calculation Services for Cross-Forest Deployments'
 date: Tue, 19 Jun 2007 11:43:00 +0000
 draft: false
-tags: ['Cross-Forest Hosting', 'Excel Calculation Services', 'Uncategorized']
+tags: ['Cross-Forest Hosting', 'Excel Calculation Services']
 ---
 
 While on vacation, yes working ;-), I was asked to look into an issue where Excel Calculation Services was deployed in a cross-forest environment; specifically where Excel Services is deployed on server A residing in Forest 1 and the clients requesting workbooks reside in Forest 2. Forest 2 does not trust Forest 1; however, Forest 1 trusts Forest 2. The Excel Calculation Services topology in this scenario was fairly basic where Excel Web Access, Web Services, and the Calculation Services are distributed across two network load-balanced web front-end servers and Excel Calculation Services and any UDF assemblies are hosted on a separate application server also servicing the Office SharePoint Server Search indexing service.

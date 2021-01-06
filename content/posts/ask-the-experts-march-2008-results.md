@@ -2,7 +2,7 @@
 title: 'Ask the Experts - March 2008 Results'
 date: Tue, 01 Apr 2008 09:41:53 +0000
 draft: false
-tags: ['Ask the Experts', 'Uncategorized']
+tags: ['Ask the Experts']
 ---
 
 **The Index server, is it a single point of failure?**

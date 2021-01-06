@@ -2,7 +2,7 @@
 title: 'Bill''s 5-min. SharePoint Performance Recommendations'
 date: Sat, 01 Mar 2008 23:47:00 +0000
 draft: false
-tags: ['Performance', 'Uncategorized']
+tags: ['Performance']
 ---
 
 Performance recommendations and guidance is something I receive comment and question on quite frequently, typically in hallway conversation or in passing at conferences - so in the spirit of those occurrences I've decided to compile a quick list of SharePoint performance recommendations that can be conveyed verbally in five minutes or less.

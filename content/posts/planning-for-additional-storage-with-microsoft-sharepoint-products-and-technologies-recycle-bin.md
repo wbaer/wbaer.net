@@ -2,7 +2,7 @@
 title: 'Planning for *Additional* Storage with Microsoft SharePoint Products and Technologies - Recycle Bin'
 date: Tue, 13 Nov 2007 11:27:42 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 This will be the first of a series focusing on those areas of storage that are commonly overlooked when planning storage for Microsoft SharePoint Products and Technologies. In this post we'll look at the native Recycle Bin in Microsoft Office SharePoint Server 2007 and Windows SharePoint Services 3.0 to understand its fundamental aspects and impacts on storage.

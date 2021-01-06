@@ -2,7 +2,7 @@
 title: 'Bing Maps Streetside Innovations'
 date: Fri, 12 Feb 2010 15:23:19 +0000
 draft: false
-tags: ['Bing', 'Uncategorized']
+tags: ['Bing']
 ---
 
 Coolness, pure coolness…

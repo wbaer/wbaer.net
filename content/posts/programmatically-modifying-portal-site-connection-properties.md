@@ -2,7 +2,7 @@
 title: 'Programmatically Modifying Portal Site Connection Properties'
 date: Mon, 23 Jul 2007 22:49:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 I recently received a request asking 1) if a site collections portal site connection can be programmatically replaced or modified and 2) can this be accomplished on a schedule without implementing a provisioning intercept or callback based on Site Directory metadata.

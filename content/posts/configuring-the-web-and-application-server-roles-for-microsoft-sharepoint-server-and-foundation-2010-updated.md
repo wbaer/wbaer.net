@@ -2,7 +2,7 @@
 title: 'Configuring the Web and Application Server Roles for Microsoft SharePoint Server and Foundation 2010 [UPDATED]'
 date: Sun, 06 Dec 2009 14:11:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 I’ve had a couple of questions on configuring the Web and Application server roles on Windows Server 2008 to support Microsoft SharePoint Server and Foundation 2010.  This post will describe the minimal prerequisite configuration to support Microsoft SharePoint Server and Foundation 2010 on Windows Server 2008.

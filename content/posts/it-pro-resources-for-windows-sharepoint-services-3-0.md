@@ -2,7 +2,7 @@
 title: 'IT Pro Resources for Windows SharePoint Services 3.0'
 date: Fri, 10 Nov 2006 23:42:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['IT Pro Resources', 'Windows SharePoint Services 3.0']
 ---
 
 **Technical Library**

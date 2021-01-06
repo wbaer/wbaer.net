@@ -2,7 +2,7 @@
 title: 'Interesting find on Event Id’s 3760 and 5586…'
 date: Thu, 11 Jun 2009 13:30:00 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['SharePoint', 'SQL']
 ---
 
 I was recently asked to look at an issue in which SharePoint would intermittently drop its connection to SQL.  Taking the typical course of action, I started looking at the Application Event Logs, Trace (ULS) logs, etc.  I noticed in the Application Event Logs event Id 3760 and 5586 occurred every hour on the hour.  The initial event Id 3760 indicated authentication issues, the Domain Controllers did not see issue that corresponded to the events reported by SharePoint; Scalable Networking Pack Features, MaxConcurrentAPI, etc. settings looked clean across the machines as well, event Id 5586 immediately followed event Id 3760.

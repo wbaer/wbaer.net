@@ -2,7 +2,7 @@
 title: 'Some things are just better together…'
 date: Fri, 12 Feb 2010 12:05:18 +0000
 draft: false
-tags: ['SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Server 2010']
 ---
 
 Ham and Cheese

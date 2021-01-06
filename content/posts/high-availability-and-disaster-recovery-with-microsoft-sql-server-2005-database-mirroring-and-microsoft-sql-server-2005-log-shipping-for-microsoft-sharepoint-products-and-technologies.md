@@ -2,7 +2,7 @@
 title: 'High-Availability and Disaster Recovery with Microsoft SQL Server 2005 Database Mirroring and Microsoft SQL Server 2005 Log Shipping for Microsoft SharePoint Products and Technologies'
 date: Sun, 20 Apr 2008 01:39:54 +0000
 draft: false
-tags: ['Capacity Planning', 'Replication and Availability', 'Uncategorized']
+tags: ['Capacity Planning', 'Replication and Availability']
 ---
 
 I've discussed on several occasions [Microsoft SQL Server 2005 Database Mirroring with Microsoft SharePoint Products and Technologies](http://blogs.technet.com/wbaer/search.aspx?q=Database+Mirroring&p=1) as a method by which database mirroring can provide intra-datacenter high-availability; however, am frequently asked how Microsoft SQL Server 2005 Database Mirroring can provide protection from datacenter failure.  While possible, you generally do not want to geographically distribute your principal and mirror instances due to potential problems with maintaining synchronicity and bandwidth/latency constraints instead maintaining and intra-datacenter session to provide local fault tolerance; however, you can implement Microsoft SQL Server 2005 Log Shipping in conjunction with Microsoft SQL Server 2005 Database Mirroring to provide a standby copy of your databases in the remote datacenter.

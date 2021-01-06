@@ -2,7 +2,7 @@
 title: 'SharePoint Products and Technologies Protocol Documentation'
 date: Wed, 09 Apr 2008 16:19:00 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 The SharePoint Products and Technologies Protocol Documentation has been recently published to MSND which includes technical specifications for Microsoft proprietary protocols that are implemented in SharePoint Products and Technologies.

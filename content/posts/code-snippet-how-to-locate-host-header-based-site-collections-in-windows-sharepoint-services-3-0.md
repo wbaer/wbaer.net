@@ -2,7 +2,7 @@
 title: 'Code Snippet - How to Locate Host Header-based Site Collections in Windows SharePoint Services 3.0'
 date: Thu, 19 Apr 2007 21:48:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized', 'Upgrade &amp; Migration']
+tags: ['Code Samples', 'Upgrade &amp; Migration']
 ---
 
 One of the great features in Windows SharePoint Services 3.0 is the ability to co-host both path-based and host header-based site collections within the same server farm and content databases. Now that you've introduced host header-based site collections to your server farm, how do you quickly identify those site collections within a server farm or content database that also hosts your path-based site collections? In this scenario the object model is extremely useful in reporting on those site collections, the Web application, and content database where they reside.

@@ -2,7 +2,7 @@
 title: 'IT Pro Resources for Microsoft Office SharePoint Server 2007'
 date: Tue, 07 Nov 2006 16:34:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['IT Pro Resources', 'Windows SharePoint Services 3.0']
 ---
 
 **Technical Library**

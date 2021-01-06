@@ -2,7 +2,7 @@
 title: 'HTTP Request Monitoring and Throttling'
 date: Thu, 22 Apr 2010 20:17:51 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 Last week I covered Managed Accounts in SharePoint Server 2010, this week we’ll cover HTTP Request Monitoring and Throttling - I've been following a lot of conversions surrounding Resource Throttling in SharePoint Server 2010, of which most have focused on the core scenario involving managing large lists; however, there have been a few discussions on HTTP Request Monitoring and Throttling and how that ties in an organizations security architecture or how it can be used to augment it, particularly how it relates to Distributed-Denial of Service (DDoS) attacks.  DDoS attacks are similar in purpose to DoS attacks with the key differentiating characteristic being DDoS attacks involve multiple machines which send repeated requests to a server to load it down and render it inaccessible.

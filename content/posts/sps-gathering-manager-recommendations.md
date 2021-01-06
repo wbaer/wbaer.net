@@ -2,7 +2,7 @@
 title: 'SPS Gathering Manager Recommendations'
 date: Thu, 09 Mar 2006 16:48:00 +0000
 draft: false
-tags: ['Performance', 'Search', 'Uncategorized']
+tags: ['Performance', 'Search']
 ---
 
 I recently came across an issue with a customer that uses large files in **WSS**, notably, .CAD files; as a result these files were either - one, not indexed or two, indexing did not gather the required information from the file to provide useful search criteria.  To remidy the issue MaxDownloadSize was increased to 64MB while leaving the MaxGrowFactor at 4, this will essentially permit the index filter to produce up to 256MB (64 x 4) of text from a given file, the default setting in SPS is 16MB MaxDownloadSize and 4 MaxGrowFactor, limiting the index filter to 64MB max.

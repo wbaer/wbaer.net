@@ -2,7 +2,7 @@
 title: 'HA/DR Whitepaper'
 date: Wed, 10 Jun 2009 23:22:16 +0000
 draft: false
-tags: ['Replication and Availability', 'Uncategorized', 'Webcasts and Whitepapers']
+tags: ['Replication and Availability', 'Webcasts and Whitepapers']
 ---
 
 I missed this one, but better late ….

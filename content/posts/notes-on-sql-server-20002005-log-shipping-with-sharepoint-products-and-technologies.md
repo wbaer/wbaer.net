@@ -2,7 +2,7 @@
 title: 'Notes on SQL Server 2000/2005 Log Shipping with SharePoint Products and Technologies'
 date: Thu, 13 Mar 2008 17:13:00 +0000
 draft: false
-tags: ['Replication and Availability', 'Uncategorized']
+tags: ['Replication and Availability']
 ---
 
 As Microsoft SharePoint Products and Technologies becomes more business critical for organizations, data protection and redundancy become primary objectives in any size[![paperclip](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_technet/wbaer/WindowsLiveWriter/f5ed48e2ae02_56A2/paperclip_thumb.jpg)](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_technet/wbaer/WindowsLiveWriter/f5ed48e2ae02_56A2/paperclip_2.jpg) deployment. Disaster recovery and redundancy can be achieved using any of a collection of available technologies to include SQL Server 2005 Database Mirroring for redundancy and hardware or software-based replication solutions for disaster recovery or geographic replication.

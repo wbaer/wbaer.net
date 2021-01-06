@@ -2,7 +2,7 @@
 title: 'Developing Web Parts, considerations on Microsoft SharePoint Products and Technologies'
 date: Tue, 08 Jul 2008 12:24:15 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 **Background Information**

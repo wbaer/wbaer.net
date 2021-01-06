@@ -2,7 +2,7 @@
 title: 'Site Collection Sizing Considerations'
 date: Mon, 04 Jun 2007 13:09:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Governance', 'Uncategorized']
+tags: ['Capacity Planning', 'Governance']
 ---
 
 Site collection sizing is an important consideration in an overall capacity planning and governance solution.  This article details the considerations when planning for capacity and determining how site collections should be sized.

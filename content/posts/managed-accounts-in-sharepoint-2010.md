@@ -2,7 +2,7 @@
 title: 'Managed Accounts in SharePoint 2010'
 date: Sun, 11 Apr 2010 10:12:00 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 Microsoft SharePoint Server 2010 provides a number of compelling improvements designed especially for the system administrator, of these, commonly overlooked, are Managed Accounts.  A Managed Account is effectively an Active Directory user account whose credentials are managed by and contained within SharePoint.  In addition to storing the credentials of the object, Microsoft SharePoint Server 2010 can also leverage Active Directory Domain Policies to  automatically reset passwords while meeting the requirements established by policy.

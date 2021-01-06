@@ -2,7 +2,7 @@
 title: 'Microsoft Case Studies:  Coca-Cola Enterprises and Microsoft Online Services'
 date: Tue, 23 Jun 2009 12:39:58 +0000
 draft: false
-tags: ['Microsoft Online Services', 'Uncategorized']
+tags: ['Microsoft Online Services']
 ---
 
 Recently posted:  A Microsoft Case Study examining Microsoft Online Services and Coca-Cola Enterprises.

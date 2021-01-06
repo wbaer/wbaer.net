@@ -2,7 +2,7 @@
 title: 'WSS UserInfo versus MOSS Profile Q & A (The Basics)'
 date: Sun, 28 Jan 2007 00:16:00 +0000
 draft: false
-tags: ['People and Profiles', 'Uncategorized']
+tags: ['People and Profiles']
 ---
 
 **What happens when manually adding a user to a Windows SharePoint Services 3.0 Site Collection, who previously did not have a Microsoft Office SharePoint Server 2007 profile?**

@@ -2,7 +2,7 @@
 title: 'Stress Testing Microsoft Office SharePoint Server 2007/Windows SharePoint Services 3.0'
 date: Thu, 02 Aug 2007 14:28:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Performance', 'Uncategorized']
+tags: ['Capacity Planning', 'Performance']
 ---
 
 TechReady5 concluded on Friday and I'm finally returning to work after several customer sessions that immediately followed and one question was shared between the two - what do you recommend or what are you using to monitor performance and how do you determine load and stress when architecting a SharePoint Products and Technologies infrastructure?  The answer is, there are a variety of tools to stress test your Microsoft SharePoint Products and Technologies deployment; let's cover some them:

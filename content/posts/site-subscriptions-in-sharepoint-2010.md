@@ -2,7 +2,7 @@
 title: 'Site Subscriptions in SharePoint 2010'
 date: Fri, 07 May 2010 10:58:01 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 New multi-tenancy features are an exciting concept in SharePoint 2010, particularly when considering the implications on hosting SharePoint for a variety of tenants, each requiring some method of partitioning, administration, and a method of reporting and control whether within the boundaries of an Enterprise or as a hosting provider.  In this post we’ll look at one of the layers of multi-tenancy in SharePoint 2010.

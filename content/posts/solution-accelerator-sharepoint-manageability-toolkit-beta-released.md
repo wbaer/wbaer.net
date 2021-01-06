@@ -2,7 +2,7 @@
 title: 'Solution Accelerator SharePoint Manageability Toolkit (Beta) Released'
 date: Sun, 19 Aug 2007 13:42:00 +0000
 draft: false
-tags: ['Microsoft Operations Manager', 'Uncategorized']
+tags: ['Microsoft Operations Manager']
 ---
 
 The Solution Accelerator SharePoint Manageability Toolkit (Beta) includes two new System Center Operations Manager 2007 Management Packs for Microsoft Office SharePoint Server and Windows SharePoint Services providing new features to include new tasks for Internet Information Services, Windows SharePoint Services 3.0 Search monitoring, discovery of Single Sign-on server(s), and additional Microsoft Office SharePoint Server 2007 performance data monitoring.

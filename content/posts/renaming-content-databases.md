@@ -2,7 +2,7 @@
 title: 'Renaming Content Databases'
 date: Mon, 16 Jun 2008 13:37:27 +0000
 draft: false
-tags: ['SharePoint Tips', 'Uncategorized']
+tags: ['SharePoint Tips']
 ---
 
 I received an inquiry this morning on what procedural steps are required to rename a Windows SharePoint Services 3.0 content database and decided to make the information more broadly available.

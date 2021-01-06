@@ -2,7 +2,7 @@
 title: 'Improve the Overall Full-Text Search Queries for Large Database Tables'
 date: Mon, 03 Apr 2006 13:25:00 +0000
 draft: false
-tags: ['Performance', 'Search', 'Uncategorized']
+tags: ['Performance', 'Search']
 ---
 
 This post is a continuation on previous **SharePoint Portal Server 2003** performace recommendations and details basic steps to improve the overall full-text search queries for large database tables.  The steps detailed are most applicable to enterprise deployments and/or large databases with a large number of unique full-text index words.  The steps detailed below should be applied to each back-end SQL server(s).

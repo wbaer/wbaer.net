@@ -2,7 +2,7 @@
 title: 'SQL Server 2005 Database Mirroring and Windows SharePoint Services 3.0/Microsoft Office SharePoint Server 2007 - Part 2 (Configuration)'
 date: Fri, 25 May 2007 17:19:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 This is the second part of a multi-part series on using [SQL Server 2005 Database Mirroring with SharePoint Products and Technologies](http://blogs.technet.com/wbaer/archive/2007/04/23/sql-server-2005-database-mirroring-and-windows-sharepoint-services-3-0-microsoft-office-sharepoint-server-2007-part-1-introduction-overview-and-basics.aspx).  This post will cover the basic configuration parameters required to enable the mirroring of content, configuration, and search databases.  Part 3 of this series will cover SharePoint Products and Technologies failover automation scripts and considerations.

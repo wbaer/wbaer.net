@@ -2,7 +2,7 @@
 title: 'HTTP Compression, Internet Information Services 6.0, and SharePoint Products and Technologies'
 date: Wed, 30 Jan 2008 20:44:00 +0000
 draft: false
-tags: ['Performance', 'Uncategorized']
+tags: ['Performance']
 ---
 
 A recent discussion on Garbage Collection management on 64-bit Web servers hosting Microsoft Office SharePoint Server 2007 led into a discussion on rendering performance, particularly steps to reduce overall rendering time at the client.  While monitoring client rendering can be achieved to some degree through measuring TTLB - purely in ensuring pages are served in a timely manner (see [ASP.NET Performance Monitoring, and When to Alert Administrators](http://msdn2.microsoft.com/en-us/library/ms972959.aspx) for monitoring recommendations), there are too many variables that can result in overall performance variations to include browser, hardware, machine state, etc.  The most commonly implemented measures to improve client-side performance are object and output caching natively within Microsoft Office SharePoint Server 2007; however, often overlooked as a performance improvement mechanism is HTTP compression in Internet Information Services 6.0.  This article describes the basic steps to enabling HTTP compression in Internet Information Services 6.0.

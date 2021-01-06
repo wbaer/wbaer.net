@@ -2,7 +2,7 @@
 title: 'SQL Server 2005 Database Mirroring and Windows SharePoint Services 3.0/Microsoft Office SharePoint Server 2007 - Part 1 (Introduction, Overview, and basics)'
 date: Mon, 23 Apr 2007 18:59:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 This will be the first of a multi-part series covering SQL Server 2005 Database Mirroring and **Windows SharePoint Services 3.0**/**Microsoft Office SharePoint Server 2007**.  This post will cover an introduction to SQL Server 2005 Database Mirroring, an overview, and the basics to include considerations and integration with **SharePoint Products and Technologies**. Part 2 will cover implementing SQL Server 2005 Database Mirroring with **SharePoint Products and Technologies** using NTLM authentication and dedicated (DAS) storage and failover examples.

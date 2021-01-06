@@ -2,7 +2,7 @@
 title: 'IT Professional Training for SharePoint 2010'
 date: Fri, 27 Aug 2010 14:20:57 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Training and Certification', 'Uncategorized']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Training and Certification']
 ---
 
 If you are new to SharePoint 2010 or are upgrading from 2007, there are a variety of courses and formats to help you gain the skills and knowledge you need to ensure a successful deployment, upgrade, or migration.

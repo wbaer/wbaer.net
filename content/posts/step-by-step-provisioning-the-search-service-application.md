@@ -2,7 +2,7 @@
 title: 'Step-by-Step: Provisioning the Search Service Application'
 date: Mon, 23 Nov 2009 12:30:06 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Server 2010']
 ---
 
 **Contents**

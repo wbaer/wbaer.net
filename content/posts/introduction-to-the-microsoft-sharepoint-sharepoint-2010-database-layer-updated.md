@@ -2,7 +2,7 @@
 title: 'Introduction to the Microsoft SharePoint SharePoint 2010 Database Layer [UPDATED]'
 date: Mon, 30 Nov 2009 14:48:44 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['SharePoint', 'SQL']
 ---
 
 Microsoft SharePoint Server 2010 introduces both new databases and databases whose distribution and purpose differs over previous versions of Microsoft SharePoint Products and Technologies. This post details the changes in the Microsoft SharePoint Server 2010 database layer. This section provides information about Shared Service Applications that have a database dependency and is not an exhaustive list of all Shared Service Applications available in Microsoft SharePoint Server 2010.  At the time of publication this is not 100% complete.

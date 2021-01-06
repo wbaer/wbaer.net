@@ -6,7 +6,10 @@ draft: true
 tags: ['PowerShell', 'Microsoft Search', 'Microsoft Graph']
 ---
 
-With the GA of the Microsoft Search API in the Microsoft Graph, I figured I'd take a moment to write a tutorial series on what you can with the Microsoft Search API in the Microsoft Graph and PowerShell.  This is intended to provide some basic, introductory guidance to both the IT Professional and developer.
+With the GA of the Microsoft Search API in the Microsoft Graph, I figured I'd take a moment to write a tutorial series on what you can with the Microsoft Search API in the Microsoft Graph and PowerShell.  This is intended to provide some basic, introductory guidance, or otherwise 0-100 approach.
+
+Set-ExecutionPolicy RemoteSigned
+Choose A when prompted.
 
 Since this series is designed more or less for the IT Professional, we'll be using PowerShell to query data in the Microsoft Graph.  That said, the first step is to install the Microsoft Graph PowerShell SDK.
 
@@ -23,4 +26,17 @@ To verify the installation completed successfully, you can run Get-InstalledModu
 | 1.2.0  | Microsoft.Graph  | PSGallery  | Microsoft Graph PowerShell module  |
 
 To update the SDK in the future, you can simply run Update-Module Microsoft.Graph.
+
+Now we need to install the Microsoft.Graph.Authentication module.  To install this module, simply run Install-Module Microsoft.Graph.Authentication
+
+
+Read and write all groups
+Maintain access to data you have given Microsoft Grapg PowerShell acccess to
+View your basic profile information
+
+Once you have granted access you will see a message in PowerShell Welcome to Microsoft Graph!
+
+Install-Module -Name Microsoft.Graph.Search
+
+
 

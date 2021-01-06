@@ -2,7 +2,7 @@
 title: 'New Microsoft SharePoint Server 2010 IT Professional Curriculum'
 date: Mon, 29 Mar 2010 09:29:42 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Server 2010']
 ---
 
 Looking for Microsoft SharePoint Server 2010 IT Professional curriculum? 

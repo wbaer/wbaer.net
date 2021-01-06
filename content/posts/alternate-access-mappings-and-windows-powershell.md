@@ -2,7 +2,7 @@
 title: 'Alternate Access Mappings and Windows Powershell'
 date: Wed, 10 Jun 2009 00:19:10 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized', 'Windows Powershell']
+tags: ['Code Samples', 'Windows Powershell']
 ---
 
 I had a request this week on how to leverage Windows Powershell to add Alternate Access Mappings to the collection for a specific Web application.  Surprisingly after some searching I was unable to find anything existing on the topic, so for those curious see the attached script and corresponding source Xml.

@@ -2,7 +2,7 @@
 title: 'Planning a 100,000+ My Site personal site deployment?  Notes...'
 date: Tue, 10 Jun 2008 17:11:00 +0000
 draft: false
-tags: ['Capacity Planning', 'People and Profiles', 'Performance', 'Uncategorized']
+tags: ['Capacity Planning', 'People and Profiles', 'Performance']
 ---
 
 This topic has frequented my Inbox over the past months, planning a My Site personal site deployment for 100,000+ users.  In this post we'll examine the issues and potential solutions.

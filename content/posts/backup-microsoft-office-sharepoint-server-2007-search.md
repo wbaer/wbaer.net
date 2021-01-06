@@ -2,7 +2,7 @@
 title: 'Backup - Microsoft Office SharePoint Server 2007 Search'
 date: Tue, 13 Mar 2007 11:44:00 +0000
 draft: false
-tags: ['Capacity Planning', 'Search', 'Uncategorized']
+tags: ['Capacity Planning', 'Search']
 ---
 
 One of the most critical components of **Microsoft Office SharePoint Server 2007** to many businesses is search and often is a key component of business processes. To ensure consistent and recoverable content is available to end-users, it becomes necessary to periodically backup the search components in the event of a catastrophic failure or issues requiring the rebuilding of the search component. Since re-crawling all content sources may not be practical or efficient in many cases, **Microsoft Office SharePoint Server 2007** has streamlined the search component backup and restore process. Some key notes follow:

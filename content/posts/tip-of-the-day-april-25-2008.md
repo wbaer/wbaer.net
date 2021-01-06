@@ -2,7 +2,7 @@
 title: 'Tip of the Day, April 25, 2008'
 date: Fri, 25 Apr 2008 17:00:17 +0000
 draft: false
-tags: ['SharePoint Tips', 'Uncategorized']
+tags: ['SharePoint Tips']
 ---
 
 Tip of the day:  Deleting orphaned Timer Jobs

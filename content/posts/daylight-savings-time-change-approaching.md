@@ -2,7 +2,7 @@
 title: 'Daylight Savings Time Change Approaching'
 date: Sun, 23 Sep 2007 12:05:43 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['DST']
 ---
 
 As Daylight Savings Time (DST) approaches it is time again to plan and prepare for impacts on your existing SharePoint Products and Technologies deployments...I intend to keep this post dynamic and updated with the latest information surrounding DST impact and mitigation for Windows SharePoint Services 3.0 and Microsoft Office SharePoint Server 2007.

@@ -2,7 +2,7 @@
 title: 'Profiles and Properties - Questions and Answers'
 date: Fri, 21 Sep 2007 16:43:00 +0000
 draft: false
-tags: ['People and Profiles', 'Uncategorized']
+tags: ['People and Profiles']
 ---
 
 A e-mail dialogue came up with a colleague surrounding Profiles and Properties in Microsoft Office SharePoint Server 2007, with the questions specific to profile cleanup and management of changes in profile properties.

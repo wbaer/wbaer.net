@@ -2,7 +2,7 @@
 title: 'My first SharePoint experience...'
 date: Fri, 14 Mar 2008 23:01:00 +0000
 draft: false
-tags: ['Conferences and Events', 'Off Topic', 'Uncategorized']
+tags: ['Conferences and Events', 'Off Topic']
 ---
 
 I'm often asked either when I became involved with Microsoft SharePoint Products and Technologies or what single event resulted in my evangelism and subsequent work with Microsoft SharePoint Products and Technologies, so here we go:

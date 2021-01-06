@@ -2,7 +2,7 @@
 title: 'HTTP to HTTPS Redirection with SharePoint Products and Technologies'
 date: Sun, 08 Feb 2009 12:46:03 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 I've received several requests in regards to redirecting HTTP to HTTPS.  In this post I will briefly cover a select number methods and/or technologies that can be used to accomplish HTTP to HTTPS redirection.

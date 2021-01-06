@@ -2,7 +2,7 @@
 title: 'SharePoint Manageability Toolkit Updated'
 date: Mon, 24 Sep 2007 08:30:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'Uncategorized']
+tags: ['IT Pro Resources']
 ---
 
 I received word over the weekend Solution Accelerators have updated the SharePoint Manageability Toolkit.  See below for a complete list of updates:

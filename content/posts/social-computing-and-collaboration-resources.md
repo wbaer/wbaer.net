@@ -2,7 +2,7 @@
 title: 'Social Computing and Collaboration Resources'
 date: Fri, 02 Jul 2010 15:36:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'People and Profiles', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'People and Profiles', 'SharePoint Server 2010']
 ---
 
 Today we released a new whitepaper that provides prescriptive guidance about profile synchronization and My Site planning and administrative tasks for SharePoint Server 2010 that combines real world scenarios and step by step instructions with accompanying screenshots to help IT Professionals and Developers successfully understand, deploy, provision, and manage the services, components, and features that support and enable user profiles, synchronization, My Site Web sites, and more.

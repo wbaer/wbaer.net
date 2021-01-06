@@ -2,7 +2,7 @@
 title: 'Just Published - September 2007'
 date: Fri, 14 Sep 2007 12:50:00 +0000
 draft: false
-tags: ['Uncategorized', 'Webcasts and Whitepapers']
+tags: ['Webcasts and Whitepapers']
 ---
 
 How to Create a SharePoint Server 2007 Custom Master Page and Page Layouts for a Web Content Management Site  

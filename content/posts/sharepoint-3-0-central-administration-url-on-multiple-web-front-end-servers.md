@@ -2,7 +2,7 @@
 title: 'SharePoint 3.0 Central Administration URL on Multiple Web Front-end Servers'
 date: Thu, 30 Aug 2007 15:36:07 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 A coworker recently came to me asking how to change the SharePoint 3.0 Central Administration URL where two or more Web front-end servers host the Central Administration Web application, for example, where two WFEs are deployed, both will leverage the URL of the first server provisioned with the Central Administration Web application.  As many may have noticed, the path cannot be changed via the shortcut properties on the server, the reason is because the URL is Registry-based.  To change the SharePoint 3.0 Central Administration URL so that each server uses its locally provisioned Web application open the Registry editor and navigate to HKEY\_LOCAL\_MACHINESOFTWAREMicrosoftShared ToolsWeb Server Extensions12.0WSS.  Locate CentralAdministrationURL and edit the value to reflect the desired location.

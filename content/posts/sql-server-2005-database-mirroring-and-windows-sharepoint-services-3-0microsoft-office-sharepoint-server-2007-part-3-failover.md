@@ -2,7 +2,7 @@
 title: 'SQL Server 2005 Database Mirroring and Windows SharePoint Services 3.0/Microsoft Office SharePoint Server 2007 - Part 3 (Failover)'
 date: Wed, 01 Aug 2007 20:27:40 +0000
 draft: false
-tags: ['Capacity Planning', 'Uncategorized']
+tags: ['Capacity Planning']
 ---
 
 Database mirroring is increasing in popularity and becoming an integral part of high availability and disaster recovery solutions within the SharePoint Products and Technologies arena. I've spent much of the last few months building labs, testing scenarios, impacts on platforms whether it be WSS or MOSS.  This post is the third and final on my series \[[SQL Server 2005 Database Mirroring and Windows SharePoint Services/Microsoft Office SharePoint Server 2007](http://blogs.technet.com/wbaer/archive/2007/04/23/sql-server-2005-database-mirroring-and-windows-sharepoint-services-3-0-microsoft-office-sharepoint-server-2007-part-1-introduction-overview-and-basics.aspx)\].

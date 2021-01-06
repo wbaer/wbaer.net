@@ -2,7 +2,7 @@
 title: 'Add this to your image...'
 date: Tue, 10 Jun 2008 23:58:00 +0000
 draft: false
-tags: ['Internet Information Services', 'Uncategorized', 'Windows Server 2003', 'Windows Server 2008']
+tags: ['Internet Information Services', 'Windows Server 2003', 'Windows Server 2008']
 ---
 
 One of the most common configuration inconsistencies I find in SharePoint farms is the Web application path, in most scenarios the Web applications are provisioned under the default root path of C:InetpubwwwrootwssVirtualDirectories.  This is usually the result of oversight during the provisioning process. 

@@ -2,7 +2,7 @@
 title: 'Installing Windows SharePoint Services 3.0 on Windows Server 2008'
 date: Wed, 31 Oct 2007 00:06:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows Server 2008', 'Windows SharePoint Services 3.0']
+tags: ['Windows Server 2008', 'Windows SharePoint Services 3.0']
 ---
 
 On October 29, 2007 [we announced that Windows SharePoint Services 3.0 bits will not be included on the Windows Server 2008 media](http://blogs.technet.com/windowsserver/archive/2007/10/29/windows-server-2008-and-windows-sharepoint-services-3-0-update.aspx); however, will remain available as a separate download, as a result changing the installation routine.  For those who used evaluation and release candidate builds of Windows Server 2008, Windows SharePoint Services 3.0 was included as a server role, adding the role subsequently configured supporting roles and role services - as a clean installation, this configuration must be performed by the server administrator and includes adding the Web Server (IIS)) role and role services.

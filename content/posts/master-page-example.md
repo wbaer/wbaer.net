@@ -2,7 +2,7 @@
 title: 'Master Page Example'
 date: Thu, 03 Jul 2008 15:29:00 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized']
+tags: ['Code Samples']
 ---
 
 I used the sample master pages at [http://office.microsoft.com/en-us/sharepointdesigner/HA102223711033.aspx](http://office.microsoft.com/en-us/sharepointdesigner/HA102223711033.aspx) in several Feature Stapling/Receiver demonstrations over the past year and was asked if I could provide the solution package I compiled using the Clarity master page (see image) in conjunction with a Feature Receiver to update the master page on both site collections and Webs.  I've finally gotten around to uploading the .wsp, so for those interested it can be downloaded [here](https://wbaer.officeisp.net/Shared%20Documents/Clarity%20Master%20Page.wsp).

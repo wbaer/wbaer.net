@@ -2,7 +2,7 @@
 title: 'Virtual Ask the Experts?'
 date: Sat, 15 Mar 2008 19:12:00 +0000
 draft: false
-tags: ['Ask the Experts', 'Uncategorized']
+tags: ['Ask the Experts']
 ---
 
 One of my favorite components to any conference is ATE (Ask the Experts), which based on the overall response recently at the Microsoft Office SharePoint Server Conference 2008, is both popular and extremely valuable in providing an opportunity for open discourse and topic-based discussion.  With that in mind, I have often considered the concept of a virtual ATE on my blog.  While I generally prepare and deliver content based on what the community has most often requested or where I feel there is desire for more information, I'd like to give the concept of a virtual ATE here.

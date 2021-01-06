@@ -2,7 +2,7 @@
 title: 'Windows SharePoint Services 3.0 Security Updates Version(s) Explained'
 date: Tue, 23 Oct 2007 15:43:00 +0000
 draft: false
-tags: ['Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Windows SharePoint Services 3.0']
 ---
 
 I was recently asked by one of our Premier Field Engineers in Charlotte, NC about the versioning information displayed in SharePoint 3.0 Central Administration after installing recent Windows SharePoint Services 3.0 security updates and decided it would be beneficial to expand the audience for others seeking an answer to this question.

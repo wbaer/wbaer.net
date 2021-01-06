@@ -2,7 +2,7 @@
 title: 'Document Encryption in SharePoint Portal Server'
 date: Tue, 09 May 2006 15:18:00 +0000
 draft: false
-tags: ['SharePoint Portal Server 2003', 'Uncategorized']
+tags: ['SharePoint Portal Server 2003']
 ---
 
 **Does SharePoint Portal Server support document encryption?**

@@ -2,7 +2,7 @@
 title: 'Renaming a Resource Forest on SharePoint Servers'
 date: Sat, 04 Feb 2006 02:15:00 +0000
 draft: false
-tags: ['Cross-Forest Hosting', 'Uncategorized']
+tags: ['Cross-Forest Hosting']
 ---
 
 \* I haven't revisted this post in awhile and thought I would include some additional information on the topic; in response to [dkbobe](http://blogs.technet.com/user/Profile.aspx?UserID=1001)'s questions surrounding updating the user information; you can use the SPUserUtility to update the tp\_Login column to reflect the new domain - more information on this tool can be found at Keith Richie's blog @ [http://blogs.msdn.com/krichie](http://blogs.msdn.com/krichie).

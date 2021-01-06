@@ -2,7 +2,7 @@
 title: 'February ''08'
 date: Fri, 29 Feb 2008 23:21:00 +0000
 draft: false
-tags: ['Conferences and Events', 'Uncategorized']
+tags: ['Conferences and Events']
 ---
 
 Seattle → Amsterdam → The Hague → Seattle (TechReady6) → SharePoint Conference 2008.

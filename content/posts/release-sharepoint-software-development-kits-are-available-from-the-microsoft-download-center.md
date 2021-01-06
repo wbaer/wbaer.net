@@ -2,7 +2,7 @@
 title: 'Release SharePoint Software Development Kits are available from the Microsoft Download Center'
 date: Mon, 22 Jan 2007 21:12:00 +0000
 draft: false
-tags: ['Code Samples', 'SDK', 'Uncategorized']
+tags: ['Code Samples', 'SDK']
 ---
 
 ![](http://technet2.microsoft.com/library/gallery/templates/MNP2.Common/images/important.gif) Release versions of the **Microsoft Office SharePoint Server 2007** and **Windows SharePoint Services 3.0** **SharePoint** Software Development Kits are available from the Microsoft Download Center!

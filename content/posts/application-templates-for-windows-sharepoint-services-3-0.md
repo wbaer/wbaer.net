@@ -2,7 +2,7 @@
 title: 'Application Templates for Windows SharePoint Services 3.0'
 date: Fri, 23 Feb 2007 11:31:00 +0000
 draft: false
-tags: ['Application Templates', 'Uncategorized']
+tags: ['Application Templates']
 ---
 
 In [November 2006](http://blogs.technet.com/wbaer/archive/2006/11/21/discover-application-templates-for-windows-sharepoint-services-3-0.aspx) I posted on the availability of Application Templates for **Windows SharePoint Services 3.0**; currently all 40 of the "Fastastic 40" Application Templates are available for **Windows SharePoint Services 3.0** in English including 20 English Site Admin templates and 20 Server Admin templates which are also available in multiple languages to include French, Italian, German, Spanish, Portuguese (BR), Japanese, Korean, Hebrew, Chinese (simplified), and Chinese (traditional).

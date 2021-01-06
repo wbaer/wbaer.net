@@ -2,7 +2,7 @@
 title: 'Discover application templates for Windows SharePoint Services 3.0'
 date: Tue, 21 Nov 2006 10:15:00 +0000
 draft: false
-tags: ['Application Templates', 'Uncategorized']
+tags: ['Application Templates']
 ---
 
 40 Application Templates are current under development for **Windows SharePoint Services 3.0** and the interest has substantially increased following the product release, particularly to microsoft.com. Many of the templates will be familiar from previous versions of **Windows SharePoint Services** to include Help Desk, Project Site, Knowledge Base, etc.; however, will incorporate features in the latest version of **Windows SharePoint Services**, I.e. workflow, mail enabled lists, etc. The new templates as released will be available with 20 _productivity_ templates for installation (UI) by site administrators, available only in English and 20 server administration templates for installation by server administers available in English, French, Italian, German, Spanish, Portuguese, Japanese, Chinese Simplified, Chinese Traditional, Korean, and Hebrew. The new application templates will upgrade previous versions; however, are not backward compatible with previous versions of Windows SharePoint Services.

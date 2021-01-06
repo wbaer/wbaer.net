@@ -2,7 +2,7 @@
 title: 'Site Recycle Bin (Microsoft IT Site Delete Capture) for Microsoft SharePoint Foundation and Microsoft SharePoint Server 2010 Frequently Asked Questions'
 date: Tue, 15 Dec 2009 15:58:20 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 **Question:**

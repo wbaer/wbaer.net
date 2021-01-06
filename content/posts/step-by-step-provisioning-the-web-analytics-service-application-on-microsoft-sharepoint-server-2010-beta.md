@@ -2,7 +2,7 @@
 title: 'Step-by-Step: Provisioning the Web Analytics Service Application on Microsoft SharePoint Server 2010 Beta'
 date: Sat, 21 Nov 2009 20:47:00 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['IT Pro Resources', 'SharePoint Server 2010']
 ---
 
 **Prerequisites**

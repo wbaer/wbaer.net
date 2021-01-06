@@ -2,7 +2,7 @@
 title: 'Quota Templates and Powershell'
 date: Wed, 17 Jun 2009 11:07:56 +0000
 draft: false
-tags: ['Code Samples', 'Uncategorized', 'Windows Powershell']
+tags: ['Code Samples', 'Windows Powershell']
 ---
 
 Continuing the series using Powershell and Microsoft SharePoint Products and Technologies, this weeks script sample illustrates how Powershell can be leveraged to programmatically provision Quota Templates in Windows SharePoint Services 3.0 and/or Microsoft Office SharePoint Server 2007.
