@@ -35,6 +35,8 @@ params = ["categories", "tags"]
   github = "wbaer"
   linkedin = "billbaer"
   
+  repoURL = "https://github.com/wbaer/wbaer.net/tree/master/content/"
+  
 [taxonomies]
   category = "categories"
   tag = "tags"

@@ -3,9 +3,11 @@
 
         <div class="mdl-cell mdl-cell--12-col">
             <h4>{{.Title }}</h4>
+            <p>{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
+            
             <p class="mdl-wb social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
                 <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
-                <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></p>
+                <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fas fa-code-branch"></i></a></p>
 
             <i class="fa fa-calendar" aria-hidden="true"></i>
             {{ if not .Params.hideDate }}
@@ -19,7 +21,7 @@
 
             {{ with .Params.thumbnail }}
                     <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
-            {{ end }}                
+            {{ end }}               
 
             <p>{{ .Content }}</p>
             
@@ -49,6 +51,16 @@
                         {{ end }}
                 {{ end }}
             </ul>
+            
+            {{define "breadcrumb"}}
+              {{$parent := .page.Parent }}
+              {{ if $parent }}
+                {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
+                {{ template "breadcrumb" dict "page" $parent "value" $value }}
+              {{else}}
+                {{.value|safeHTML}}
+              {{end}}
+            {{end}}
 
 {{ partial "helpers/comments.html" . }}
 
