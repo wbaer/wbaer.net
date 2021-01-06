@@ -74,8 +74,7 @@
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin />
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.svg" as="font" type="font/svg" crossorigin />
     
-        <link href="https://fonts.gstatic.com" rel="preconnect" />
-        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com" rel="preload" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en&amp;display=swap" />
         
         <link rel="preload" href="{{ .Site.BaseURL }}/css/material.min.css" as="style" />
@@ -91,7 +90,7 @@
         <script>
           WebFont.load({
             google: {
-              families: ['Material Icons']
+              families: ['Roboto', 'Material Icons']
             }
           });
         </script>
