@@ -3,13 +3,11 @@
 <html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
     
     <head>
-        <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WFJ5TFZ');</script>
-        <!-- End Google Tag Manager -->
         
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -86,17 +84,12 @@
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
         {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" }}
-        <script src="{{ $js.Permalink }}"></script>
         
         <!--
-        <link rel="preload" href="{{ .Site.BaseURL }}/css/material.min.css" as="style" />
-        <link rel="preload" href="{{ .Site.BaseURL }}/css/style.min.css" as="style" />
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/material.min.css" />
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.min.css" />-->
-        
-        <!--
-        <link rel="preload" href="{{ .Site.BaseURL }}/js/search.min.js" as="script" />
+        <link rel="preload" href="{{ $js.Permalink }}" as="script" />
     -->
+        
+        <script src="{{ $js.Permalink }}"></script>
         
         <script>
             WebFontConfig = {
@@ -118,6 +111,7 @@
                     <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                 <![endif]-->
 
+        <!--
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -127,6 +121,7 @@
                             ga('create', 'UA-77763554-1', 'auto');
                             ga('send', 'pageview');
         </script>
+    -->
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
     </head>
