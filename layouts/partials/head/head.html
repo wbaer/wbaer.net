@@ -74,17 +74,29 @@
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin />
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.svg" as="font" type="font/svg" crossorigin />
     
-        <link href="https://fonts.googleapis.com" rel="preload" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en&amp;display=swap" />
         
+        {{ $material := resources.Get "css/material.css" }}
+        {{ $wbaer := resources.Get "css/wbaer.css" }}
+        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "sha512" }}
+        <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all" />
+        
+        <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/css/material.min.css" as="style" />
         <link rel="preload" href="{{ .Site.BaseURL }}/css/style.min.css" as="style" />
-        
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/material.min.css" />
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.min.css" />
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.min.css" />-->
+    
+        {{ $material := resources.Get "js/material.js" }}
+        {{ $lunr := resources.Get "js/lunr.js" }}
+        {{ $search := resources.Get "js/search.js" }}
+        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+        <script src="{{ $js.RelPermalink }}"></script>
         
+        <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/js/search.min.js" as="script" />
-        <link rel="preload" href="{{ .Site.BaseURL }}/js/material.min.js" as="script" />
+        <link rel="preload" href="{{ .Site.BaseURL }}/js/material.min.js" as="script" />-->
         
         <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
