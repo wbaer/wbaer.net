@@ -63,7 +63,7 @@ html,body{
 .mdl-layout-title{
 	text-transform:uppercase;
 	font-weight:normal;
-	letter-spacing:2px
+	letter-spacing:1px
 }
 .mdl-layout-title a{
 	color:rgb(255,255,255);

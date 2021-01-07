@@ -92,7 +92,7 @@
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
         {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-        <script async src="{{ $js.Permalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous"></script>
+        <script async src="{{ $js.Permalink }}" crossorigin="anonymous"></script>
         
         <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/js/search.min.js" as="script" />
