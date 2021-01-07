@@ -79,8 +79,8 @@
         
         {{ $material := resources.Get "css/material.css" }}
         {{ $wbaer := resources.Get "css/wbaer.css" }}
-        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "sha512" }}
-        <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all" />
+        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "md5" }}
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="all" />
         
         <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/css/material.min.css" as="style" />
@@ -91,8 +91,8 @@
         {{ $material := resources.Get "js/material.js" }}
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
-        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-        <script src="{{ $js.RelPermalink }}"></script>
+        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "md5" }}
+        <script src="{{ $js.Permalink }}"></script>
         
         <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/js/search.min.js" as="script" />
