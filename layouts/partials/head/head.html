@@ -79,7 +79,7 @@
         
         {{ $material := resources.Get "css/material.css" }}
         {{ $wbaer := resources.Get "css/wbaer.css" }}
-        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "md5" }}
+        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "sha512" }}
         <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="all" />
         
         <!--
@@ -91,20 +91,27 @@
         {{ $material := resources.Get "js/material.js" }}
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
-        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "md5" }}
-        <script src="{{ $js.Permalink }}"></script>
+        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+        <script async src="{{ $js.Permalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous"></script>
         
         <!--
         <link rel="preload" href="{{ .Site.BaseURL }}/js/search.min.js" as="script" />
         <link rel="preload" href="{{ .Site.BaseURL }}/js/material.min.js" as="script" />-->
         
-        <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
-          WebFont.load({
-            google: {
-              families: ['Roboto', 'Material Icons']
-            }
-          });
+            WebFontConfig = {
+                google: { families: [ 'Material Icons', 'Roboto' ]
+               }
+            };
+            (function() {
+                 var wf = document.createElement('script');
+                 wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                     '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+                 wf.type = 'text/javascript';
+                 wf.async = 'true';
+                 var s = document.getElementsByTagName('script')[0];
+                 s.parentNode.insertBefore(wf, s);
+               })();
         </script>
         
         <!--[if lt IE 9]>
