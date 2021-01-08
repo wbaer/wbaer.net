@@ -70,9 +70,13 @@ html,body{
 	text-decoration:none;
 	font-weight:400
 }
-.mdl-layout__drawer .mdl-layout-title{
+/*.mdl-layout__drawer .mdl-layout-title{
 	padding:0;
 	text-align:center
+}*/
+.mdl-layout-title{
+	  left: 50%;
+	  transform: translate(-50%)
 }
 .mdl-wb .mdl-layout__content section:not(:last-of-type){
 	position:relative;
