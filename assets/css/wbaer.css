@@ -70,26 +70,6 @@ html,body{
 	text-decoration:none;
 	font-weight:400
 }
-.mdl-layout__header-row{
-	background-color:hsl(0,0%,100%);
-	border-bottom:1px solid #f1f3f5;
-	box-shadow:none;
-	color:#343a40
-}
-.mdl-layout__header-row a{
-	background-color:#fff;
-	color:#343a40
-}
-.mdl-navigation__link {
-	color:#343a40 !important
-}
-.mdl-navigation__link a{
-	color:#343a40 !important
-}
-.mdl-layout__drawer-button {
-	color:#343a40 !important;
-	background-color:#fff !important
-}
 /*.mdl-layout__drawer .mdl-layout-title{
 	padding:0;
 	text-align:center
@@ -139,25 +119,6 @@ a{
 	-ms-flex:none;
 	flex:none
 }
-a {
-	color:#343a40
-}
-h4 a{
-	color:#343a40;
-	font-weight: 400;
-}
 .mdl-navigation__link{
 	text-transform:uppercase
-}
-.mdl-mini-footer{
-	color:#343a40 !important;
-	background-color:#fff;
-	border-top: 1px solid #f1f3f5;
-	color:#343a40
-}
-.mdl-logo{
-	color:#343a40
-}
-.mdl-chip__contact{
-	background-color:#000 !important
 }
