@@ -55,11 +55,6 @@ params = ["categories", "tags"]
     name = "Archives"
     url = "/archive"
     weight = 3
-    
-[[menu.main]]
-  name = "Tags"
-  url = "/tags"
-  weight = 4
 
 [[menu.horizontal]]
   name = "Home"
