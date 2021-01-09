@@ -2,7 +2,7 @@
 title: 'Welcome to the Developer Dashboard'
 date: Sat, 21 Nov 2009 16:35:58 +0000
 draft: false
-tags: ['Code Samples', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized', 'Windows Powershell']
+tags: ['Code Samples', 'SharePoint Foundation 2010', 'SharePoint Server 2010', 'Windows Powershell']
 ---
 
 **About the Developer Dashboard**

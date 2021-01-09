@@ -73,27 +73,25 @@
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.svg" as="font" type="font/svg" crossorigin />
     
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en&amp;display=swap" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
         
-        {{ $material := resources.Get "css/material.css" }}
-        {{ $wbaer := resources.Get "css/wbaer.css" }}
-        {{ $style := slice $material $wbaer | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint "sha512" }}
-        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="all" />
+        {{ $css := resources.Get "css/style.min.css" }}
+        {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
+        
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
         
         {{ $material := resources.Get "js/material.js" }}
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
         {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" }}
         
-        <!--
         <link rel="preload" href="{{ $js.Permalink }}" as="script" />
-    -->
         
         <script src="{{ $js.Permalink }}"></script>
         
         <script>
             WebFontConfig = {
-                google: { families: [ 'Material Icons', 'Roboto' ]
+                google: { families: [ 'Material Icons', 'Montserrat' ]
                }
             };
             (function() {
@@ -110,18 +108,6 @@
         <!--[if lt IE 9]>
                     <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                 <![endif]-->
-
-        <!--
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-                            ga('create', 'UA-77763554-1', 'auto');
-                            ga('send', 'pageview');
-        </script>
-    -->
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
     </head>

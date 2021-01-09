@@ -2,7 +2,7 @@
 title: 'Slipstream, not a phenomenon in Physics'
 date: Thu, 01 Nov 2007 10:03:44 +0000
 draft: false
-tags: ['Microsoft Office SharePoint Server 2007', 'Uncategorized', 'Windows SharePoint Services 3.0']
+tags: ['Microsoft Office SharePoint Server 2007', 'Windows SharePoint Services 3.0']
 ---
 
 Slipstream is a common term used at Microsoft to define the merging of patches or updates into the original installation sources of a program.

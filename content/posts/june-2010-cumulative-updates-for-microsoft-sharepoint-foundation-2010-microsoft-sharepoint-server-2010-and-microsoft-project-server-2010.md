@@ -2,7 +2,7 @@
 title: 'June 2010 Cumulative Updates for Microsoft SharePoint Foundation 2010, Microsoft SharePoint Server 2010, and Microsoft Project Server 2010'
 date: Sat, 24 Jul 2010 13:27:00 +0000
 draft: false
-tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010', 'Uncategorized']
+tags: ['SharePoint Foundation 2010', 'SharePoint Server 2010']
 ---
 
 **SharePoint Foundation 2010** - KB2028568 [http://support.microsoft.com/kb/2028568](http://support.microsoft.com/kb/2028568 "http://support.microsoft.com/kb/2028568")

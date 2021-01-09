@@ -2,7 +2,7 @@
 title: 'Windows Server 2008 R2 Enterprise Edition and SharePoint Server 2010 Better Together Whitepaper'
 date: Wed, 18 Aug 2010 08:32:41 +0000
 draft: false
-tags: ['IT Pro Resources', 'SharePoint Server 2010', 'Uncategorized', 'Windows Server 2008']
+tags: ['IT Pro Resources', 'SharePoint Server 2010', 'Windows Server 2008']
 ---
 
 A recently published whitepaper is now available on TechNet that describes the benefits of deploying Microsoft SharePoint Server 2010 on Microsoft Windows Server 2008 R2 Enterprise Edition and scenarios in which its features can be applied.

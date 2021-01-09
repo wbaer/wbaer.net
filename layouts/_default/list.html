@@ -1,4 +1,5 @@
 {{ partialCached "header/header.html" . }}
+{{ partialCached "introduction.html" . }}
     
 {{ if .IsHome }}
 {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}

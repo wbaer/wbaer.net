@@ -2,7 +2,7 @@
 title: 'Ghosts in the Machine?'
 date: Fri, 10 Aug 2007 16:13:00 +0000
 draft: false
-tags: ['Application Templates', 'Code Samples', 'Performance', 'PRESCAN', 'Uncategorized', 'Upgrade &amp; Migration']
+tags: ['Application Templates', 'Code Samples', 'Performance', 'PRESCAN', 'Upgrade &amp; Migration']
 ---
 
 Ghosted and unghosted pages are references not new to Microsoft Office SharePoint Server 2007, but have received increased interest as a result of their impact on upgrading from previous versions and more recently, the ability to manage pages in an unghosted state.
