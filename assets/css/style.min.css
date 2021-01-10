@@ -12888,11 +12888,13 @@ hr {
 .mdl-layout__header {
   background: white;
   border-bottom: 1px solid #f1f3f5;
+  z-index: 1;
 }
 
 .mdl-layout__header-row {
   background: white;
   border-bottom: 1px solid #f1f3f5;
+  z-index: 1;
 }
 
 /*.mdl-layout__header--transparent{
@@ -12918,6 +12920,10 @@ hr {
 
 .mdl-mini-footer a {
   color: #3f464d;
+}
+
+.mdl-layout__tab-panel is-active {
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.min.css.map */

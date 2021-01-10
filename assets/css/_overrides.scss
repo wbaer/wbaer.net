@@ -138,10 +138,12 @@ hr{
 .mdl-layout__header{
 	background:rgb(255,255,255);
 	border-bottom:1px solid #f1f3f5;
+	z-index:1;
 }
 .mdl-layout__header-row {
 	background:rgb(255,255,255);
 	border-bottom:1px solid #f1f3f5;
+	z-index:1;
 }
 /*.mdl-layout__header--transparent{
 	background:rgb(255,255,255);
@@ -162,4 +164,7 @@ hr{
 }
 .mdl-mini-footer a{
 	color:#3f464d;
+}
+.mdl-layout__tab-panel is-active{
+	position:absolute;
 }
