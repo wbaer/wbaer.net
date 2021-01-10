@@ -15,6 +15,7 @@ html,body{
 	font-display:swap;
 	src:url(../fonts/MaterialIcons-Regular.eot);
 	src:local('Material Icons'),local('MaterialIcons-Regular'),url(../fonts/MaterialIcons-Regular.woff) format('woff'),url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+	display:swap;
 }
 @font-face {
   font-family:'Noto Sans';
@@ -27,6 +28,7 @@ html,body{
 	   url('../fonts/noto-sans-v11-latin-regular.woff') format('woff'),
 	   url('../fonts/noto-sans-v11-latin-regular.ttf') format('truetype'),
 	   url('../fonts/noto-sans-v11-latin-regular.svg#NotoSans') format('svg');
+	   display:swap;
 }
 .material-icons{
 	font-family:'Material Icons';
