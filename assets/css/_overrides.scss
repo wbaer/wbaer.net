@@ -109,9 +109,9 @@ html,body{
 	background-color:rgb(255,255,255);
 	background-color:hsl(0,0%,100%);
 }*/
-/*.mdl-wb .mdl-menu__container{
+.mdl-wb .mdl-menu__container{
 	z-index:99;
-}*/
+}
 .mdl-wb .social-share_icon{
 	text-decoration:none;
 	word-spacing:14px;
@@ -157,9 +157,9 @@ hr{
 	border-bottom:1px solid #f1f3f5;
 	z-index:1;
 }
-/*.mdl-layout__header--transparent{
+.mdl-layout__header--transparent{
 	background:rgb(255,255,255);
-}*/
+}
 .mdl-layout__content > *:not(.mdl-layout-spacer){
 	-webkit-flex:none;
 	-ms-flex:none;
@@ -185,8 +185,10 @@ hr{
 .mdl-chip__contact{
 	background-color:rgb(255,255,255);
 }
+/*
 @media screen and (max-width: 850px){
 	  .mdl-layout__container{
 		position:static;
 	  }
 }
+*/

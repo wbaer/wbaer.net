@@ -5,38 +5,40 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
         <div class="mdl-layout mdl-js-layout">
-            <header class="mdl-layout__header mdl-layout__header--transparent">
-                <div class="mdl-layout__header-row">
-                    <span class="mdl-layout-title mdl-layout--large-screen-only"></span>
-                    <div class="mdl-layout-spacer"></div>
-                    <nav class="mdl-navigation mdl-layout--large-screen-only">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                        <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-                        {{ end }}
-                    </nav>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-cell--hide-phone">
-                        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
-                            <i class="material-icons notranslate spyglass" style="top: 18px;">search</i>
-                        </label>
-                        <div class="mdl-textfield__expandable-holder">
-                            <form id="search" role="search" class="search">
-                                <input class="mdl-textfield__input" type="text" id="search-expandable" />
-                                <label class="mdl-textfield__label" for="search-expandable">search</label>
-                            </form>
+            <!--<header class="mdl-layout__header mdl-layout__header--transparent">-->
+                <header class="mdl-layout__header--transparent">
+                    <div class="mdl-layout__header-row">
+                        <span class="mdl-layout-title mdl-layout--large-screen-only"></span>
+                        <div class="mdl-layout-spacer"></div>
+                        <nav class="mdl-navigation mdl-layout--large-screen-only">
+                            {{ $currentPage := . }}
+                            {{ range .Site.Menus.main }}
+                            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                            {{ end }}
+                        </nav>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-cell--hide-phone">
+                            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
+                                <i class="material-icons notranslate spyglass" style="top: 18px;">search</i>
+                            </label>
+                            <div class="mdl-textfield__expandable-holder">
+                                <form id="search" role="search" class="search">
+                                    <input class="mdl-textfield__input" type="text" id="search-expandable" />
+                                    <label class="mdl-textfield__label" for="search-expandable">search</label>
+                                </form>
+                            </div>
                         </div>
                     </div>
+                </header>
+            <!--</header>-->
+                <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+                    <span class="mdl-layout-title"></span>
+                    <nav class="mdl-navigation">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                        {{ end }}
+                    </nav>
                 </div>
-            </header>
-            <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-                <span class="mdl-layout-title"><i class="fas fa-paw"></i> Bill Baer</span>
-                <nav class="mdl-navigation">
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
-                        <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
-                    {{ end }}
-                </nav>
-            </div>
             <main class="mdl-layout__content mdl-color--white">
                 <div class="mdl-layout__tab-panel is-active">
                     <section class="section--center mdl-grid mdl-grid--no-spacing">

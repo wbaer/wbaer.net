@@ -83,7 +83,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     -->
         
-        {{ $css := resources.Get "css/style.min.css" }}
+        {{ $css := resources.Get "css/style.css" }}
         {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
         
         <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
