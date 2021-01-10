@@ -16,6 +16,18 @@ html,body{
 	src:url(../fonts/MaterialIcons-Regular.eot);
 	src:local('Material Icons'),local('MaterialIcons-Regular'),url(../fonts/MaterialIcons-Regular.woff) format('woff'),url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family:'Noto Sans';
+  font-style:normal;
+  font-weight:400;
+  src:url('../fonts/noto-sans-v11-latin-regular.eot');
+  src:local(''),
+	   url('../fonts/noto-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), 
+	   url('../fonts/noto-sans-v11-latin-regular.woff2') format('woff2'),
+	   url('../fonts/noto-sans-v11-latin-regular.woff') format('woff'),
+	   url('../fonts/noto-sans-v11-latin-regular.ttf') format('truetype'),
+	   url('../fonts/noto-sans-v11-latin-regular.svg#NotoSans') format('svg');
+}
 .material-icons{
 	font-family:'Material Icons';
 	font-weight:400;
@@ -167,4 +179,14 @@ hr{
 }
 .mdl-layout__tab-panel is-active{
 	position:absolute;
+}
+.mdl-chip,
+.mdl-chip__text,
+.mdl-chip__contact{
+	background-color:rgb(255,255,255);
+}
+@media screen and (max-width: 850px){
+	  .mdl-layout__container{
+		position:static;
+	  }
 }
