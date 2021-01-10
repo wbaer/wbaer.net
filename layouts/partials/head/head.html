@@ -72,10 +72,8 @@
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin />
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/MaterialIcons-Regular.svg" as="font" type="font/svg" crossorigin />
     
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
         
         {{ $css := resources.Get "css/style.min.css" }}
         {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
@@ -93,7 +91,7 @@
         
         <script>
             WebFontConfig = {
-                google: { families: [ 'Material Icons', 'Montserrat' ]
+                google: { families: [ 'Material+Icons', 'Noto+Sans' ]
                }
             };
             (function() {

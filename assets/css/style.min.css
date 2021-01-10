@@ -12726,11 +12726,11 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
   }
 }
 * {
-  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
 }
 
 html, body {
-  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
