@@ -10,6 +10,28 @@ html,body{
 	padding:0;
 	scroll-behavior:smooth
 }
+
+@font-face{
+	font-family:'Material Icons';
+	font-style:normal;
+	font-weight:400;
+	font-display:swap;
+	src:local('Material Icons'),local('MaterialIcons-Regular'),
+		url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+		url(../fonts/MaterialIcons-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family:'Noto Sans';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  unicode-range:U+000-5FF;
+  src:local(''),
+	   url('../fonts/noto-sans-v11-latin-regular.woff2') format('woff2'),
+	   url('../fonts/noto-sans-v11-latin-regular.woff') format('woff');
+}
+
+/*
 @font-face{
 	font-family:'Material Icons';
 	font-style:normal;
@@ -32,6 +54,7 @@ html,body{
 	   url('../fonts/noto-sans-v11-latin-regular.svg#NotoSans') format('svg');
 	   font-display:swap;
 }
+*/
 .material-icons{
 	font-family:'Material Icons';
 	font-weight:400;
