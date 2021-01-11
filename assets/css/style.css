@@ -3688,11 +3688,11 @@ ul, ol {
 }
 
 .mdl-color--primary-contrast {
-  background-color: rgb(#343a40) !important;
+  background-color: rgb(#565264) !important;
 }
 
 .mdl-color--primary-dark {
-  background-color: rgb(#343a40) !important;
+  background-color: rgb(#3a3743) !important;
 }
 
 .mdl-color--accent {
@@ -3708,11 +3708,11 @@ ul, ol {
 }
 
 .mdl-color-text--primary-contrast {
-  color: rgb(#343a40) !important;
+  color: rgb(#565264) !important;
 }
 
 .mdl-color-text--primary-dark {
-  color: rgb(#343a40) !important;
+  color: rgb(#3a3743) !important;
 }
 
 .mdl-color-text--accent {
@@ -4562,7 +4562,7 @@ input.mdl-button[type=submit] {
 }
 .mdl-button--raised.mdl-button--colored {
   background: rgb(white);
-  color: rgb(#343a40);
+  color: rgb(#565264);
 }
 .mdl-button--raised.mdl-button--colored:hover {
   background-color: rgb(white);
@@ -4574,7 +4574,7 @@ input.mdl-button[type=submit] {
   background-color: rgb(white);
 }
 .mdl-button--raised.mdl-button--colored .mdl-ripple {
-  background: rgb(#343a40);
+  background: rgb(#565264);
 }
 
 .mdl-button--fab {
@@ -4686,10 +4686,10 @@ input.mdl-button[type=submit] {
   color: rgb(white);
 }
 .mdl-button--primary.mdl-button--primary .mdl-ripple {
-  background: rgb(#343a40);
+  background: rgb(#565264);
 }
 .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
-  color: rgb(#343a40);
+  color: rgb(#565264);
   background-color: rgb(white);
 }
 
@@ -8150,7 +8150,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 }
 
 .mdl-progress > .bufferbar {
-  background-image: linear-gradient(to right, rgba(#343a40, 0.7), rgba(#343a40, 0.7)), linear-gradient(to right, rgb(white), rgb(white));
+  background-image: linear-gradient(to right, rgba(#565264, 0.7), rgba(#565264, 0.7)), linear-gradient(to right, rgb(white), rgb(white));
   z-index: 0;
   left: 0;
 }
@@ -8162,13 +8162,13 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 @supports (-webkit-appearance: none) {
   .mdl-progress:not(.mdl-progress--indeterminate):not(.mdl-progress--indeterminate) > .auxbar,
 .mdl-progress:not(.mdl-progress__indeterminate):not(.mdl-progress__indeterminate) > .auxbar {
-    background-image: linear-gradient(to right, rgba(#343a40, 0.7), rgba(#343a40, 0.7)), linear-gradient(to right, rgb(white), rgb(white));
+    background-image: linear-gradient(to right, rgba(#565264, 0.7), rgba(#565264, 0.7)), linear-gradient(to right, rgb(white), rgb(white));
     mask: url("/images/buffer.svg?embed");
   }
 }
 .mdl-progress:not(.mdl-progress--indeterminate) > .auxbar,
 .mdl-progress:not(.mdl-progress__indeterminate) > .auxbar {
-  background-image: linear-gradient(to right, rgba(#343a40, 0.9), rgba(#343a40, 0.9)), linear-gradient(to right, rgb(white), rgb(white));
+  background-image: linear-gradient(to right, rgba(#565264, 0.9), rgba(#565264, 0.9)), linear-gradient(to right, rgb(white), rgb(white));
 }
 
 .mdl-progress.mdl-progress--indeterminate > .bar1,
@@ -8562,12 +8562,12 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   margin: 8px 12px;
   top: 0;
   left: 0;
-  color: rgb(#343a40);
+  color: rgb(#565264);
   z-index: 4;
 }
 .mdl-layout__header .mdl-layout__drawer-button {
   position: absolute;
-  color: rgb(#343a40);
+  color: rgb(#565264);
   background-color: inherit;
 }
 @media screen and (max-width: 1024px) {
@@ -8605,7 +8605,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   max-height: 1000px;
   z-index: 3;
   background-color: rgb(white);
-  color: rgb(#343a40);
+  color: rgb(#565264);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -8742,7 +8742,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 }
 .mdl-layout__header-row .mdl-navigation__link {
   display: block;
-  color: rgb(#343a40);
+  color: rgb(#565264);
   line-height: 64px;
   padding: 0 24px;
 }
@@ -8898,7 +8898,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   line-height: 48px;
 }
 .mdl-layout__tab-bar-button.is-active {
-  color: rgb(#343a40);
+  color: rgb(#565264);
 }
 
 .mdl-layout__tab-bar-left-button {
@@ -8925,7 +8925,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color: rgba(#343a40, 0.6);
+  color: rgba(#565264, 0.6);
   overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
@@ -8939,7 +8939,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   padding: 0;
 }
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active {
-  color: rgb(#343a40);
+  color: rgb(#565264);
 }
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
   height: 2px;
@@ -8964,7 +8964,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   overflow: hidden;
 }
 .mdl-layout__tab .mdl-layout__tab-ripple-container .mdl-ripple {
-  background-color: rgb(#343a40);
+  background-color: rgb(#565264);
 }
 
 .mdl-layout__tab-panel {
@@ -12731,7 +12731,7 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
 
 html, body {
   font-family: "Noto Sans", "Helvetica", sans-serif;
-  color: #343a40;
+  color: #3a3743;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -12892,7 +12892,7 @@ html, body {
 }
 
 a {
-  color: #3f464d;
+  color: #575365;
   text-decoration: none;
 }
 
@@ -12945,15 +12945,15 @@ hr {
 }
 
 .mdl-logo {
-  color: #3f464d;
+  color: #565264;
 }
 
 .mdl-mini-footer {
-  color: #3f464d;
+  color: #565264;
 }
 
 .mdl-mini-footer a {
-  color: #3f464d;
+  color: #565264;
 }
 
 .mdl-layout__tab-panel is-active {
@@ -12961,7 +12961,7 @@ hr {
 }
 
 .mdl-chip__text {
-  background-color: #3f464d;
+  background-color: #575365;
 }
 
 .mdl-chip,
