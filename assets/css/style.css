@@ -12743,7 +12743,7 @@ html, body {
   font-display: swap;
   src: url(../fonts/MaterialIcons-Regular.eot);
   src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIcons-Regular.woff) format("woff"), url(../fonts/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/MaterialIcons-Regular.ttf) format("truetype");
-  display: swap;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans";
@@ -12751,7 +12751,7 @@ html, body {
   font-weight: 400;
   src: url("../fonts/noto-sans-v11-latin-regular.eot");
   src: local(""), url("../fonts/noto-sans-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/noto-sans-v11-latin-regular.woff") format("woff"), url("../fonts/noto-sans-v11-latin-regular.ttf") format("truetype"), url("../fonts/noto-sans-v11-latin-regular.svg#NotoSans") format("svg");
-  display: swap;
+  font-display: swap;
 }
 .material-icons {
   font-family: "Material Icons";
@@ -12896,19 +12896,19 @@ hr {
 }
 
 .mdl-layout__header {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #f1f3f5;
   z-index: 1;
 }
 
 .mdl-layout__header-row {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #f1f3f5;
   z-index: 1;
 }
 
 .mdl-layout__header--transparent {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .mdl-layout__content > *:not(.mdl-layout-spacer) {
