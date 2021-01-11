@@ -1,9 +1,11 @@
 $font-stack: 'Noto Sans','Helvetica',sans-serif;
+$color-primary: rgb(52, 58, 64);
 * {
 	font-family:$font-stack;
 }
 html,body{
 	font-family:$font-stack;
+	color:$color-primary;
 	margin:0;
 	padding:0;
 	scroll-behavior:smooth
@@ -71,7 +73,7 @@ html,body{
 	line-height:64px;
 }
 .mdl-wb .mdl-layout__tab-bar .mdl-layout__tab.is-active::after{
-	background-color:#fff;
+	background-color:rgb(255, 255, 255);
 	height:4px;
 }
 .mdl-wb main>.mdl-layout__tab-panel{
@@ -128,7 +130,7 @@ html,body{
 	margin:auto;
 }
 a{
-	color:#3f464d;
+	color:rgb(63, 70, 77);
 	text-decoration:none;
 }
 h4 a {
@@ -171,19 +173,19 @@ hr{
 	text-transform:uppercase;
 }
 .mdl-logo{
-	color:#3f464d;
+	color:rgb(63, 70, 77);
 }
 .mdl-mini-footer{
-	color:#000;
+	color:rgb(63, 70, 77);
 }
 .mdl-mini-footer a{
-	color:#3f464d;
+	color:rgb(63, 70, 77);
 }
 .mdl-layout__tab-panel is-active{
 	position:absolute;
 }
 .mdl-chip__text {
-	background-color:#ccc;
+	background-color:rgb(63, 70, 77);
 }
 .mdl-chip,
 .mdl-chip__text,

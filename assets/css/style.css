@@ -12731,6 +12731,7 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
 
 html, body {
   font-family: "Noto Sans", "Helvetica", sans-serif;
+  color: #343a40;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -12801,7 +12802,7 @@ html, body {
 }
 
 .mdl-wb .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-  background-color: #fff;
+  background-color: white;
   height: 4px;
 }
 
@@ -12926,7 +12927,7 @@ hr {
 }
 
 .mdl-mini-footer {
-  color: #000;
+  color: #3f464d;
 }
 
 .mdl-mini-footer a {
@@ -12938,7 +12939,7 @@ hr {
 }
 
 .mdl-chip__text {
-  background-color: #ccc;
+  background-color: #3f464d;
 }
 
 .mdl-chip,

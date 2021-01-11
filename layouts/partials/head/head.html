@@ -77,11 +77,6 @@
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/noto-sans-v11-latin-regular.woff" as="font" type="font/woff" crossorigin />
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/noto-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
         <link rel="preload" href="{{ .Site.BaseURL }}/fonts/noto-sans-v11-latin-regular.svg" as="font" type="font/svg" crossorigin />
-    
-        <!--
-        <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    -->
         
         {{ $css := resources.Get "css/style.css" }}
         {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
