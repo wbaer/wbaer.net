@@ -8,7 +8,6 @@
                 <span class="mdl-chip__contact">{{ len $value }}</span>
                 <span class="mdl-chip__text"><a href="{{ $baseurl }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a></span>
             </span>
-            <br />
             {{ end }}
         </div>
 {{ partialCached "footer/footer.html" . }}

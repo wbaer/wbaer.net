@@ -12896,19 +12896,19 @@ hr {
 }
 
 .mdl-layout__header {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.95) !important;
   border-bottom: 1px solid #f1f3f5;
   z-index: 1;
 }
 
 .mdl-layout__header-row {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.95) !important;
   border-bottom: 1px solid #f1f3f5;
   z-index: 1;
 }
 
 .mdl-layout__header--transparent {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.95) !important;
 }
 
 .mdl-layout__content > *:not(.mdl-layout-spacer) {
@@ -12935,6 +12935,10 @@ hr {
 
 .mdl-layout__tab-panel is-active {
   position: absolute;
+}
+
+.mdl-chip__text {
+  background-color: #ccc;
 }
 
 .mdl-chip,
