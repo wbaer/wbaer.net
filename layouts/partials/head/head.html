@@ -82,12 +82,7 @@
         {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" }}
         
         <link rel="preload" href="{{ $js.Permalink }}" as="script" />
-        
         <script src="{{ $js.Permalink }}"></script>
-        
-        <!--[if lt IE 9]>
-                    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-                <![endif]-->
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
     </head>
