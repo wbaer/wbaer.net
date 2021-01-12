@@ -8,7 +8,7 @@ Over the past month or so I've been working more and more with Hugo as I rebuild
 
 Clean Build simply forces recursive deletion of the default Hugo output folder, public, that was generated as a result of previous builds.
 
-Compile Saas as suggested, compiles my Saas.  I've broken it down into two arguments in the event in the future I decide to change input/output directories or add addtional arguments to the command; otherwise, I could have passed the command and related argumements within the command itself.
+Compile Saas as suggested, compiles my Saas.  I've broken it down into two arguments in the event I decide in the future to change input/output directories or add addtional arguments to the command; otherwise, I could have passed the command and related argumements within the command itself.
 
 Build Site generates my site by calling the hugo command with the following arguments: server to insitate a new instance of the hugo server, disables Fast Render which means the site is always rebuilt on change, and lastly disables HTTP cache so I'm always presented with a relatively "fresh" copy of my site on rebuild.
 
@@ -67,6 +67,6 @@ Coming back to my earlier objective, I wanted to be able to automate jobs inside
 
 Basically I have the 3 tasks previously mentioned, set to run in the background.  While I've ordered and grouped the tasks chronologically as I expect them to execute - this isn't handled automatically - the last set of instructions is designed to do that (dependsOrder).
 
-"dependsOrder": "sequence" specifies that task dependencies are executed in the order they are listed in dependsOn. Any background/watch tasks used in dependsOn with "dependsOrder": "sequence" need to have a problem matcher that tracks when they are "done" (as specified in the above). The above task runs task 1, task 2, and then task 3, albeit I could've ordered them differently and the sequenced them in the order I want them to run, e.g. ordered as Build, Cleanup, and Compile, but run as Cleanup, Compile, and then Build.
+"dependsOrder": "sequence" specifies that task dependencies are executed in the order they are listed in dependsOn. Any background/watch tasks used in dependsOn with "dependsOrder": "sequence" needs to have a problem matcher that tracks when they are "done" (as specified in the above). The above task runs task 1, task 2, and then task 3, albeit I could've ordered them differently and the sequenced them in the order I want them to run, e.g. ordered as Build, Cleanup, and Compile, but run as Cleanup, Compile, and then Build.
 
 This is a super simple example of tasks and you can learn more here https://code.visualstudio.com/docs/editor/tasks.  As with all posts here, you can click the code icon at the top of the page and suggest an edit via GitHub.

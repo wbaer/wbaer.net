@@ -1,7 +1,7 @@
 ---
 title: 'Transitioning from Authoratative Web Pages to Answers in SharePoint Online'
-date: Tue, 13 Jan 2021 01:59:52 +0000
-draft: true
+date: Tue, 12 Jan 2021 03:59:52 +0000
+draft: false
 tags: ['Microsoft Search', 'SharePoint', 'Answers']
 ---
 As Authoratative Pages are schedule to be deprecated in SharePoint Online, now is the time to start thinking about how to deliver similar functionality with Microsoft Search.  For background, authoritative pages are those that link to the most relevant information as decided by the search administrator, specified as a URL. SharePoint search uses this list to calculate the rank of every page in the index.
