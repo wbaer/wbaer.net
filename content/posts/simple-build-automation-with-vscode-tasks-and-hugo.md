@@ -59,7 +59,7 @@ Build Site generates my site by calling the hugo command with the following argu
             ]
         }
 
-So why Visual Studio Code over Nova App?  Don't get me wrong, Nova is an awesome, powerful editor and I use other Panic apps like Transmit and Prompt, and I'd highly recommend it.  It's UX is clean and intuitive and it has a array of useful features, extensive library of extensions, and just feels "natural" on the Mac, but like my decision to move to static from dynamic - more was there than what I was using.  The simplicity of Visual Studio Code provides everything I need at the moment and I actively use it for unrelated projects so it's become more or less part of my goal to consolidate where I can; otherwise, if you're on a Mac and looking for a great editor I'd highly recommend Nova.  Check it out at https://nova.app.
+So why Visual Studio Code over Nova App?  Don't get me wrong, Nova is an awesome, powerful editor and I use other Panic apps like Transmit and Prompt, and I'd highly recommend it.  Its UX is clean and intuitive and it has a array of useful features, extensive library of extensions, and just feels "natural" on the Mac, but like my decision to move to static from dynamic - more was there than what I was using.  The simplicity of Visual Studio Code provides everything I need at the moment and I actively use it for unrelated projects so it's become more or less part of my goal to consolidate where I can; otherwise, if you're on a Mac and looking for a great editor I'd highly recommend Nova.  Check it out at https://nova.app.
 
 Now onto Tasks in Visual Studio Code...  This is probably old hat for many, but for those who are new here's a brief explainer...
 
