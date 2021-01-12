@@ -5,10 +5,10 @@
             "label": "Clean Build",
             "type": "shell",
             "command": "rm -rf public",
-            "group": {
+/*             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }, */
             "isBackground": true,
             "problemMatcher": []
         },
@@ -20,10 +20,10 @@
                 "assets/css/style.scss",
                 "assets/css/style.css"
             ],
-            "group": {
+/*             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }, */
             "isBackground": true,
             "problemMatcher": []
         },
@@ -36,10 +36,10 @@
                 "--disableFastRender",
                 "--noHTTPCache"
             ],
-            "group": {
+/*             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }, */
             "isBackground": true,
             "problemMatcher": []
         },
