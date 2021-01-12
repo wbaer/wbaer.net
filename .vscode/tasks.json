@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean Build",
+            "type": "shell",
+            "command": "rm -rf public",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Saas",
+            "type": "shell",
+            "command": "sass",
+            "args": [
+                "assets/css/style.scss",
+                "assets/css/style.css"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Site",
+            "type": "shell",
+            "command": "hugo",
+            "args": [
+                "serve",
+                "--disableFastRender",
+                "--noHTTPCache"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": ["Clean Build", "Compile Saas", "Build Site"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+        }
+    ]
+}

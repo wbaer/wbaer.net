@@ -173,17 +173,24 @@ hr {
 	}
 }
 .mdl-layout__header {
-	background: rgba(255,255,255,0.95) !important;
+	background-color: rgba(255,255,255,0.95);
+	background-color: hsla(0,0%,100%,.95);
 	border-bottom: 1px solid #f1f3f5;
 	z-index: 1;
 }
 .mdl-layout__header-row {
-	background: rgba(255,255,255,0.95) !important;
+	background: transparent!important;
+	background-color: rgba(255,255,255,0.95)!important;
+	background-color: hsla(0,0%,100%,.95)!important;
 	border-bottom: 1px solid #f1f3f5;
 	z-index: 1;
 }
 .mdl-layout__header--transparent {
-	background: rgba(255,255,255,0.95) !important;
+	background-color: rgba(255,255,255,0.95);
+	background-color: hsla(0,0%,100%,.95);
+}
+.mdl-layout__header.is-casting-shadow {
+	background-color: rgba(255,255,255,0.95);
 }
 .mdl-navigation__link {
 	text-transform: uppercase;
