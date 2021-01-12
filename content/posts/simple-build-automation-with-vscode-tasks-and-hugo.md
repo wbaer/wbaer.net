@@ -1,6 +1,6 @@
 ---
 title: 'Simple build automation with Visual Studio Code and Hugo'
-date: Tue, 13 Jan 2021 01:59:52 +0000
+date: Tue, 12 Jan 2021 01:59:52 +0000
 draft: false
 tags: ['Hugo', 'Go', 'Visual Studio Code', 'VSCode']
 ---
