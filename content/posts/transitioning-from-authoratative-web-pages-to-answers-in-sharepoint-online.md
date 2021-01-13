@@ -4,7 +4,7 @@ date: Tue, 12 Jan 2021 03:59:52 +0000
 draft: false
 tags: ['Microsoft Search', 'SharePoint', 'Answers']
 ---
-As Authoratative Pages are schedule to be deprecated in SharePoint Online, now is the time to start thinking about how to deliver similar functionality with Microsoft Search.  For background, authoritative pages are those that link to the most relevant information as decided by the search administrator, specified as a URL. SharePoint search uses this list to calculate the rank of every page in the index.
+As Authoratative Pages are scheduled to be deprecated in SharePoint Online, now is the time to start thinking about how to deliver similar functionality with Microsoft Search.  For background, authoritative pages are those that link to the most relevant information as decided by the search administrator, specified as a URL. SharePoint search uses this list to calculate the rank of every page in the index.
 
 For example, if an administrator wanted to rank the companies HR site above ranked results, an authoratative page could be configured for https://contoso.sharepoint.com/sites/HR.
 
@@ -30,4 +30,4 @@ The option to configure both Bookmark and QnA Answers provides more flexibility 
 
 Learn more about the different Answers in Microsoft Search at https://wbaer.net/2020/10/making-the-most-of-answers-in-microsoft-search/.
 
-The next step is setting up your new Answers in Microsoft Search...
+The next step is setting up your new Answers in (Microsoft Search)[https://docs.microsoft.com/en-us/microsoftsearch/plan-your-content].
