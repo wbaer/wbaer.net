@@ -3,7 +3,7 @@
                     <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
                     <p>{{ .Summary | markdownify | safeHTML }}</p>
                     {{ if .Truncated }}
-                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="mdl-wb read-more">Read More</a></span>
+                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" aria-label="Continue reading about {{ .Title }}" class="mdl-wb read-more">Read More</a></span>
                     {{ end }}
                     <hr />
                 </div>
