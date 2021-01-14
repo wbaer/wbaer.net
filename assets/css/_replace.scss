@@ -122,6 +122,11 @@ body {
 	.introduction {
 		text-align: center;
 	}
+	.read-more {
+		a {
+			color: rgb(87, 83, 101);
+		}
+	}
 	.hr {
 		color: rgb(137, 132, 154);
 		width: 4rem;
@@ -158,11 +163,13 @@ body {
 	}
 }
 a {
-	color: rgb(87, 83, 101);
+	color: rgb(71, 121, 152);
+	/*color: rgb(87, 83, 101);*/
 	text-decoration: none;
 }
 h4 {
 	a {
+		color: rgb(87, 83, 101);
 		text-decoration: none;
 		font-weight: 400;
 	}

@@ -12833,6 +12833,9 @@ body {
 .mdl-wb .introduction {
   text-align: center;
 }
+.mdl-wb .read-more a {
+  color: #575365;
+}
 .mdl-wb .hr {
   color: #89849a;
   width: 4rem;
@@ -12868,11 +12871,13 @@ body {
 }
 
 a {
-  color: #575365;
+  color: #477998;
+  /*color: rgb(87, 83, 101);*/
   text-decoration: none;
 }
 
 h4 a {
+  color: #575365;
   text-decoration: none;
   font-weight: 400;
 }
