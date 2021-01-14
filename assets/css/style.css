@@ -12840,6 +12840,21 @@ body {
   text-align: center;
   margin: auto;
 }
+.mdl-wb .skip {
+  position: absolute;
+  left: -999em;
+  width: 990em;
+}
+.mdl-wb .skip a:visited {
+  left: -8.5em;
+  border: 3px #3399cc solid;
+  background-color: white;
+}
+.mdl-wb .skip a:focus {
+  left: -8.5em;
+  border: 3px #3399cc solid;
+  background-color: white;
+}
 
 .mdl-layout-title {
   text-transform: uppercase;

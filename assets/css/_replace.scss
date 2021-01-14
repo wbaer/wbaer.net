@@ -129,6 +129,23 @@ body {
 		text-align: center;
 		margin: auto;
 	}
+	.skip {
+		position: absolute;
+		left: -999em;
+		width: 990em;
+		a {
+			&:visited {
+				left: -8.5em;
+        		border: 3px #3399cc solid;
+        		background-color: rgb(255, 255, 255);
+			  }
+			&:focus {
+			left: -8.5em;
+			border: 3px #3399cc solid;
+			background-color: rgb(255, 255, 255);
+			}
+		}
+	}
 }
 .mdl-layout-title {
 	text-transform: uppercase;
