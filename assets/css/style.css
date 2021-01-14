@@ -12858,6 +12858,14 @@ body {
   border: 3px #3399cc solid;
   background-color: white;
 }
+.mdl-wb .screenreader-alternative {
+  position: absolute;
+  left: -999em;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 
 .mdl-layout-title {
   text-transform: uppercase;
@@ -12868,10 +12876,6 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 400;
-}
-
-.logo {
-  color: #477998;
 }
 
 a {

@@ -1,5 +1,6 @@
                 <div class="mdl-cell mdl-cell--12-col">
-                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
+                    <h4>{{ .Title }}</h4>
                     <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
                     <p>{{ .Summary | markdownify | safeHTML }}</p>
                     {{ if .Truncated }}

@@ -151,6 +151,14 @@ body {
 			}
 		}
 	}
+	.screenreader-alternative {
+		position: absolute;
+		left: -999em;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
 }
 .mdl-layout-title {
 	text-transform: uppercase;
@@ -161,9 +169,6 @@ body {
 		text-decoration: none;
 		font-weight: 400;
 	}
-}
-.logo {
-	color: rgb(71, 121, 152);
 }
 a {
 	color: rgb(71, 121, 152);
