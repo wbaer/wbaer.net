@@ -5,7 +5,7 @@ draft: false
 tags: ['Lunrjs', 'Hugo', 'Go']
 ---
 
-A few weeks ago I posted on using (https://wbaer.net/2020/12/getting-started-with-hugo-and-algolia-search/)[Algolia Search with Hugo].  As mentioned in that post, I currently use Lunr to serve the purposes of search on this site and am finally getting around to posting how to pull together the two.
+A few weeks ago I posted on using [https://wbaer.net/2020/12/getting-started-with-hugo-and-algolia-search/](Algolia Search with Hugo).  As mentioned in that post, I currently use Lunr to serve the purposes of search on this site and am finally getting around to posting how to pull together the two.
 
 Lunr, unlike other search services, has no external dependencies and works either within the browser or on the server with node.js - at its core it's a small, full-text search library for use in the browser.  Lunr describes itself as "A bit like Solr, but much smaller and not as bright."
 
