@@ -194,6 +194,18 @@ hr {
 	color: rgb(137, 132, 154);
 	height: .25rem;
 }
+pre, xmp, plaintext, listing {
+	display: block;
+	font-family: monospace;
+	background: rgb(40, 49, 66);
+	color: rgb(236, 239, 241);
+	white-space: pre;
+	unicode-bidi: isolate;
+    margin-top: 1em;
+    margin-right: .5rem;
+    margin-bottom: 1em;
+    margin-left: .5rem;
+}
 .social-icons__container {
 	word-spacing: 18px;
 }
