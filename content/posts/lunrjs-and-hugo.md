@@ -1,17 +1,17 @@
 ---
-title: 'Getting started with Lunrjs and Hugo'
+title: 'Getting started with Lunr.js and Hugo'
 date: Thu, 14 Jan 2021 23:08:03 +0000
 draft: false
 tags: ['Lunrjs', 'Hugo', 'Go']
 ---
 
-A few weeks ago I posted on using Algolia Search with Hugo.  As mentioned in that post, I currently use Lunrjs to serve the purposes of search on this site and am finally getting around to posting how to pull together the two.
+A few weeks ago I posted on using Algolia Search with Hugo.  As mentioned in that post, I currently use Lunr to serve the purposes of search on this site and am finally getting around to posting how to pull together the two.
 
-Lunr, unlike other search services, hasd no external dependencies and works either within the browser or on the server with node.js - at its core it's a small, full-text search library for use in the browser.  Lunr describes itself as "A bit like Solr, but much smaller and not as bright."
+Lunr, unlike other search services, has no external dependencies and works either within the browser or on the server with node.js - at its core it's a small, full-text search library for use in the browser.  Lunr describes itself as "A bit like Solr, but much smaller and not as bright."
 
-The beauty of Lunr, particularly with static site generators such as Hugo is that with all their data already sitting in the client, it makes sense to be able to search that data on the client too. Lunr therefore mitigates the need to add additional, compacted services on the services.  As a result, you have  a  a local search index will that's quicker and there is no network overhead, and best of all remains available and usable even without a network connection.
+The beauty of Lunr, particularly with static site generators such as Hugo is that with all their data already sitting in the client, it makes sense to be able to search that data on the client too. Lunr therefore mitigates the need to add additional, compacted services on the services.  As a result, you have a local search index that's quicker,there is no network overhead, and best of all remains available and usable even without a network connection.
 
-While, depending on the scope of indexed, there's a bit of overhead loading an index, the performance of loading the SERP is undeniable.
+While, depending on the scope of the content indexed, there's a bit of overhead loading an index, but the performance of loading the SERP from a preloaded index is undeniable.
 
 Now to getting started...
 
@@ -47,17 +47,17 @@ To configure our output, open config.toml (or otherwise config.yaml or .json dep
         vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
         params = ["categories", "tags"]
 
-Here we’re creating a new output format labeled as “Lunr”. with a baseName of “lunr” which will prepend your output file, e.g. lunr.json, a value for isPlainText, the mediaType, and a value for nonAlternative.
+Here we’re creating a new output format labeled as “Lunr”. with a baseName of “lunr” which will prepend our output file, e.g. lunr.json, a value for isPlainText, the mediaType, and a value for nonAlternative.
 
-Now with both our "shim" in place and output defined in config.toml we can generate the Lunr index, which is as simple as running our Hugo build command, e.g. "hugo".  This should generate a file lunr.json in your project, which is the index we'll call with Lunr.
+With both our "shim" in place and output defined in config.toml we can generate the Lunr index, which is as simple as running our Hugo build command, e.g. "hugo".  This should generate a file lunr.json in your project, which is the index we'll call with Lunr.
 
-Now we need to to call Lunr in our project.  
+Next we need to to call Lunr in our project.  
 
 We can simply include the lunr.js source file in the page that you want to use it. Lunr.js is supported in all modern browsers.
 
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
+        <script src="https://unpkg.com/lunr/lunr.js"></script>
 
-Alternatively an npm package is also available npm install lunr.
+Alternatively an npm package is also available via npm install lunr.
 
 The above steps show how to quickly get full text search with Lunr. 
 
@@ -67,15 +67,15 @@ The first thing you need is a search form itself, I'll defer to your requirement
 
 Once we have our form, we need our SERP or otherwise, where we'll generate our results.  In my case here we'll use a template as our preferred SERP on the same page as the form itself.
 
-                        <template id="mdl-wb__search-result" hidden>
-                                <article class="content post">
-                                    <h4 class="post-title"><a class="search-result__link"></a></h4>
-                                    <p class="search-result__summary"></p>
-                                    <div>
-                                        <span class="mdl-button mdl-js-button mdl-button--accent" role="button"><a class="search-result__button">Expand Result</a></span>
-                                    </div>
-                                </article>
-                        </template>
+        <template id="mdl-wb__search-result" hidden>
+                <article class="content post">
+                    <h4 class="post-title"><a class="search-result__link"></a></h4>
+                    <p class="search-result__summary"></p>
+                    <div>
+                        <span class="mdl-button mdl-js-button mdl-button--accent" role="button"><a class="search-result__button">Expand Result</a></span>
+                    </div>
+                </article>
+        </template>
 
 Now that we have our form, here's an example of the aforementioned script we'll need (based on how I use Lunr here).
 
