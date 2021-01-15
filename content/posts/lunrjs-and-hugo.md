@@ -33,7 +33,7 @@ The code above uses Hugo’s .Scratch function which acts as a “scratchpad” 
 Before we get started generating the index, we need to instruct Hugo as to the expected output formats we'd like to see.
 
 To configure our output, open config.toml (or otherwise config.yaml or .json depending upon your preferences) and paste the following (this example is in .toml):
-```toml
+```
 [outputs]
 home = ["HTML","RSS","Lunr"]
 
@@ -66,7 +66,7 @@ To review what we've done here, we generated an index in a format that Lunr acce
 The first thing you need is a search form itself, I'll defer to your requirements as to how you'd like to implement your form, but at minimum you need an input field with a defined Id we'll call in our code.
 
 Once we have our form, we need our SERP or otherwise, where we'll actually generate our results (e.g. the SERP).  In my case here we'll use a template as our preferred SERP on the same page as the form itself - so as opposed to having a separate, discrete results page, we'll load the results inline.
-```html
+```
 <template id="mdl-wb__search-result" hidden>
         <article class="content post">
             <h4 class="post-title"><a class="search-result__link"></a></h4>
@@ -78,7 +78,7 @@ Once we have our form, we need our SERP or otherwise, where we'll actually gener
 </template>
 ```
 Now that we have our form, here's an example of the aforementioned script we'll need (based on how I use Lunr here).
-```javascript
+```
 window.addEventListener("DOMContentLoaded", function(event)
 {
 var index = null;

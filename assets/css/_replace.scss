@@ -119,12 +119,21 @@ body {
 		text-decoration: none;
 		word-spacing: 14px;
 	}
+	.social-icons__container {
+		word-spacing: 18px;
+	}
 	.introduction {
 		text-align: center;
 	}
 	.read-more {
 		a {
 			color: rgb(87, 83, 101);
+			&:visited {
+				text-decoration: none;
+			}
+			&:focus {
+				text-decoration: none;
+			}
 		}
 	}
 	.hr {
@@ -168,19 +177,52 @@ body {
 		  }
 	}
 }
-.mdl-layout-title {
-	text-transform: uppercase;
-	font-weight: normal;
-	letter-spacing: 1px;
-	a {
-		color: rgb(255,255,255);
-		text-decoration: none;
-		font-weight: 400;
-	}
+a[href^="http:"]:link {
+	text-decoration: none;
+}
+
+a[href^="http:"]:visited {
+	text-decoration: none;
+	text-decoration: none;
+}
+
+a[href^="http:"]:hover {
+	text-decoration: none;
+}
+
+a[href^="http:"]:focus {
+	text-decoration: none;
+}
+
+a[href^="https:"]:link {
+	text-decoration: none;
+}
+
+a[href^="https:"]:visited {
+	text-decoration: none;
+}
+
+a[href^="https:"]:visited a[href^="http:"]:active {
+	text-decoration: none;
+}
+
+a[href^="https:"]:hover {
+	text-decoration: none;
+}
+
+a[href^="https:"]:focus {
+	text-decoration: none;
+}
+
+a[href^="https:"]:active {
+	text-decoration: none;
+}
+
+a[href^="https:"]:focus {
+	background: rgb(255, 255, 255);
 }
 a {
 	color: rgb(71, 121, 152);
-	/*color: rgb(87, 83, 101);*/
 	text-decoration: none;
 }
 h4 {
@@ -214,9 +256,6 @@ pre {
     -o-tab-size: 4;
     tab-size: 4;
 }
-.social-icons__container {
-	word-spacing: 18px;
-}
 .mdl-layout__content {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -230,6 +269,16 @@ pre {
 			-ms-flex: none;
 			flex: none;
 		}
+	}
+}
+.mdl-layout-title {
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	a {
+		color: rgb(255,255,255);
+		text-decoration: none;
+		font-weight: 400;
 	}
 }
 .mdl-layout__header {

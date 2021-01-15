@@ -12830,11 +12830,20 @@ body {
   text-decoration: none;
   word-spacing: 14px;
 }
+.mdl-wb .social-icons__container {
+  word-spacing: 18px;
+}
 .mdl-wb .introduction {
   text-align: center;
 }
 .mdl-wb .read-more a {
   color: #575365;
+}
+.mdl-wb .read-more a:visited {
+  text-decoration: none;
+}
+.mdl-wb .read-more a:focus {
+  text-decoration: none;
 }
 .mdl-wb .hr {
   color: #89849a;
@@ -12875,20 +12884,53 @@ body {
   margin: auto;
 }
 
-.mdl-layout-title {
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 1px;
-}
-.mdl-layout-title a {
-  color: white;
+a[href^="http:"]:link {
   text-decoration: none;
-  font-weight: 400;
+}
+
+a[href^="http:"]:visited {
+  text-decoration: none;
+  text-decoration: none;
+}
+
+a[href^="http:"]:hover {
+  text-decoration: none;
+}
+
+a[href^="http:"]:focus {
+  text-decoration: none;
+}
+
+a[href^="https:"]:link {
+  text-decoration: none;
+}
+
+a[href^="https:"]:visited {
+  text-decoration: none;
+}
+
+a[href^="https:"]:visited a[href^="http:"]:active {
+  text-decoration: none;
+}
+
+a[href^="https:"]:hover {
+  text-decoration: none;
+}
+
+a[href^="https:"]:focus {
+  text-decoration: none;
+}
+
+a[href^="https:"]:active {
+  text-decoration: none;
+}
+
+a[href^="https:"]:focus {
+  background: white;
 }
 
 a {
   color: #477998;
-  /*color: rgb(87, 83, 101);*/
   text-decoration: none;
 }
 
@@ -12925,10 +12967,6 @@ pre {
   tab-size: 4;
 }
 
-.social-icons__container {
-  word-spacing: 18px;
-}
-
 .mdl-layout__content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12941,6 +12979,17 @@ pre {
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
+}
+
+.mdl-layout-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.mdl-layout-title a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .mdl-layout__header {
