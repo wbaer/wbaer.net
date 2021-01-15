@@ -13,7 +13,7 @@
                         <nav aria-label="Desktop Navigation" class="mdl-navigation mdl-layout--large-screen-only">
                             {{ $currentPage := . }}
                             {{ range .Site.Menus.main }}
-                                <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                                <a class="mdl-navigation__link" href="{{ .URL }}" tabindex="1">{{ .Pre }}{{ .Name }}</a>
                             {{ end }}
                         </nav>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-cell--hide-phone">
@@ -36,7 +36,7 @@
                     <nav aria-label="Mobile Navigation" class="mdl-navigation">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                            <a class="mdl-navigation__link" href="{{ .URL }}" tabindex="-1">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
                 </div>
