@@ -12866,6 +12866,14 @@ body {
   height: 1px;
   overflow: hidden;
 }
+.mdl-wb .screenreader-alternative:focus {
+  color: white;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
 
 .mdl-layout-title {
   text-transform: uppercase;

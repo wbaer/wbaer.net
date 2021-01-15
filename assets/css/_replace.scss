@@ -158,6 +158,14 @@ body {
 		width: 1px;
 		height: 1px;
 		overflow: hidden;
+		&:focus {
+			color: rgb(255, 255, 255);
+			display: inline-block;
+			height: auto;
+			width: auto;
+			position: static;
+			margin: auto;
+		  }
 	}
 }
 .mdl-layout-title {
