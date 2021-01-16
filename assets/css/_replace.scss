@@ -157,12 +157,12 @@ body {
 		a {
 			&:visited {
 				left: -8.5em;
-        		border: 3px #3399cc solid;
+        		border: 3px rgb(51, 153, 204) solid;
         		background-color: rgb(255, 255, 255);
 			  }
 			&:focus {
 			left: -8.5em;
-			border: 3px #3399cc solid;
+			border: 3px rgb(51, 153, 204) solid;
 			background-color: rgb(255, 255, 255);
 			}
 		}
@@ -310,14 +310,14 @@ pre {
 .mdl-layout__header {
 	background-color: rgba(255,255,255,0.95);
 	background-color: hsla(0,0%,100%,.95);
-	border-bottom: 1px solid #f1f3f5;
+	border-bottom: 1px solid rgb(241, 243, 245);
 	z-index: 1;
 }
 .mdl-layout__header-row {
 	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
 	/*background-color: rgba(255,255,255,0.95)!important;
 	background-color: hsla(0,0%,100%,.95)!important;*/
-	border-bottom: 1px solid #f1f3f5;
+	border-bottom: 1px solid rgb(241, 243, 245);
 	/*z-index: 1;*/
 }
 .mdl-layout__header--transparent {
