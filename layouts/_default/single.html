@@ -2,7 +2,7 @@
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
         <div class="mdl-cell mdl-cell--12-col">
-            <h2>{{.Title }}</h2>
+            <h1>{{.Title }}</h1>
             <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
             
             <p class="mdl-wb social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
@@ -38,7 +38,7 @@
                 <div class="mdl-layout-spacer"></div>
             </div>
             
-            <h3>More like this...</h3>
+            <h2>More like this...</h2>
             <ul>
                 {{ $.Scratch.Set "limit" 0 }}
                 {{ $currentPagePermalink := .Permalink }}

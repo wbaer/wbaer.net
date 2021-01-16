@@ -225,14 +225,26 @@ a {
 	color: rgb(71, 121, 152);
 	text-decoration: none;
 }
-h1, h2, h3 {
+h1 {
     font-size: 34px;
     font-weight: 400;
     line-height: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+h2, h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 h4 {
+	font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 	a {
 		color: rgb(87, 83, 101);
 		text-decoration: none;
