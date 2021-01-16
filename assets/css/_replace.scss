@@ -225,6 +225,13 @@ a {
 	color: rgb(71, 121, 152);
 	text-decoration: none;
 }
+h1, h2, h3 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 h4 {
 	a {
 		color: rgb(87, 83, 101);
@@ -295,11 +302,11 @@ pre {
 	z-index: 1;
 }
 .mdl-layout__header--transparent {
-	background-color: rgba(255,255,255,0.95);
-	background-color: hsla(0,0%,100%,.95);
+	background-color: rgba(255,255,255,0.95)!important;
+	background-color: hsla(0,0%,100%,.95)!important;
 }
 .mdl-layout__header.is-casting-shadow {
-	background-color: rgba(255,255,255,0.95);
+	background-color: rgba(255,255,255,0.95)!important;
 }
 .mdl-navigation__link {
 	text-transform: uppercase;

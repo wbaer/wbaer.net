@@ -871,7 +871,7 @@ h1, h2, h3, h4, h5, h6, p {
 * Styles for HTML elements
 */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -881,7 +881,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 h1 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -891,7 +891,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px;
@@ -900,7 +900,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
@@ -909,7 +909,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -919,7 +919,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -929,7 +929,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -952,7 +952,7 @@ a {
 }
 
 blockquote {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   position: relative;
   font-size: 24px;
   font-weight: 300;
@@ -997,7 +997,7 @@ ul, ol {
  * Class Name Styles
  */
 .mdl-typography--display-4 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 112px;
   font-weight: 300;
   line-height: 1;
@@ -1005,7 +1005,7 @@ ul, ol {
 }
 
 .mdl-typography--display-4-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 112px;
   font-weight: 300;
   line-height: 1;
@@ -1014,7 +1014,7 @@ ul, ol {
 }
 
 .mdl-typography--display-3 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -1022,7 +1022,7 @@ ul, ol {
 }
 
 .mdl-typography--display-3-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -1031,14 +1031,14 @@ ul, ol {
 }
 
 .mdl-typography--display-2 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px;
 }
 
 .mdl-typography--display-2-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px;
@@ -1046,14 +1046,14 @@ ul, ol {
 }
 
 .mdl-typography--display-1 {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
 }
 
 .mdl-typography--display-1-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
@@ -1061,7 +1061,7 @@ ul, ol {
 }
 
 .mdl-typography--headline {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -1069,7 +1069,7 @@ ul, ol {
 }
 
 .mdl-typography--headline-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -1078,7 +1078,7 @@ ul, ol {
 }
 
 .mdl-typography--title {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -1086,7 +1086,7 @@ ul, ol {
 }
 
 .mdl-typography--title-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -1095,7 +1095,7 @@ ul, ol {
 }
 
 .mdl-typography--subhead {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1103,7 +1103,7 @@ ul, ol {
 }
 
 .mdl-typography--subhead-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1142,7 +1142,7 @@ ul, ol {
 }
 
 .mdl-typography--body-2-force-preferred-font {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -1150,7 +1150,7 @@ ul, ol {
 }
 
 .mdl-typography--body-2-force-preferred-font-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -1159,7 +1159,7 @@ ul, ol {
 }
 
 .mdl-typography--body-1-force-preferred-font {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1167,7 +1167,7 @@ ul, ol {
 }
 
 .mdl-typography--body-1-force-preferred-font-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1183,7 +1183,7 @@ ul, ol {
 }
 
 .mdl-typography--caption-force-preferred-font {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -1199,7 +1199,7 @@ ul, ol {
 }
 
 .mdl-typography--caption-force-preferred-font-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -1208,7 +1208,7 @@ ul, ol {
 }
 
 .mdl-typography--menu {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -1216,7 +1216,7 @@ ul, ol {
 }
 
 .mdl-typography--menu-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -1225,7 +1225,7 @@ ul, ol {
 }
 
 .mdl-typography--button {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1234,7 +1234,7 @@ ul, ol {
 }
 
 .mdl-typography--button-color-contrast {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4285,7 +4285,7 @@ ul, ol {
   position: absolute;
   top: -11px;
   right: -24px;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-weight: 600;
   font-size: 12px;
   width: 22px;
@@ -4509,7 +4509,7 @@ ul, ol {
   min-width: 64px;
   padding: 0 16px;
   display: inline-block;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -5496,7 +5496,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 /* Dialog */
 .mdl-chip {
   height: 32px;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   line-height: 32px;
   padding: 0 12px;
   border: 0;
@@ -6267,7 +6267,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   box-sizing: border-box;
 }
 .mdl-expansion__summary {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   padding-left: 24px;
   padding-right: 24px;
   height: 48px;
@@ -6329,7 +6329,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   margin-right: 16px;
 }
 .mdl-expansion__content {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 16px;
@@ -7483,7 +7483,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 }
 
 .mdl-list__item {
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -8459,7 +8459,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
 .mdl-layout-title {
   display: block;
   position: relative;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -9901,7 +9901,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   display: block;
   display: flex;
   justify-content: space-between;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   will-change: transform;
   transform: translate(0, 80px);
   transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);
@@ -9946,7 +9946,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   float: right;
   text-transform: uppercase;
   padding: 14px 24px 14px 12px;
-  font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -12934,6 +12934,14 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 h4 a {
   color: #575365;
   text-decoration: none;
@@ -13008,12 +13016,12 @@ pre {
 }
 
 .mdl-layout__header--transparent {
-  background-color: rgba(255, 255, 255, 0.95);
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .mdl-layout__header.is-casting-shadow {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .mdl-navigation__link {
