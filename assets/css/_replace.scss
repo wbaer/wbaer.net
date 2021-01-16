@@ -295,18 +295,20 @@ pre {
 	z-index: 1;
 }
 .mdl-layout__header-row {
-	background: transparent!important;
-	background-color: rgba(255,255,255,0.95)!important;
-	background-color: hsla(0,0%,100%,.95)!important;
+	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
+	/*background-color: rgba(255,255,255,0.95)!important;
+	background-color: hsla(0,0%,100%,.95)!important;*/
 	border-bottom: 1px solid #f1f3f5;
-	z-index: 1;
+	/*z-index: 1;*/
 }
 .mdl-layout__header--transparent {
-	background-color: rgba(255,255,255,0.95)!important;
-	background-color: hsla(0,0%,100%,.95)!important;
+	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
+	/*background-color: rgba(255,255,255,0.95)!important;
+	background-color: hsla(0,0%,100%,.95)!important;*/
 }
 .mdl-layout__header.is-casting-shadow {
-	background-color: rgba(255,255,255,0.95)!important;
+	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
+	/*background-color: rgba(255,255,255,0.95)!important;*/
 }
 .mdl-navigation__link {
 	text-transform: uppercase;
