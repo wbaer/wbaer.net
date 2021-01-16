@@ -12836,6 +12836,13 @@ body {
 .mdl-wb .introduction {
   text-align: center;
 }
+.mdl-wb .site-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 .mdl-wb .read-more a {
   color: #575365;
 }
