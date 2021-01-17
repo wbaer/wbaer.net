@@ -79,12 +79,26 @@
         <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
         
         {{ $material := resources.Get "js/material.js" }}
+        {{ $fonts := resources.Get "js/fontfaceobserver.js" }}
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
-        {{ $js := slice $material $lunr $search | resources.Concat "js/bundle.js" }}
+        {{ $js := slice $material $fonts $lunr $search | resources.Concat "js/bundle.js" }}
         
         <link rel="preload" href="{{ $js.Permalink }}" as="script" />
         <script src="{{ $js.Permalink }}"></script>
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
+
+        <script>
+            var material = new FontFaceObserver('Material Icons');
+            var nunito = new FontFaceObserver('Nunito');
+
+            material.load().then(function () {
+            console.log('Material Icons is available');
+            });
+
+            nunito.load().then(function () {
+            console.log('Nunito is available');
+            });
+        </script>
     </head>
