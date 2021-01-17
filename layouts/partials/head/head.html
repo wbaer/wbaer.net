@@ -22,6 +22,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
         <title>Bill Baer</title>
 
+        <link rel="canonical" href="{{ .Site.BaseURL }}" />
+
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="icon" sizes="192x192" href="images/android-desktop.png" />
         
@@ -85,4 +87,9 @@
         <script src="{{ $js.Permalink }}"></script>
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
+
+        <!-- AMP -->
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <!-- END AMP -->
     </head>
