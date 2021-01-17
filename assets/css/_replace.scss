@@ -145,13 +145,13 @@ body {
 	.site-decoration {
 		color: rgb(71, 121, 152)
 	}
-	.post-title {
+	/*.post-title {
 		font-size: 32px;
 		font-weight: 400;
 		line-height: 40px;
 		margin-top: 24px;
 		margin-bottom: 24px;
-	}
+	}*/
 	.read-more {
 		a {
 			color: rgb(87, 83, 101);
@@ -170,6 +170,7 @@ body {
 		text-align: center;
 		margin: auto;
 	}
+	/*
 	.skip {
 		position: absolute;
 		left: -999em;
@@ -186,7 +187,7 @@ body {
 			background-color: rgb(255, 255, 255);
 			}
 		}
-	}
+	}*/
 	.screenreader-alternative {
 		position: absolute;
 		left: -999em;

@@ -12786,6 +12786,33 @@ body {
   font-feature-settings: "liga";
 }
 
+.mdl-wb {
+  /*.post-title {
+  	font-size: 32px;
+  	font-weight: 400;
+  	line-height: 40px;
+  	margin-top: 24px;
+  	margin-bottom: 24px;
+  }*/
+  /*
+  .skip {
+  	position: absolute;
+  	left: -999em;
+  	width: 990em;
+  	a {
+  		&:visited {
+  			left: -8.5em;
+         		border: 3px rgb(51, 153, 204) solid;
+         		background-color: rgb(255, 255, 255);
+  		  }
+  		&:focus {
+  		left: -8.5em;
+  		border: 3px rgb(51, 153, 204) solid;
+  		background-color: rgb(255, 255, 255);
+  		}
+  	}
+  }*/
+}
 .mdl-wb .mdl-layout__tab-bar-button {
   display: none;
 }
@@ -12855,13 +12882,6 @@ body {
 .mdl-wb .site-decoration {
   color: #477998;
 }
-.mdl-wb .post-title {
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
 .mdl-wb .read-more a {
   color: #575365;
 }
@@ -12877,21 +12897,6 @@ body {
   height: 0.25rem;
   text-align: center;
   margin: auto;
-}
-.mdl-wb .skip {
-  position: absolute;
-  left: -999em;
-  width: 990em;
-}
-.mdl-wb .skip a:visited {
-  left: -8.5em;
-  border: 3px #3399cc solid;
-  background-color: white;
-}
-.mdl-wb .skip a:focus {
-  left: -8.5em;
-  border: 3px #3399cc solid;
-  background-color: white;
 }
 .mdl-wb .screenreader-alternative {
   position: absolute;
