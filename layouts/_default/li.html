@@ -1,6 +1,6 @@
                 <div class="mdl-cell mdl-cell--12-col">
                     <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
-                    <p class="mdl-wb post-title" role="heading">{{ .Title }}</h1>
+                    <p class="mdl-wb post-title" role="heading">{{ .Title }}</p>
                     <p><i class="fa fa-calendar" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
                     <p>{{ .Summary | markdownify | safeHTML }}</p>
                     {{ if .Truncated }}

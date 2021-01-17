@@ -13,6 +13,18 @@
             "problemMatcher": []
         },
         {
+            "label": "Clean css",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-f",
+                "assets/css/style.css",
+                "assets/css/style.map.css"
+            ],
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
             "label": "Compile Saas",
             "type": "shell",
             "command": "sass",
@@ -47,7 +59,7 @@
             "label": "Build",
             "type": "shell",
             "dependsOrder": "sequence",
-            "dependsOn": ["Clean Build", "Compile Saas", "Build Site"],
+            "dependsOn": ["Clean Build", "Clean css", "Compile Saas", "Build Site"],
             "group": {
                 "kind": "build",
                 "isDefault": true

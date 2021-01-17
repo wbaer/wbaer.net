@@ -1,4 +1,5 @@
-$font-stack: 'Noto Sans','Helvetica',sans-serif;
+$preferred_font: 'Nunito','Helvetica',sans-serif !default;
+$font-stack: 'Nunito','Helvetica',sans-serif;
 $font-color: rgb(58, 55, 67);
 
 @font-face {
@@ -15,6 +16,14 @@ $font-color: rgb(58, 55, 67);
 	font-display: swap;
 	unicode-range: U+000-5FF;
 	src: local(''), url('../fonts/noto-sans-v11-latin-regular.woff2') format('woff2'), url('../fonts/noto-sans-v11-latin-regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	unicode-range: U+000-5FF;
+	src: local(''), url('../fonts/nunito-v16-latin-regular.woff2') format('woff2'), url('../fonts/nunito-v16-latin-regular.woff') format('woff'); 
 }
 * {
 	font-family: $font-stack;
@@ -132,6 +141,9 @@ body {
 		margin-top: 24px;
 		margin-bottom: 24px;
 		text-transform: uppercase;
+	}
+	.site-decoration {
+		color: rgb(71, 121, 152)
 	}
 	.post-title {
 		font-size: 32px;
