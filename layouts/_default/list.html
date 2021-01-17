@@ -9,7 +9,7 @@
 
 {{ if isset .Site.Taxonomies "tags" }}
 {{ $mytag := .Title }}
-{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages }}
+{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages | first 3 }}
 {{ if ne $index 0 }}
 {{ end }}
 {{ .Render "li" }}
