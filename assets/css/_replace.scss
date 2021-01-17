@@ -275,7 +275,7 @@ pre, xmp, plaintext, listing {
 	font-family: monospace;
 	background: rgb(40, 49, 66);
 	color: rgb(236, 239, 241);
-	white-space: pre;
+	white-space: pre-wrap; 
 	unicode-bidi: isolate;
     margin-top: 1em;
     margin-right: .5rem;

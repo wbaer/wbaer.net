@@ -12988,7 +12988,7 @@ pre, xmp, plaintext, listing {
   font-family: monospace;
   background: #283142;
   color: #eceff1;
-  white-space: pre;
+  white-space: pre-wrap;
   unicode-bidi: isolate;
   margin-top: 1em;
   margin-right: 0.5rem;
