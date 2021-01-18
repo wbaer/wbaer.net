@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "scripts": {
+      "clean": "rm -rf public",
+      "dev:build": "hugo",
+      "dev:serve": "hugo --serve"
+    }
+  },
+  "identifier" : "4A3B4754-E05A-4CB5-9C60-D3762030CBDB"
+}
