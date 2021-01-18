@@ -12768,153 +12768,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "liga";
-}
-
-.mdl-wb {
-  /*.post-title {
-  	font-size: 32px;
-  	font-weight: 400;
-  	line-height: 40px;
-  	margin-top: 24px;
-  	margin-bottom: 24px;
-  }*/
-  /*
-  .skip {
-  	position: absolute;
-  	left: -999em;
-  	width: 990em;
-  	a {
-  		&:visited {
-  			left: -8.5em;
-         		border: 3px rgb(51, 153, 204) solid;
-         		background-color: rgb(255, 255, 255);
-  		  }
-  		&:focus {
-  		left: -8.5em;
-  		border: 3px rgb(51, 153, 204) solid;
-  		background-color: rgb(255, 255, 255);
-  		}
-  	}
-  }*/
-}
-.mdl-wb .mdl-layout__tab-bar-button {
-  display: none;
-}
-.mdl-wb .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
-  display: none;
-}
-.mdl-wb .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar {
-  overflow: visible;
-}
-.mdl-wb .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
-  overflow: visible;
-}
-.mdl-wb .mdl-layout__tab-bar-container {
-  height: 64px;
-}
-.mdl-wb .mdl-layout__tab-bar {
-  padding: 0;
-  padding-left: 16px;
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-}
-.mdl-wb .mdl-layout__tab-bar .mdl-layout__tab {
-  height: 64px;
-  line-height: 64px;
-}
-.mdl-wb .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-  background-color: white;
-  height: 4px;
-}
-.mdl-wb main > .mdl-layout__tab-panel {
-  padding: 8px;
-  padding-top: 48px;
-}
-.mdl-wb .mdl-layout__content section:not(:last-of-type) {
-  position: relative;
-  margin-bottom: 48px;
-}
-.mdl-wb section.section--center {
-  max-width: 860px;
-}
-.mdl-wb section.section--footer {
-  padding: 64px 0;
-  margin: 0 -8px -8px -8px;
-}
-.mdl-wb .mdl-menu__container {
-  z-index: 99;
-}
-.mdl-wb .social-share_icon {
-  text-decoration: none;
-  word-spacing: 14px;
-}
-.mdl-wb .social-icons__container {
-  word-spacing: 18px;
-}
-.mdl-wb .introduction {
-  text-align: center;
-}
-.mdl-wb .site-title {
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  text-transform: uppercase;
-}
-.mdl-wb .site-decoration {
-  color: #477998;
-}
-.mdl-wb .read-more a {
-  color: #575365;
-}
-.mdl-wb .read-more a:visited {
-  text-decoration: none;
-}
-.mdl-wb .read-more a:focus {
-  text-decoration: none;
-}
-.mdl-wb .hr {
-  color: #89849a;
-  width: 4rem;
-  height: 0.25rem;
-  text-align: center;
-  margin: auto;
-}
-.mdl-wb .screenreader-alternative {
-  position: absolute;
-  left: -999em;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-.mdl-wb .screenreader-alternative:focus {
-  color: white;
-  display: inline-block;
-  height: auto;
-  width: auto;
-  position: static;
-  margin: auto;
-}
-
 a[href^="http:"]:link {
   text-decoration: none;
 }
@@ -13021,6 +12874,137 @@ pre {
   tab-size: 4;
 }
 
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+
+.mdl-wb .mdl-layout__tab-bar-button {
+  display: none;
+}
+.mdl-wb .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+  display: none;
+}
+.mdl-wb .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar {
+  overflow: visible;
+}
+.mdl-wb .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
+  overflow: visible;
+}
+.mdl-wb .mdl-layout__tab-bar-container {
+  height: 64px;
+}
+.mdl-wb .mdl-layout__tab-bar {
+  padding: 0;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.mdl-wb .mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
+.mdl-wb .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: white;
+  height: 4px;
+}
+.mdl-wb main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
+.mdl-wb .mdl-layout__content section:not(:last-of-type) {
+  position: relative;
+  margin-bottom: 48px;
+}
+.mdl-wb section.section--center {
+  max-width: 860px;
+}
+.mdl-wb section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+.mdl-wb .mdl-menu__container {
+  z-index: 99;
+}
+.mdl-wb .social-share_icon {
+  text-decoration: none;
+  word-spacing: 14px;
+}
+.mdl-wb .social-icons__container {
+  word-spacing: 18px;
+}
+.mdl-wb .introduction {
+  text-align: center;
+}
+.mdl-wb .site-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.mdl-wb .site-decoration {
+  color: #477998;
+}
+.mdl-wb .read-more a {
+  color: #575365;
+}
+.mdl-wb .read-more a:visited {
+  text-decoration: none;
+}
+.mdl-wb .read-more a:focus {
+  text-decoration: none;
+}
+.mdl-wb .hr {
+  color: #89849a;
+  width: 4rem;
+  height: 0.25rem;
+  text-align: center;
+  margin: auto;
+}
+.mdl-wb .screenreader-alternative {
+  position: absolute;
+  left: -999em;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.mdl-wb .screenreader-alternative:focus {
+  color: white;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
+.mdl-layout-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.mdl-layout-title a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 .mdl-layout__content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13035,17 +13019,6 @@ pre {
   flex: none;
 }
 
-.mdl-layout-title {
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 1px;
-}
-.mdl-layout-title a {
-  color: white;
-  text-decoration: none;
-  font-weight: 400;
-}
-
 .mdl-layout__header {
   background-color: rgba(255, 255, 255, 0.95);
   background-color: rgba(255, 255, 255, 0.95);
@@ -13055,21 +13028,15 @@ pre {
 
 .mdl-layout__header-row {
   background: rgba(255, 255, 255, 0.05);
-  /*background-color: rgba(255,255,255,0.95)!important;
-  background-color: hsla(0,0%,100%,.95)!important;*/
   border-bottom: 1px solid #f1f3f5;
-  /*z-index: 1;*/
 }
 
 .mdl-layout__header--transparent {
   background: rgba(255, 255, 255, 0.05);
-  /*background-color: rgba(255,255,255,0.95)!important;
-  background-color: hsla(0,0%,100%,.95)!important;*/
 }
 
 .mdl-layout__header.is-casting-shadow {
   background: rgba(255, 255, 255, 0.05);
-  /*background-color: rgba(255,255,255,0.95)!important;*/
 }
 
 .mdl-navigation__link {
