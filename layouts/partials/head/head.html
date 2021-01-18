@@ -78,7 +78,7 @@
         {{ $css := resources.Get "css/style.css" }}
         {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
         
-        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" />
         
         {{ $material := resources.Get "js/material.js" }}
         {{ $fonts := resources.Get "js/fontfaceobserver.js" }}
@@ -87,7 +87,7 @@
         {{ $js := slice $material $fonts $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
         
         <link rel="preload" href="{{ $js.Permalink }}" as="script" />
-        <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+        <script async src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
         <script async src="https://kit.fontawesome.com/fd1d7c4a78.js" crossorigin="anonymous"></script>
 
