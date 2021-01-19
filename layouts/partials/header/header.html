@@ -29,11 +29,11 @@
                     </div>
                 </header>
                 <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-                    <span class="mdl-layout-title">(ˈbɛər)</span>
+                    <span class="mdl-layout-title"></span>
                     <nav aria-label="Mobile Navigation" class="mdl-navigation">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                            <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                            <a class="mdl-navigation__link mdl-wb center-navigation" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
                 </div>
