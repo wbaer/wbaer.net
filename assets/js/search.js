@@ -79,7 +79,7 @@ window.addEventListener("DOMContentLoaded", function(event)
     while (target.firstChild)
       target.removeChild(target.firstChild);
 
-    var title = document.createElement("h3");
+    var title = document.createElement("h1");
 
     if (results.length == 0)
       title.textContent = `No results found for “${term}”`;
