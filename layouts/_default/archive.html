@@ -9,7 +9,7 @@
 				{{ range (where .Pages "Type" $type) }}
 				{{ if (eq ($.Scratch.Get "count") 1) }}
 					{{ $.Scratch.Set "count" 0 }}
-					<h4>{{ .Date.Format "2006" }}</h4>
+					<h1>{{ .Date.Format "2006" }}</h1>
 					{{ end }}
 				{{ end }}
 		

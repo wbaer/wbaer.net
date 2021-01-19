@@ -1,7 +1,7 @@
 {{ partialCached "header/header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
         <div class="mdl-cell mdl-cell--12-col">
-            <h4>{{ .Title }}</h4>
+            <h1>{{ .Title }}</h1>
             {{ $data := .Data }}
             {{ range $key, $value := .Data.Terms }}
             <span class="mdl-chip mdl-chip--contact">
