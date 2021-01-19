@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", function(event)
   function initIndex()
   {
     var request = new XMLHttpRequest();
-    request.open("GET", "https://wbaer.net/lunr.json");
+    request.open("GET", "/lunr.json");
     request.responseType = "json";
     request.addEventListener("load", function(event)
     {

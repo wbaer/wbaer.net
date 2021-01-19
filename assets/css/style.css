@@ -12874,6 +12874,12 @@ pre {
   tab-size: 4;
 }
 
+/*
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+*/
 .material-icons {
   font-family: "Material Icons";
   font-weight: 400;
@@ -12959,6 +12965,9 @@ pre {
   text-transform: uppercase;
 }
 .mdl-wb .site-decoration {
+  color: #477998;
+}
+.mdl-wb .icon-decoration {
   color: #477998;
 }
 .mdl-wb .read-more a {

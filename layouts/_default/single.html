@@ -9,12 +9,12 @@
                 <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
                 <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fas fa-code-branch"></i></a></p>
 
-            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i>
             {{ if not .Params.hideDate }}
                     <span>{{ partial "helpers/timestamp.html" . }}</span> |
             {{ end }}
             
-            <i class="fas fa-tags"></i>
+            <i class="fas fa-tags mdl-wb icon-decoration"></i>
             {{ range .Params.tags }}
                     <span><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
             {{ end }}
