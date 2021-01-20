@@ -32,7 +32,7 @@
                                     document.getElementById("webmention-count").innerHTML = data.count + " Mentions";
                               }
                     </script>
-                    <script src="http://webmention.io/api/count?jsonp=loadWebmentions&amp;target={{ .Permalink }}" crossorigin="anonymous"></script>
+                    <script src="http://webmention.io/api/count?jsonp=loadWebmentions&amp;target={{ .Permalink | urlize }}"></script>
                     
                     <div class="mdl-grid">
                         <div class="mdl-layout-spacer"></div>
