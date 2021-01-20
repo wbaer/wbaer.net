@@ -1,4 +1,5 @@
                 <div class="mdl-cell mdl-cell--12-col">
+                <article class="h-entry">
                     <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
                     <h1 class="p-name">{{ .Title }}</h1>
                     <p><i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i> <time class="dt-published">{{ partial "helpers/timestamp.html" . }}</time></p>
@@ -7,4 +8,5 @@
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a class="u-url" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}" class="mdl-wb read-more">Read More</a></span>
                     {{ end }}
                     <hr />
+                </article>
                 </div>

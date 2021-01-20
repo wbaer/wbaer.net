@@ -21,10 +21,10 @@
                     {{ end }}
         
                     {{ with .Params.thumbnail }}
-                            <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
+                            <img class="u-photo" src="{{ . }}" alt="thumbnail" class="post-thumbnail">
                     {{ end }}               
         
-                    <p class="p-summary e-content">{{ .Content }}</p>
+                    <p class="e-content">{{ .Content }}</p>
                     
                     <div class="mdl-grid">
                         <div class="mdl-layout-spacer"></div>
