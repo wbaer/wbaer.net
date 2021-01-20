@@ -12,7 +12,7 @@
         
                     <i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i>
                     {{ if not .Params.hideDate }}
-                            <time class="dt-published">{{ partial "helpers/timestamp.html" . }}</time> |
+                            {{ partial "helpers/timestamp.html" . }} |
                     {{ end }}
                     
                     <i class="fas fa-tags mdl-wb icon-decoration"></i>
