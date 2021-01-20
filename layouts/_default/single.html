@@ -17,7 +17,7 @@
                     
                     <i class="fas fa-tags mdl-wb icon-decoration"></i>
                     {{ range .Params.tags }}
-                            <span><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
+                            <span><a class="p-category" href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
                     {{ end }}
         
                     {{ with .Params.thumbnail }}
