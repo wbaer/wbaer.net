@@ -1,6 +1,6 @@
 baseurl = "https://wbaer.net"
 languageCode = "en-us"
-Title = "Bill Bär ('bɛər)"
+Title = "Bill Baer ('bɛər)"
 copyright = "&copy; 2020 Bill Bär"
 
 [markup.goldmark.renderer]
