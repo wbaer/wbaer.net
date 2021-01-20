@@ -1,69 +1,71 @@
 {{ partialCached "header/header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 
-        <div class="mdl-cell mdl-cell--12-col">
-            <h1 class="p-name" role="heading">{{.Title }}</h1>
-            <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
-            
-            <p class="mdl-wb social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
-                <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
-                <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fas fa-code-branch"></i></a></p>
-
-            <i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i>
-            {{ if not .Params.hideDate }}
-                    <span>{{ partial "helpers/timestamp.html" . }}</span> |
-            {{ end }}
-            
-            <i class="fas fa-tags mdl-wb icon-decoration"></i>
-            {{ range .Params.tags }}
-                    <span><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
-            {{ end }}
-
-            {{ with .Params.thumbnail }}
-                    <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
-            {{ end }}               
-
-            <p class="p-summary e-content">{{ .Content }}</p>
-            
-            <div class="mdl-grid">
-                <div class="mdl-layout-spacer"></div>
-                    {{ if .PrevInSection }}
-                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
-                    {{ else }}
+        <article class="h-entry">
+                <div class="mdl-cell mdl-cell--12-col">
+                    <h1 class="p-name" role="heading">{{.Title }}</h1>
+                    <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
+                    
+                    <p class="mdl-wb social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
+                        <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
+                        <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fas fa-code-branch"></i></a></p>
+        
+                    <i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i>
+                    {{ if not .Params.hideDate }}
+                            <time class="dt-published">{{ partial "helpers/timestamp.html" . }}</time> |
                     {{ end }}
-                    {{ if .NextInSection }}
-                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
-                    {{ else }}
+                    
+                    <i class="fas fa-tags mdl-wb icon-decoration"></i>
+                    {{ range .Params.tags }}
+                            <span><a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
                     {{ end }}
-                <div class="mdl-layout-spacer"></div>
-            </div>
-            
-            <h3>More like this...</h3>
-            <ul>
-                {{ $.Scratch.Set "limit" 0 }}
-                {{ $currentPagePermalink := .Permalink }}
-                {{ $tags := .Params.tags }}
-                {{ range .Site.Pages }}
-                {{ $isMatchTags := intersect $tags .Params.tags | len | lt 0 }}
-                {{ if and $isMatchTags (ne .Permalink $currentPagePermalink) (lt ($.Scratch.Get "limit") 5) }}
-                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                        {{ $.Scratch.Add "limit" 1 }}
+        
+                    {{ with .Params.thumbnail }}
+                            <img src="{{ . }}" alt="thumbnail" class="post-thumbnail">
+                    {{ end }}               
+        
+                    <p class="p-summary e-content">{{ .Content }}</p>
+                    
+                    <div class="mdl-grid">
+                        <div class="mdl-layout-spacer"></div>
+                            {{ if .PrevInSection }}
+                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
+                            {{ else }}
+                            {{ end }}
+                            {{ if .NextInSection }}
+                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
+                            {{ else }}
+                            {{ end }}
+                        <div class="mdl-layout-spacer"></div>
+                    </div>
+                    
+                    <h3>More like this...</h3>
+                    <ul>
+                        {{ $.Scratch.Set "limit" 0 }}
+                        {{ $currentPagePermalink := .Permalink }}
+                        {{ $tags := .Params.tags }}
+                        {{ range .Site.Pages }}
+                        {{ $isMatchTags := intersect $tags .Params.tags | len | lt 0 }}
+                        {{ if and $isMatchTags (ne .Permalink $currentPagePermalink) (lt ($.Scratch.Get "limit") 5) }}
+                                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                {{ $.Scratch.Add "limit" 1 }}
+                                {{ end }}
                         {{ end }}
-                {{ end }}
-            </ul>
-            
-            {{define "breadcrumb"}}
-              {{$parent := .page.Parent }}
-              {{ if $parent }}
-                {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
-                {{ template "breadcrumb" dict "page" $parent "value" $value }}
-              {{else}}
-                {{.value|safeHTML}}
-              {{end}}
-            {{end}}
+                    </ul>
+                    
+                    {{define "breadcrumb"}}
+                      {{$parent := .page.Parent }}
+                      {{ if $parent }}
+                        {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
+                        {{ template "breadcrumb" dict "page" $parent "value" $value }}
+                      {{else}}
+                        {{.value|safeHTML}}
+                      {{end}}
+                    {{end}}
 
 {{ partial "helpers/comments.html" . }}
 
-        </div>
+                </div>
+        </article>
 
 {{ partialCached "footer/footer.html" . }}
