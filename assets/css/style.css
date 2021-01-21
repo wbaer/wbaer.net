@@ -12973,6 +12973,13 @@ input[type="search"]::-webkit-search-cancel-button {
 .mdl-wb .icon-decoration {
   color: #477998;
 }
+.mdl-wb .post-title {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 .mdl-wb .read-more a {
   color: #575365;
 }
