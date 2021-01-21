@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function(event)
   function search(term)
   {
     var results = index.search(term);
-    var target = document.querySelector(".mdl-wb .search-result__container");
+    var target = document.querySelector(".search-result__container");
 
     while (target.firstChild)
       target.removeChild(target.firstChild);
@@ -90,7 +90,7 @@ window.addEventListener("DOMContentLoaded", function(event)
     target.appendChild(title);
     document.title = title.textContent;
 
-    var template = document.getElementById("mdl-wb__search-result");
+    var template = document.getElementById("search-result");
     for (var result of results)
     {
       var doc = lookup[result.ref];

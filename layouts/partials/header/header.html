@@ -4,7 +4,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFJ5TFZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-        <a href="#main" class="mdl-wb screenreader-alternative">Skip to content</a>
+        <a href="#main" class="screenreader-alternative">Skip to content</a>
         <div class="mdl-layout mdl-js-layout">
                 <header class="mdl-layout__header--transparent">
                     <div class="mdl-layout__header-row">
@@ -22,7 +22,7 @@
                             </label>
                             <div class="mdl-textfield__expandable-holder">
                                 <form id="search" role="search" class="search">
-                                    <input class="mdl-textfield__input" type="search" id="search-expandable" />
+                                    <input class="mdl-textfield__input" type="search" id="search-expandable">
                                 </form>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                     <nav aria-label="Mobile Navigation" class="mdl-navigation">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                            <a class="mdl-navigation__link mdl-wb center-navigation" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                            <a class="mdl-navigation__link center-navigation" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
                         {{ end }}
                     </nav>
                 </div>
@@ -41,9 +41,9 @@
                 <div class="mdl-layout__tab-panel is-active">
                     <section class="section--center mdl-grid mdl-grid--no-spacing" aria-label="search results">
                         <div class="mdl-cell mdl-cell--12-col">
-                            <div class="mdl-wb search-result__container"></div>
+                            <div class="search-result__container"></div>
                         </div>
-                        <template id="mdl-wb__search-result" hidden>
+                        <template id="search-result" hidden>
                                 <article class="content post">
                                     <h1><a class="search-result__link"></a></h1>
                                     <p class="search-result__summary"></p>
