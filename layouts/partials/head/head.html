@@ -91,7 +91,8 @@
         {{ $fonts := resources.Get "js/fontfaceobserver.js" }}
         {{ $lunr := resources.Get "js/lunr.js" }}
         {{ $search := resources.Get "js/search.js" }}
-        {{ $js := slice $material $fonts $lunr $search | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+        {{ $mentions := resources.Get "js/mentions.js" }}
+        {{ $js := slice $material $fonts $lunr $search $mentions | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
         
         <link rel="preload" href="{{ $js.Permalink }}" as="script" />
         <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
