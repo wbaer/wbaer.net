@@ -30,8 +30,6 @@
                     <script>
                         function showMentions(data) {
                             if(data.count == 0) return;
-                        
-                            // A container <div> was created in the HTML to hold webmention info
                             var m_div = document.getElementById("mdl-wb_sum");
                             m_div.innerHTML = data.count + " webmentions";
                         }
