@@ -1,7 +1,8 @@
                 <div class="mdl-cell mdl-cell--12-col">
                 <article class="h-entry">
                     <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
-                    <h1 class="p-name">{{ .Title }}</h1>
+                    <p class="mdl-wb site-title p-name">{{ .Title }}</p>
+                    <!-- <h1 class="p-name">{{ .Title }}</h1> -->
                     <p><i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
                     <p class="p-summary e-content">{{ .Summary | markdownify | safeHTML }}</p>
                     {{ if .Truncated }}
