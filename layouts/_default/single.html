@@ -6,16 +6,16 @@
                     <h1 class="p-name" role="heading">{{.Title }}</h1>
                     <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
                     
-                    <p class="social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">
-                        <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank">
-                        <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fas fa-code-branch"></i></a></p>
+                    <p class="social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" rel="syndication" class="u-syndication" aria-label="Share this article on Facebook (opens in new window)" target="_blank">
+                        <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" rel="syndication" class="u-syndication" aria-label="Share this article on Twitter (opens in new window)" target="_blank">
+                        <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;source={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ .Summary }}" rel="syndication" class="u-syndication" aria-label="Share this article on LinkedIn (opens in new window)" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" aria-label="Edit this article on GitHub (opens in new window)" target="blank"><i class="fas fa-code-branch"></i></a></p>
         
-                    <i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i>
+                    <i class="fa fa-calendar icon-decoration" aria-hidden="true"></i>
                     {{ if not .Params.hideDate }}
                             {{ partial "helpers/timestamp.html" . }} |
                     {{ end }}
                     
-                    <i class="fas fa-tags mdl-wb icon-decoration"></i>
+                    <i class="fas fa-tags icon-decoration"></i>
                     {{ range .Params.tags }}
                             <span><a class="p-category" href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
                     {{ end }}
@@ -24,13 +24,11 @@
                             <img class="u-photo" src="{{ . }}" alt="thumbnail" class="post-thumbnail">
                     {{ end }}
                     
-                    <span class="e-content">      
-                            
+                    <span class="e-content">    
                             <p>{{ .Content }}</p>
+                    </span>     
                     
-                    <!-- {{ .Content | replaceRE "<p>" "<p class=\"e-content\">" | safeHTML }} -->
-                            
-                    </span>        
+                    <!-- {{ .Content | replaceRE "<p>" "<p class=\"e-content\">" | safeHTML }} -->   
 
                     <script>
                         fetch("https://webmention.io/api/count.json?target={{ .Permalink }}")

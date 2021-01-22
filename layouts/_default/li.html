@@ -1,8 +1,10 @@
                 <div class="mdl-cell mdl-cell--12-col">
                 <article class="h-entry">
                     <h2 class="p-name">{{ .Title }}</h2>
-                    <p><i class="fa fa-calendar mdl-wb icon-decoration" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
-                    <p class="p-summary e-content">{{ .Summary | markdownify | safeHTML }}</p>
+                    <p><i class="fa fa-calendar icon-decoration" aria-hidden="true"></i> {{ partial "helpers/timestamp.html" . }}</p>
+                    <span class="p-summary e-content">   
+                    <p>{{ .Summary | markdownify | safeHTML }}</p>
+                    </span>
                     {{ if .Truncated }}
                     <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more u-url" aria-label="Read more about {{ .Title }}">Read More</a></span>
                     {{ end }}
