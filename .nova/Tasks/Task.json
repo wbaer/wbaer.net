@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "rm -f assets\/css\/style.css assets\/css\/style.css.map\nsass assets\/css\/style.scss assets\/css\/style.css\nhugo serve --disableFastRender --noHTTPCache"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "rm -rf public\nrm -f assets\/css\/style.css assets\/css\/style.css.map"
+    }
+  },
+  "identifier" : "4A3B4754-E05A-4CB5-9C60-D3762030CBDB",
+  "openLogOnRun" : "start"
+}
