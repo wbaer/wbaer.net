@@ -22,9 +22,9 @@
         
                     {{ with .Params.thumbnail }}
                             <img class="u-photo" src="{{ . }}" alt="thumbnail" class="post-thumbnail">
-                    {{ end }}               
-        
-                    <p class="e-content">{{ .Content }}</p>
+                    {{ end }}      
+                    
+                    {{ .Content | replaceRE "<p>" "<p class=\"e-content\">" | safeHTML }}         
 
                     <script>
                         fetch("https://webmention.io/api/count.json?target={{ .Permalink }}")
