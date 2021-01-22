@@ -12725,6 +12725,7 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
     margin-left: 91.6666666667%;
   }
 }
+/* Base Styles */
 @font-face {
   font-family: "Material Icons";
   font-style: normal;
@@ -12898,6 +12899,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-feature-settings: "liga";
 }
 
+/* Element Specific Material Design Lite Overrides */
 .mdl-wb .mdl-layout__tab-bar-button {
   display: none;
 }
@@ -13013,6 +13015,7 @@ input[type="search"]::-webkit-search-cancel-button {
   margin: auto;
 }
 
+/* Global Material Design Lite Overrides */
 .mdl-layout-title {
   text-transform: uppercase;
   font-weight: normal;
