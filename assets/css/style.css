@@ -12770,7 +12770,7 @@ body {
 }
 
 a[href^="http:"]:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a[href^="http:"]:visited {
@@ -12787,7 +12787,7 @@ a[href^="http:"]:focus {
 }
 
 a[href^="https:"]:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a[href^="https:"]:visited {
@@ -12816,7 +12816,7 @@ a[href^="https:"]:focus {
 
 a {
   color: #477998;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1 {
@@ -12998,6 +12998,18 @@ input[type="search"]::-webkit-search-cancel-button {
   text-align: center;
   margin: auto;
 }
+.mdl-wb .no-decoration a {
+  text-decoration: none;
+}
+.mdl-wb .no-decoration a:visited {
+  text-decoration: none;
+}
+.mdl-wb .no-decoration a:focus {
+  text-decoration: none;
+}
+.mdl-wb .no-decoration a:link {
+  text-decoration: none;
+}
 .mdl-wb .screenreader-alternative {
   position: absolute;
   left: -999em;
@@ -13039,6 +13051,10 @@ input[type="search"]::-webkit-search-cancel-button {
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
+}
+
+.mdl-button, .mdl-js-button, .mdl-button--accent a:link {
+  text-decoration: none;
 }
 
 .mdl-layout__header {

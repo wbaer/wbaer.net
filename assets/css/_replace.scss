@@ -44,7 +44,7 @@ body {
 	scroll-behavior: smooth;
 }
 a[href^="http:"]:link {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a[href^="http:"]:visited {
@@ -61,7 +61,7 @@ a[href^="http:"]:focus {
 }
 
 a[href^="https:"]:link {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a[href^="https:"]:visited {
@@ -89,7 +89,7 @@ a[href^="https:"]:focus {
 }
 a {
 	color: rgb(71, 121, 152);
-	text-decoration: none;
+	text-decoration: underline;
 }
 h1 {
     font-size: 34px;
@@ -282,6 +282,20 @@ input[type="search"]::-webkit-search-cancel-button {
 		text-align: center;
 		margin: auto;
 	}
+	.no-decoration {
+		a {
+			text-decoration: none;
+			&:visited {
+				text-decoration: none;
+			}
+			&:focus {
+				text-decoration: none;
+			}
+			&:link {
+				text-decoration: none;
+			}
+		}
+	}
 	.screenreader-alternative {
 		position: absolute;
 		left: -999em;
@@ -324,6 +338,9 @@ input[type="search"]::-webkit-search-cancel-button {
 			flex: none;
 		}
 	}
+}
+.mdl-button, .mdl-js-button, .mdl-button--accent a:link {
+	text-decoration: none;
 }
 .mdl-layout__header {
 	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
