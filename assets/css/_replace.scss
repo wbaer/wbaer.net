@@ -37,12 +37,27 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: $font-stack;
+	font-family: $font-stack system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	color: $font-color;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
 }
+/* Experimental Styles */	
+@media (prefers-reduced-data: reduce) {
+  body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+				 Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+				 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+	body {
+		scroll-behavior:smooth;
+	}
+}
+/* End Experimental Styles */
+
 a[href^="http:"]:link {
 	text-decoration: underline;
 }
@@ -340,6 +355,7 @@ input[type="search"]::-webkit-search-cancel-button {
 	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
 	transform: translateZ(0);
 	border-bottom: 1px solid rgb(241, 243, 245);
+	align-items: baseline;
 }
 .mdl-layout__header--transparent {
 	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
