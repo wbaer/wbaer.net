@@ -12770,7 +12770,7 @@ body {
 }
 
 a[href^="http:"]:link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a[href^="http:"]:visited {
@@ -12787,7 +12787,7 @@ a[href^="http:"]:focus {
 }
 
 a[href^="https:"]:link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a[href^="https:"]:visited {
@@ -12816,7 +12816,7 @@ a[href^="https:"]:focus {
 
 a {
   color: #477998;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1 {
@@ -12997,18 +12997,6 @@ input[type="search"]::-webkit-search-cancel-button {
   height: 0.25rem;
   text-align: center;
   margin: auto;
-}
-.mdl-wb .no-decoration a {
-  text-decoration: none;
-}
-.mdl-wb .no-decoration a:visited {
-  text-decoration: none;
-}
-.mdl-wb .no-decoration a:focus {
-  text-decoration: none;
-}
-.mdl-wb .no-decoration a:link {
-  text-decoration: none;
 }
 .mdl-wb .screenreader-alternative {
   position: absolute;

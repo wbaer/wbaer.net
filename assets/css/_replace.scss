@@ -44,7 +44,7 @@ body {
 	scroll-behavior: smooth;
 }
 a[href^="http:"]:link {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a[href^="http:"]:visited {
@@ -61,7 +61,7 @@ a[href^="http:"]:focus {
 }
 
 a[href^="https:"]:link {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a[href^="https:"]:visited {
@@ -89,7 +89,7 @@ a[href^="https:"]:focus {
 }
 a {
 	color: rgb(71, 121, 152);
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1 {
     font-size: 34px;
@@ -281,20 +281,6 @@ input[type="search"]::-webkit-search-cancel-button {
 		height: .25rem;
 		text-align: center;
 		margin: auto;
-	}
-	.no-decoration {
-		a {
-			text-decoration: none;
-			&:visited {
-				text-decoration: none;
-			}
-			&:focus {
-				text-decoration: none;
-			}
-			&:link {
-				text-decoration: none;
-			}
-		}
 	}
 	.screenreader-alternative {
 		position: absolute;
