@@ -19,7 +19,7 @@ In this first part of the series, we'll prepare our local environment, document 
 
 The first thing we'll need to do is install Python.  Since we're working with Apple Silicon, we'll need a version specific to it - which is currently 3.9.1 at the time of writing this.  To download 3.9.1 navigate to https://www.python.org/downloads/mac-osx/ and select macOS 64-bit universal2 installer, or otherwise click https://www.python.org/ftp/python/3.9.1/python-3.9.1-macos11.0.pkg if you're in a hurry.
 
-![Example image](/images/azureml-series/py_install_screen.png)
+![Example image](/images/azureml-series/py_install_screen.png)( width=50% )
 
 As mentioned, the intent here is to provide a 100 level overview of what we're doing.  With that said, you may be asking, what is Python?  Python is a high-level, general purpose programming language.  Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk.
 
@@ -37,7 +37,7 @@ At the prompt that follows enter:
 
 The result of this operation should appear as illustrated below:
 
-![Example image](/images/azureml-series/py_certificates.png)
+![Example image](/images/azureml-series/py_certificates.png)( width=50% )
 
 The above steps are needed to allow for Python to verify the identity of secure network connections (using its SSL root certificates).
 
