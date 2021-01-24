@@ -56,24 +56,24 @@ params = ["categories", "tags"]
     url = "/archive"
     weight = 3
 
-[[menu.horizontal]]
+[[menu.mobile]]
   name = "Home"
   url = "/"
   weight = 1
 
-[[menu.horizontal]]
+[[menu.mobile]]
   name = "About"
   url = "/about"
   weight = 2
   
-[[menu.horizontal]]
+[[menu.mobile]]
   name = "Archives"
   url = "/archives"
   weight = 3
 
-[[menu.horizontal]]
-  name = "Tags"
-  url = "/tags"
+[[menu.mobile]]
+  name = "Subscribe"
+  url = "https://feed.feedburner.com/wbaer"
   weight = 4
     
 [related]

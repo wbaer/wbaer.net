@@ -12770,7 +12770,7 @@ body {
 }
 
 a[href^="http:"]:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a[href^="http:"]:visited {
@@ -12787,7 +12787,7 @@ a[href^="http:"]:focus {
 }
 
 a[href^="https:"]:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a[href^="https:"]:visited {
@@ -12975,6 +12975,9 @@ input[type="search"]::-webkit-search-cancel-button {
 .mdl-wb .icon-decoration {
   color: #477998;
 }
+.mdl-wb .clear-decoration {
+  text-decoration: none !important;
+}
 .mdl-wb .post-title {
   font-size: 34px;
   font-weight: 400;
@@ -13095,6 +13098,10 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .mdl-chip__contact {
   background-color: white;
+}
+
+.mdl-mini-footer__link-list a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

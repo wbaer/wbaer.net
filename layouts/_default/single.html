@@ -8,7 +8,7 @@
                     
                     <p class="social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" rel="syndication" class="u-syndication" aria-label="Share this article on Facebook (opens in new window)" target="_blank">
                         <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" rel="syndication" class="u-syndication" aria-label="Share this article on Twitter (opens in new window)" target="_blank">
-                        <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }} &title={{ .Title | htmlEscape }} &summary={{ .Summary | htmlEscape }}&source=LinkedIn" rel="syndication noopener" class="u-syndication" aria-label="Share this article on LinkedIn (opens in new window)" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" aria-label="Edit this article on GitHub (opens in new window)" target="blank"><i class="fas fa-code-branch"></i></a></p>
+                        <i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }} &title={{ .Title | htmlEscape }} &summary={{ .Content | htmlEscape }}&source=LinkedIn" rel="syndication noopener" class="u-syndication" aria-label="Share this article on LinkedIn (opens in new window)" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="{{ .Site.Params.repoURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" aria-label="Edit this article on GitHub (opens in new window)" target="blank"><i class="fas fa-code-branch"></i></a></p>
         
                     <i class="fa fa-calendar icon-decoration" aria-hidden="true"></i>
                     {{ if not .Params.hideDate }}
@@ -17,7 +17,7 @@
                     
                     <i class="fas fa-tags icon-decoration"></i>
                     {{ range .Params.tags }}
-                            <span><a class="p-category" href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
+                            <span><a class="p-category clear-decoration" href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a></span>
                     {{ end }}
         
                     {{ with .Params.thumbnail }}
@@ -69,7 +69,7 @@
                     {{define "breadcrumb"}}
                       {{$parent := .page.Parent }}
                       {{ if $parent }}
-                        {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
+                        {{ $value := (printf "<a class='clear-decoration' href='%s'>%s</a> > %s" $parent.RelPermalink $parent.Title .value) }}
                         {{ template "breadcrumb" dict "page" $parent "value" $value }}
                       {{else}}
                         {{.value|safeHTML}}
