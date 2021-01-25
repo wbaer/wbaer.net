@@ -24,7 +24,7 @@ As mentioned, the intent here is to provide a 100 level overview of what we're d
 
 If you want to learn more, there's a great set of tutorials at https://wiki.python.org/moin/BeginnersGuide/NonProgrammers.
 
-Now that we've successfully installed Python on our M1 we'll need to install a few certificates to wrap up.  The reason behind this is that since Python 3.6 it doesn't rely on MacOS' openSSL anymore, rather it comes with its own openSSL bundled and doesn't have access on MacOS' root certificates.
+Now that we've successfully installed Python on our M1 we'll need to install a few certificates to wrap up.  The reason behind this is that since Python 3.6 Python no longer relies on macOS' openSSL anymore, rather it comes with its own openSSL bundled and doesn't have access on macOS' root certificates.
 
 To complete this step and install the necessary certificates, open Terminal and enter:
 
@@ -44,12 +44,9 @@ Now that we have Python more or less installed and ready to go we need to upgrad
 
 So, what is pip? pip is a package manager for Python. That means it's a tool that allows you to install and manage additional libraries and dependencies that are not distributed as part of the standard library.  Python 3.9.1 installs pip version 20.2.3, but at the time of this writing, the current version is 21.0.
 
-To upgrade pip, open Terminal and paste the following:
+To upgrade pip, open Terminal, change directories to your Python 3.9.1 directory, and paste the following:
 
-<samp>
-/Library/Frameworks/Python.framework/Versions/3.9
-/bin/python3.9 -m pip install --upgrade pip
-</samp>
+<samp>python3.9 -m pip install --upgrade pip</samp>
 
 A successful upgrade should appear as follows:
 
