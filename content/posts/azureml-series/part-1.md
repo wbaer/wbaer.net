@@ -6,9 +6,7 @@ draft: false
 tags: ['Apple Silicon', 'Azure Machine Learning', 'Python']
 ---
 
-## Azure Machine Learning and Apple Silicon 101 (working draft)
-
-### Getting Started
+**Getting Started**
 
 This will be the first part of multi-part series on setting up an Azure Machine Learning environment on Apple Silicon.  In this series we'll evaluate webmentions using Python and Jupyter.  I purposely chose this arrangement as it's something I've been working on over the past several weeks at https://wbaer.net.  At each part of this series, I'll explain what we're doing, why we're doing it, and what we hope to accomplish.
 
