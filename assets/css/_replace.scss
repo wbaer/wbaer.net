@@ -37,11 +37,13 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: $font-stack system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-family: $font-stack;
 	color: $font-color;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
+	word-wrap: break-word;
+  	overflow-wrap: break-word;
 }
 /* Experimental Styles */	
 @media (prefers-reduced-data: reduce) {
@@ -53,7 +55,7 @@ body {
 }
 @media (prefers-reduced-motion: no-preference) {
 	body {
-		scroll-behavior:smooth;
+		scroll-behavior: smooth;
 	}
 }
 /* End Experimental Styles */
@@ -148,6 +150,7 @@ pre, xmp, plaintext, listing {
     margin-bottom: 1em;
 	margin-left: .5rem;
 	padding: 1rem;
+	overflow: scroll;
 }
 pre {
     color: rgb(236, 239, 241);

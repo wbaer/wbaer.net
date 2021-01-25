@@ -73,7 +73,7 @@ params = ["categories", "tags"]
 
 [[menu.mobile]]
   name = "Subscribe"
-  url = "https://feed.feedburner.com/wbaer"
+  url = "https://feeds.feedburner.com/wbaer"
   weight = 4
     
 [related]
