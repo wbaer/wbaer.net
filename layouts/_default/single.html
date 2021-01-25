@@ -4,7 +4,7 @@
         <article class="h-entry">
                 <div class="mdl-cell mdl-cell--12-col">
                     <h1 class="p-name" role="heading">{{.Title }}</h1>
-                    <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p> 
+                    <p itemscope itemtype="https://schema.org/BreadcrumbList">{{ template "breadcrumb" dict "page" . "value" .Title }}</p>
                     
                     <p class="social-share_icon"><a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" rel="syndication" class="u-syndication" aria-label="Share this article on Facebook (opens in new window)" target="_blank">
                         <i class="fa fa-facebook-f"></i></a> <a href="https://twitter.com/intent/tweet?via=williambaer&amp;hashtags=williambaer&amp;url={{ .Permalink }}&amp;text={{ .Title }}" rel="syndication" class="u-syndication" aria-label="Share this article on Twitter (opens in new window)" target="_blank">
