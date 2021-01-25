@@ -26,11 +26,11 @@ Now that we've successfully installed Python on our M1 we'll need to install a f
 
 To complete this step and install the necessary certificates, open Terminal and enter:
 
-cd /Applications/Python\ 3.9
+    cd /Applications/Python\ 3.9
 
 At the prompt that follows enter:
 
-./Install\ Certificates.command
+    ./Install\ Certificates.command
 
 The above steps are needed to allow for Python to verify the identity of secure network connections (using its SSL root certificates).
 
@@ -40,7 +40,7 @@ So, what is pip? pip is a package manager for Python. That means it's a tool tha
 
 To upgrade pip, open Terminal, change directories to your Python 3.9.1 directory, and paste the following:
 
-python3.9 -m pip install --upgrade pip
+    python3.9 -m pip install --upgrade pip
 
 Now when we run python --version in Terminal, we may see something like the following:
 
@@ -67,7 +67,7 @@ Think of a Jupyter Notebook as a document that can weave together computational 
 
 In the previous step we installed Python, so now we can easily install Jupyter from Python using the following:
 
-pip3 install jupyterlab
+    pip3 install jupyterlab
 
 If installing using pip3 install --user, you will need to add the user-level bin directory to your PATH environment variable in order to launch jupyter lab. For most basic installations, this won't be necessary.
 
@@ -85,7 +85,7 @@ Now that we've hopefully have the prerequisites installed, we need to get Azure 
 
 To get started, we'll do a default installation of Azure Machine Learning SDK for Python, so in this case we'll install the azureml-core package using the following:
 
-pip3 install azureml-core
+    pip3 install azureml-core
 
 As suggested in the name, this package contains core packages, modules, and classes for Azure Machine Learning.  The main areas include managing compute targets, creating/managing workspaces and experiments, and submitting/accessing model runs and run output/logging.
 
