@@ -26,9 +26,7 @@
                     
                     <div class="e-content">    
                             <p>{{ .Content }}</p>
-                    </div>     
-                    
-                    <!-- {{ .Content | replaceRE "<p>" "<p class=\"e-content\">" | safeHTML }} -->   
+                    </div>       
 
                     <script>
                         fetch("https://webmention.io/api/count.json?target={{ .Permalink }}")
@@ -36,7 +34,6 @@
                         .then(myJson => {showMentions(JSON.parse(myJson));});
                     </script>
                     
-                    <!-- https://webmention.io/api/mentions.jf2?target={{ .Permalink }} -->
                     <p><a href="https://webmention.io/api/mentions.jf2?target={{ .Permalink }}" target="_blank"><i class="fa fa-comment-o" aria-hidden="true"></i></a> <span id="webmention-count"></span> | <a rel="author" class="p-author h-card" href="mailto:wbaer@wbaer.net">Bill Baer</a> | <a class="u-url" href="{{ .Permalink }}"><i class="fas fa-link"></i></a></p>
                     
                     <div class="mdl-grid">

@@ -52,6 +52,9 @@ body {
 	hyphens: auto;
 	*/
 }
+html, body {
+	text-rendering: optimizeSpeed;
+}
 
 /* Experimental Styles */	
 @media (prefers-reduced-data: reduce) {
@@ -381,7 +384,8 @@ img[src*="#thumbnail"] {
 .mdl-layout__header-row {
 	background: transparentize($color: rgb(255,255,255), $amount: 0.95);
 	transform: translateZ(0);
-	border-bottom: 1px solid rgb(241, 243, 245);
+	/*border-bottom: 1px solid rgb(241, 243, 245);*/
+	border-bottom: 1px solid rgba(60,64,67,0.15);
 	align-items: baseline;
 }
 .mdl-layout__header--transparent {
