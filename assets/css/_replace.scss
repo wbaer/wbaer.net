@@ -52,6 +52,7 @@ body {
 	hyphens: auto;
 	*/
 }
+
 /* Experimental Styles */	
 @media (prefers-reduced-data: reduce) {
   body {
@@ -199,6 +200,7 @@ img[src*="#thumbnail"] {
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 }
+
 /* Element Specific Material Design Lite Overrides */
 .mdl-wb {
 	.mdl-layout__tab-bar-button {
@@ -341,6 +343,7 @@ img[src*="#thumbnail"] {
 		  }
 	}
 }
+
 /* Global Material Design Lite Overrides */
 .mdl-layout-title {
 	text-transform: uppercase;
