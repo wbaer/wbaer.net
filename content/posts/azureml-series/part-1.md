@@ -16,13 +16,13 @@ In this first part of the series, we'll prepare our local environment, document 
 
 ## Installing Python
 
-The first thing we'll need to do is install Python.  Since we're working with Apple Silicon, we'll need a version specific to it - which is currently 3.9.1 at the time of writing this.  To download 3.9.1 navigate to https://www.python.org/ and select macOS 64-bit universal2 installer, or otherwise click [here](https://www.python.org/ftp/python/3.9.1/python-3.9.1-macos11.0.pkg) if you're in a hurry.
+The first thing we'll need to do is install Python.  Since we're working with Apple Silicon, we'll need a version specific to it - which is currently 3.9.1 at the time of writing this.  To download 3.9.1 navigate to https://www.python.org/ and select the macOS 64-bit universal2 installer, or otherwise click [here](https://www.python.org/ftp/python/3.9.1/python-3.9.1-macos11.0.pkg) if you're in a hurry.
 
 As mentioned, the intent here is to provide a 100 level overview of what we're doing.  With that said, you may be asking, what is Python?  Python is a high-level, general purpose programming language.  Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk.
 
 If you want to learn more, there's a great set of tutorials [here](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers).
 
-Now that we've successfully installed Python on our M1 we'll need to install a few certificates to wrap up.  The reason behind this is that since Python 3.6 Python no longer relies on macOS' openSSL anymore, rather it comes with its own openSSL bundled and doesn't have access on macOS' root certificates.
+Now that we've successfully installed Python we'll need to install a few certificates to wrap up.  The reason behind this is that following Python 3.6, Python no longer relies on macOS' openSSL anymore, rather it comes with its own openSSL bundled and doesn't have access to macOS' root certificates.
 
 To complete this step and install the necessary certificates, open Terminal and enter:
 

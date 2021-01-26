@@ -44,6 +44,11 @@ body {
 	scroll-behavior: smooth;
 	word-wrap: break-word;
   	overflow-wrap: break-word;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 /* Experimental Styles */	
 @media (prefers-reduced-data: reduce) {
@@ -107,6 +112,13 @@ a[href^="https:"]:focus {
 a {
 	color: rgb(71, 121, 152);
 	text-decoration: none;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 h1 {
     font-size: 34px;
