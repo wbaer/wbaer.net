@@ -6,7 +6,7 @@
                          <p>{{ .Summary | markdownify | safeHTML }}</p>
                     </div>
                     {{ if .Truncated }}
-                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more u-url" aria-label="Read more about {{ .Title }}" aria-role="button">Read More</a></span>
+                    <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .Permalink }}" class="read-more u-url" aria-label="Read more about {{ .Title }}">Read More</a></span>
                     {{ end }}
                     <hr />
                 </article>

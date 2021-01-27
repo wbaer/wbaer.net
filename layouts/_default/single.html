@@ -39,11 +39,11 @@
                     <div class="mdl-grid">
                         <div class="mdl-layout-spacer"></div>
                             {{ if .PrevInSection }}
-                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}" aria-role="button">Previous</a></span>
+                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .PrevInSection.Permalink }}">Previous</a></span>
                             {{ else }}
                             {{ end }}
                             {{ if .NextInSection }}
-                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}" aria-role="button">Next</a></span>
+                            <span class="mdl-button mdl-js-button mdl-button--accent"><a href="{{ .NextInSection.Permalink }}">Next</a></span>
                             {{ else }}
                             {{ end }}
                         <div class="mdl-layout-spacer"></div>
