@@ -13092,6 +13092,7 @@ img[src*="#thumbnail"] {
 .mdl-layout__header {
   background: rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid #f1f3f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   /*z-index: 1;*/
 }
 
