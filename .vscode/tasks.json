@@ -2,14 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Clean Build",
+            // Removes previous build from the build tree.
+            "label": "Remove Build",
             "type": "shell",
             "command": "rm -rf public",
             "isBackground": true,
             "problemMatcher": []
         },
         {
-            "label": "Clean css",
+            // Removes previously compiled css from tree.
+            "label": "Remove CSS",
             "type": "shell",
             "command": "rm",
             "args": [
@@ -21,7 +23,8 @@
             "problemMatcher": []
         },
         {
-            "label": "Compile Saas",
+            // Compiles new CSS from Sass.
+            "label": "Compile CSS",
             "type": "shell",
             "command": "sass",
             "args": [
@@ -32,6 +35,7 @@
             "problemMatcher": []
         },
         {
+            // Builds site from build tree.
             "label": "Build Site",
             "type": "shell",
             "command": "hugo",
@@ -47,7 +51,7 @@
             "label": "Build",
             "type": "shell",
             "dependsOrder": "sequence",
-            "dependsOn": ["Clean Build", "Clean css", "Compile Saas", "Build Site"],
+            "dependsOn": ["Remove Build", "Remove CSS", "Compile CSS", "Build Site"],
             "group": {
                 "kind": "build",
                 "isDefault": true

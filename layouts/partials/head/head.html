@@ -86,8 +86,11 @@
         
         {{ $css := resources.Get "css/style.css" }}
         {{ $style := $css | resources.Minify | resources.Fingerprint "sha512" }}
-        
+        {{ if not .Site.IsServer }}
         <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" />
+            {{ else }}
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" media="screen" />
+        {{ end }}
         
         {{ $material := resources.Get "js/material.js" }}
         {{ $fonts := resources.Get "js/fontfaceobserver.js" }}
@@ -109,6 +112,20 @@
 
             nunito.load().then(function () {
             console.log('Nunito is available');
+            });
+        </script>
+
+        <script>
+            const checkpoint = 30;
+
+            window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= checkpoint) {
+                opacity = 1 - currentScroll / checkpoint;
+            } else {
+                opacity = 0;
+            }
+            document.querySelector(".introduction").style.opacity = opacity;
             });
         </script>
     </head>

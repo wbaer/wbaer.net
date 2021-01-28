@@ -12734,14 +12734,6 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
   src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIcons-Regular.woff) format("woff"), url(../fonts/MaterialIcons-Regular.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  unicode-range: U+000-5FF;
-  src: local(""), url("../fonts/noto-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/noto-sans-v11-latin-regular.woff") format("woff");
-}
-@font-face {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
@@ -12749,16 +12741,9 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label, .mdl-textfield.is-disab
   unicode-range: U+000-5FF;
   src: local(""), url("../fonts/nunito-v16-latin-regular.woff2") format("woff2"), url("../fonts/nunito-v16-latin-regular.woff") format("woff");
 }
-* {
-  font-family: "Nunito", "Helvetica", sans-serif;
-}
-
 html {
-  font-family: "Nunito", "Helvetica", sans-serif;
-  color: #3a3743;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -12770,30 +12755,22 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
-  /*
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-  */
 }
 
 html, body {
   text-rendering: optimizeSpeed;
 }
 
-/* Experimental Styles */
-@media (prefers-reduced-data: reduce) {
-  body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-}
 @media (prefers-reduced-motion: no-preference) {
   body {
     scroll-behavior: smooth;
   }
 }
-/* End Experimental Styles */
+@media (prefers-reduced-data: reduce) {
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+}
 a[href^="http:"]:link {
   text-decoration: underline;
 }
@@ -12908,12 +12885,11 @@ pre {
   tab-size: 4;
 }
 
-/*
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button {
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
-*/
+
 img[src*="#thumbnail"] {
   width: 50%;
 }
@@ -13089,27 +13065,12 @@ img[src*="#thumbnail"] {
   text-decoration: none;
 }
 
-.mdl-layout__header {
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid #f1f3f5;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  /*z-index: 1;*/
-}
-
 .mdl-layout__header-row {
   background: rgba(255, 255, 255, 0.05);
   transform: translateZ(0);
   /*border-bottom: 1px solid rgb(241, 243, 245);*/
   border-bottom: 1px solid rgba(60, 64, 67, 0.15);
   align-items: baseline;
-}
-
-.mdl-layout__header--transparent {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.mdl-layout__header.is-casting-shadow {
-  background: rgba(255, 255, 255, 0.05);
 }
 
 .mdl-navigation__link {
