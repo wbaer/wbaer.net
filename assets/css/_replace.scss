@@ -244,6 +244,9 @@ img[src*="#thumbnail"] {
 	.introduction {
 		text-align: center;
 	}
+	.introduction div {
+		transition: opacity 0.1s;
+	}
 	.center-navigation {
 		text-align: center;
 	}

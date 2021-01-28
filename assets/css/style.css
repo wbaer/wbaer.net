@@ -12971,6 +12971,9 @@ img[src*="#thumbnail"] {
 .mdl-wb .introduction {
   text-align: center;
 }
+.mdl-wb .introduction div {
+  transition: opacity 0.1s;
+}
 .mdl-wb .center-navigation {
   text-align: center;
 }
