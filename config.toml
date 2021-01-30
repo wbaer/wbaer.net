@@ -68,7 +68,7 @@ params = ["categories", "tags"]
   
 [[menu.mobile]]
   name = "Archives"
-  url = "/archives"
+  url = "/archive"
   weight = 3
 
 [[menu.mobile]]
