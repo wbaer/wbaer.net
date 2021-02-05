@@ -1,0 +1,22 @@
+{
+  "name": "wbaer.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbaer/wbaer.net.git"
+  },
+  "author": "Bill Baer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbaer/wbaer.net/issues"
+  },
+  "homepage": "https://github.com/wbaer/wbaer.net#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
