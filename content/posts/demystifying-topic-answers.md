@@ -2,7 +2,7 @@
 title: "Demystifying Topic Answers"
 date: 2021-02-05T15:17:55-08:00
 draft: false
-tage: ['Microsoft Search', 'Answers', 'Topics']
+tags: ['Microsoft Search', 'Answers', 'Topics']
 ---
 
 Since the announcement of Microsoft Viva on February 4, 2021, I've come across a lot of questions and conversations surrounding Topics, specifically Topic Answers, and what a Topic Answer is...
