@@ -13037,6 +13037,17 @@ img[src*="#thumbnail"] {
   position: static;
   margin: auto;
 }
+.mdl-wb .scroller {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: mandatory;
+}
+.mdl-wb .scroller.proximity {
+  scroll-snap-type: y proximity;
+}
+.mdl-wb .scroller article {
+  scroll-snap-align: start;
+}
 
 /* Global Material Design Lite Overrides */
 .mdl-layout-title {

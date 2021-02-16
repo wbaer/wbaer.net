@@ -312,6 +312,17 @@ img[src*="#thumbnail"] {
 			margin: auto;
 		  }
 	}
+	.scroller {
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+		scroll-snap-type: mandatory;
+		&.proximity {
+			scroll-snap-type: y proximity;
+		}
+	}
+	.scroller article {
+		scroll-snap-align: start;
+	}
 }
 
 /* Global Material Design Lite Overrides */

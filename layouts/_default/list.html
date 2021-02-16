@@ -1,12 +1,11 @@
 {{ partialCached "header/header.html" . }}
 {{ partialCached "introduction.html" . }}
-    
+
 {{ if .IsHome }}
 {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ else }}
 {{ $pag := .Paginator.Pages }}
 {{ end }}
-
 {{ if isset .Site.Taxonomies "tags" }}
 {{ $mytag := .Title }}
 {{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages }}
