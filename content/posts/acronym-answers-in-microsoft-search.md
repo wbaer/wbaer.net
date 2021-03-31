@@ -28,6 +28,7 @@ Did you know the world's longest acronym, according to the [_Guinness Book of W
 
 Often, we come across unfamiliar acronyms at work. Sometimes, these terms could even mean specific to different teams, projects, or organizations. Finding the meaning of acronyms at work is now easier than ever using natural language queries across Microsoft 365 apps and services. For example, you can query ‘Define DNN’, ‘What is DNN’, ‘Meaning of DNN’ etc. to see all the definitions of DNN used within your organization. Definitions are both mined from the content you have access to and curated by your organizations, Microsoft 365 administrator.
 
+<br>
 <img src="/images/answers/acronym-answer-in-sharepoint.png" style="height:40%;width:40%;">
 <br>
 
@@ -41,6 +42,7 @@ Acronyms answers can be both created and curated by search administratiors and e
 
 Admin created acronyms answers can be configured through the Search & intelligence admin center under the Answers tab, requiring 2 basic pieces of information, the acronym itself, e.g. TGIF, and its respective expansion (meaning), for example, Thank GUID it's Friday ;-) in addition to a description and source to allow people to learn more about the acronym and its expansion.
 
+<br>
 <img src="/images/answers/acronym-creation.png" style="height:40%;width:40%;">
 <br>
 
@@ -54,6 +56,7 @@ Admin-created and suggested acronyms can be easily distinguised in search where 
 
 In some scenarios you may wish to exclude an acronym from appearing in search results.  To exclude an acronym, within the Acronym dialog, select Exclude an acronym and then provide the acronym and optionally, its expansion.
 
+<br>
 <img src="/images/answers/acronym-exclusion.png" style="height:40%;width:40%;">
 <br>
 
