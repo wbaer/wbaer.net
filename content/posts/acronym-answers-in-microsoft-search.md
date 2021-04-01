@@ -31,6 +31,7 @@ Often, we come across unfamiliar acronyms at work. Sometimes, these terms could 
 <br>
 <img src="/images/answers/acronym-answer-in-sharepoint.png" style="height:40%;width:40%;">
 <br>
+<br>
 
 Acronyms answers are currently available in SharePoint and Office.com (in English) in addition to Bing.com (in English, Spanish, French, German, Portuguese, and Italian) and soon in Outlook web, Outlook mobile, Teams mobile, Office apps like Word, Excel and PowerPoint in English and additional languages.
 
@@ -44,6 +45,7 @@ Admin created acronyms answers can be configured through the Search & intelligen
 
 <br>
 <img src="/images/answers/acronym-creation.png" style="height:40%;width:40%;">
+<br>
 <br>
 
 *Suggested Acronyms*
