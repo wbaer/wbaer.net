@@ -29,19 +29,21 @@ Recommended Bookmarks include the following mined information from SharePoint si
 *   Keywords (Deciphered using SuggestKeyword service in Bookmark settings)
 *   Description (Only if configured on SharePoint site/page) 
 
-![](./recommended-bookmark.png)
+<img src="/posts/bookmarks/recommended-bookmark.png" height="40%" width= "40%">
 
 #### Configuring recommended Bookmarks
 
 To allow bookmark recommendations in Microsoft Search, select Manage from Answers | Bookmarks in the Search & intelligence admin center.
 
-![](./bookmark-settings.png)
+<img src="/posts/bookmarks/bookmark-settings.png" height="40%" width= "40%">
+<br>
+<br>
 
 From the available options, choose 'Allow Microsoft Search to recommend bookmarks' and optionally whether to curate or auto-publish recommended (mined) bookmarks by choosing either 'Automatically publish recommended bookmarks for your users' or 'Manually select recommended bookmarks to publish for your users'.
 
 Recommended Bookmarks provide the following setting configurations.
 
-|*Configuration   	|*Behavior   	|*New Configuration   	|*New Behavior   	|
+|Configuration   	|Behavior   	|*New Configuration   	|*New Behavior   	|
 |---	|---	|---	|---	|
 |Recommendations – Enabled  Auto publish – Enabled   	|Bookmark recommendations are enabled.  Recommended Bookmarks collected are automatically published to the organization   	|Recommendations – Disabled Auto publish – NA     	|Bookmark recommendations are disabled in Microsoft Search – recommended Bookmarks collected prior to disabling recommendations will be published.   	|
 |Recommendations – Enabled  Auto publish – Enabled   	|Bookmark recommendations are enabled.  Recommended Bookmarks collected are automatically published to the organizatio   	|Recommendations – Enabled Auto publish – Disabled   	|New delta recommended Bookmarks are made available in the admin center in a “Suggested” state.  Bookmarks recommendations in a “Published” state are unaffected.   	|
@@ -65,7 +67,9 @@ How are recommended Bookmarks displayed in search?
 
 The end user experience for recommended and editorial bookmarks are very similar experience. Editorial bookmarks will include the text “Published by <company name>”. For recommended bookmarks, the text will be “Suggested for you”. 
 
-![](./bookmark-in-sharepoint.png)
+<img src="/posts/bookmarks/bookmark-in-sharepoint.png" height="40%" width= "40%">
+<br>
+<br>
 
 Learn more about Answers in Microsoft Search at [https://docs.microsoft.com/en-us/microsoftsearch/plan-your-content](https://docs.microsoft.com/en-us/microsoftsearch/plan-your-content).
 
