@@ -29,13 +29,13 @@ Recommended Bookmarks include the following mined information from SharePoint si
 *   Keywords (Deciphered using SuggestKeyword service in Bookmark settings)
 *   Description (Only if configured on SharePoint site/page) 
 
-<img src="/posts/bookmarks/recommended-bookmark.png" height="40%" width= "40%">
+<img src="recommended-bookmark.png" height="40%" width= "40%">
 
 #### Configuring recommended Bookmarks
 
 To allow bookmark recommendations in Microsoft Search, select Manage from Answers | Bookmarks in the Search & intelligence admin center.
 
-<img src="/posts/bookmarks/bookmark-settings.png" height="40%" width= "40%">
+<img src="bookmark-settings.png" height="40%" width= "40%">
 <br>
 <br>
 
@@ -67,7 +67,7 @@ How are recommended Bookmarks displayed in search?
 
 The end user experience for recommended and editorial bookmarks are very similar experience. Editorial bookmarks will include the text “Published by <company name>”. For recommended bookmarks, the text will be “Suggested for you”. 
 
-<img src="/posts/bookmarks/bookmark-in-sharepoint.png" height="40%" width= "40%">
+<img src="bookmark-in-sharepoint.png" height="40%" width= "40%">
 <br>
 <br>
 
